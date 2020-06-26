@@ -2,9 +2,9 @@
 Unity 2D Shooting Game project
 
 -----------------------------------------------------------------------
-Developed by : SeoungHo Choi
-Last Update : 2020 - 06 - 26
-Current Version : v 0.05
+Developed by : SeoungHo Choi      
+Last Update : 2020 - 06 - 26      
+Current Version : v 0.05      
 -----------------------------------------------------------------------
 
 Things to be improved:
