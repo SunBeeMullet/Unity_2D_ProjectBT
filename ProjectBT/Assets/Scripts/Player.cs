@@ -4,15 +4,152 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
+    public int iceLv;
+
     public float speed;
+    public float maxShotDelay;
+    public float curShotDelay;
+
+    public bool isTouchTop;
+    public bool isTouchBottom;
+    public bool isTouchRight;
+    public bool isTouchLeft;
+
+    public GameObject bullet_0;
+    public GameObject bullet_1;
+    public GameObject bullet_2;
+    public GameObject bullet_3;
+    public GameObject bullet_4;
+
+    Animator anim;
+
+    void Awake()
+    {
+        anim = GetComponent<Animator>();
+    }
 
     void Update()
     {
+        Movement();
+        Fire();
+        Reload();
+    }
+
+    void Movement()
+    {
         float h = Input.GetAxisRaw("Horizontal");
+        if ((isTouchRight && h == 1) || (isTouchLeft && h == -1))
+        {
+            h = 0;
+        }
         float v = Input.GetAxisRaw("Vertical");
+        if ((isTouchTop && v == 1) || (isTouchBottom && v == -1))
+        {
+            v = 0;
+        }
         Vector3 curPos = transform.position;
         Vector3 nextPos = new Vector3(h, v, 0) * speed * Time.deltaTime;
 
         transform.position = curPos + nextPos;
+
+        if (Input.GetButtonDown("Horizontal") || Input.GetButtonUp("Horizontal"))
+        {
+            anim.SetInteger("Input", (int)h);
+        }
+
+    }
+
+    void Fire()
+    {
+        if (curShotDelay < maxShotDelay)
+        {
+            return;
+        }
+
+        switch (iceLv)
+        {
+            case 0:
+                maxShotDelay = 0.5f;
+                GameObject bullet0 = Instantiate(bullet_0, transform.position, transform.rotation);
+                Rigidbody2D rigidB0 = bullet0.GetComponent<Rigidbody2D>();
+                rigidB0.AddForce(Vector2.up * 10, ForceMode2D.Impulse);
+                break;
+            case 1:
+                maxShotDelay = 0.6f;
+                GameObject bullet1 = Instantiate(bullet_1, transform.position, transform.rotation);
+                Rigidbody2D rigidB1 = bullet1.GetComponent<Rigidbody2D>();
+                rigidB1.AddForce(Vector2.up * 9, ForceMode2D.Impulse);
+                break;
+            case 2:
+                maxShotDelay = 0.65f;
+                GameObject bullet2 = Instantiate(bullet_2, transform.position, transform.rotation);
+                Rigidbody2D rigidB2 = bullet2.GetComponent<Rigidbody2D>();
+                rigidB2.AddForce(Vector2.up * 8, ForceMode2D.Impulse);
+                break;
+            case 3:
+                maxShotDelay = 0.7f;
+                GameObject bullet3 = Instantiate(bullet_3, transform.position, transform.rotation);
+                Rigidbody2D rigidB3 = bullet3.GetComponent<Rigidbody2D>();
+                rigidB3.AddForce(Vector2.up * 7, ForceMode2D.Impulse);
+                break;
+            case 4:
+                maxShotDelay = 0.8f;
+                GameObject bullet4 = Instantiate(bullet_4, transform.position, transform.rotation);
+                Rigidbody2D rigidB4 = bullet4.GetComponent<Rigidbody2D>();
+                rigidB4.AddForce(Vector2.up * 6, ForceMode2D.Impulse);
+                break;
+        }
+        
+
+        curShotDelay = 0;
+    }
+
+    void Reload()
+    {
+        curShotDelay += Time.deltaTime;
+    }
+
+    void OnTriggerEnter2D(Collider2D collision)
+    {
+        if(collision.gameObject.tag == "Border")
+        {
+            switch (collision.gameObject.name)
+            {
+                case "Top":
+                    isTouchTop = true;
+                    break;
+                case "Bottom":
+                    isTouchBottom = true;
+                    break;
+                case "Right":
+                    isTouchRight = true;
+                    break;
+                case "Left":
+                    isTouchLeft = true;
+                    break;
+            }
+        }
+    }
+
+    void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "Border")
+        {
+            switch (collision.gameObject.name)
+            {
+                case "Top":
+                    isTouchTop = false;
+                    break;
+                case "Bottom":
+                    isTouchBottom = false;
+                    break;
+                case "Right":
+                    isTouchRight = false;
+                    break;
+                case "Left":
+                    isTouchLeft = false;
+                    break;
+            }
+        }
     }
 }
