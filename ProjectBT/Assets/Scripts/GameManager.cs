@@ -11,8 +11,11 @@ public class GameManager : MonoBehaviour
 
     public float maxSpawnDelay;
     public float curSpawnDelay;
-    
+    public float maxMeltDelay;
+    public float curMeltDelay;
+
     public GameObject player;
+    public GameObject thermo;
     public Text scoreText;
     public Image[] lifeImage;
     public GameObject gameOverSet;
@@ -20,6 +23,7 @@ public class GameManager : MonoBehaviour
     void Update()
     {
         curSpawnDelay += Time.deltaTime;
+        curMeltDelay += Time.deltaTime;
 
         if(curSpawnDelay > maxSpawnDelay)
         {
@@ -30,6 +34,15 @@ public class GameManager : MonoBehaviour
 
         Player playerLogic = player.GetComponent<Player>();
         scoreText.text = string.Format("{0:n0}", playerLogic.score);
+
+        Thermo thermoLogic = thermo.GetComponent<Thermo>();
+
+        if (curMeltDelay > maxMeltDelay && playerLogic.iceLv > 0)
+        {
+            playerLogic.iceLv--;
+            curMeltDelay = 0;
+            IceChk(playerLogic.iceLv);
+        }
     }
 
     void SpawnEnemy()
@@ -82,6 +95,12 @@ public class GameManager : MonoBehaviour
         Invoke("RespawnPlayer", 2f);
     }
 
+    public void IceChk(int IceLv)
+    {
+        Thermo thermoLogic = thermo.GetComponent<Thermo>();
+        thermoLogic.image.sprite = thermoLogic.sprites[IceLv];
+    }
+
     void RespawnPlayer()
     {
         player.transform.position = Vector3.down * 3;
@@ -89,9 +108,12 @@ public class GameManager : MonoBehaviour
         player.SetActive(true);
 
         Player playerLogic = player.GetComponent<Player>();
+        playerLogic.iceLv = 1;
         playerLogic.speed += 0.5f;
         playerLogic.flavor = 0;
         playerLogic.isHit = false;
+
+        IceChk(playerLogic.iceLv);
     }
 
     public void GameOver()

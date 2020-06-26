@@ -27,7 +27,7 @@ public class Player : MonoBehaviour
     public GameObject bullet_4;
 
     public GameManager manager;
-
+    
     Animator anim;
 
     void Awake()
@@ -344,6 +344,7 @@ public class Player : MonoBehaviour
                     if(iceLv < maxIce)
                     {
                         iceLv++;
+                        manager.IceChk(iceLv);
                     }
                     else
                     {
