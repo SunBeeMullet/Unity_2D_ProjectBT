@@ -152,7 +152,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyName: M
   health: 15
-  score: 0
+  enemyScore: 50
   speed: 3
   maxShotDelay: 3
   curShotDelay: 0

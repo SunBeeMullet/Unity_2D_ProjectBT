@@ -5,7 +5,10 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     public int iceLv;
+    public int maxIce;
     public int life;
+    public int score;
+    public int flavor;
 
     public float speed;
     public float maxShotDelay;
@@ -15,6 +18,7 @@ public class Player : MonoBehaviour
     public bool isTouchBottom;
     public bool isTouchRight;
     public bool isTouchLeft;
+    public bool isHit;
 
     public GameObject bullet_0;
     public GameObject bullet_1;
@@ -68,42 +72,219 @@ public class Player : MonoBehaviour
         {
             return;
         }
-
-        switch (iceLv)
+        switch (flavor)
         {
             case 0:
-                maxShotDelay = 0.5f;
-                GameObject bullet0 = Instantiate(bullet_0, transform.position, transform.rotation);
-                Rigidbody2D rigidB0 = bullet0.GetComponent<Rigidbody2D>();
-                rigidB0.AddForce(Vector2.up * 10, ForceMode2D.Impulse);
+                switch (iceLv)
+                {
+                    case 0:
+                        maxShotDelay = 0.5f;
+                        GameObject bullet0 = Instantiate(bullet_0, transform.position, transform.rotation);
+                        Rigidbody2D rigidB0 = bullet0.GetComponent<Rigidbody2D>();
+                        rigidB0.AddForce(Vector2.up * 10, ForceMode2D.Impulse);
+                        break;
+                    case 1:
+                        maxShotDelay = 0.6f;
+                        GameObject bullet1 = Instantiate(bullet_1, transform.position, transform.rotation);
+                        Rigidbody2D rigidB1 = bullet1.GetComponent<Rigidbody2D>();
+                        rigidB1.AddForce(Vector2.up * 9, ForceMode2D.Impulse);
+                        break;
+                    case 2:
+                        maxShotDelay = 0.65f;
+                        GameObject bullet2 = Instantiate(bullet_2, transform.position, transform.rotation);
+                        Rigidbody2D rigidB2 = bullet2.GetComponent<Rigidbody2D>();
+                        rigidB2.AddForce(Vector2.up * 8, ForceMode2D.Impulse);
+                        break;
+                    case 3:
+                        maxShotDelay = 0.7f;
+                        GameObject bullet3 = Instantiate(bullet_3, transform.position, transform.rotation);
+                        Rigidbody2D rigidB3 = bullet3.GetComponent<Rigidbody2D>();
+                        rigidB3.AddForce(Vector2.up * 7, ForceMode2D.Impulse);
+                        break;
+                    case 4:
+                        maxShotDelay = 0.8f;
+                        GameObject bullet4 = Instantiate(bullet_4, transform.position, transform.rotation);
+                        Rigidbody2D rigidB4 = bullet4.GetComponent<Rigidbody2D>();
+                        rigidB4.AddForce(Vector2.up * 6, ForceMode2D.Impulse);
+                        break;
+                }
                 break;
             case 1:
-                maxShotDelay = 0.6f;
-                GameObject bullet1 = Instantiate(bullet_1, transform.position, transform.rotation);
-                Rigidbody2D rigidB1 = bullet1.GetComponent<Rigidbody2D>();
-                rigidB1.AddForce(Vector2.up * 9, ForceMode2D.Impulse);
+                switch (iceLv)
+                {
+                    case 0:
+                        maxShotDelay = 0.5f;
+                        GameObject bullet0 = Instantiate(bullet_0, transform.position, transform.rotation);
+                        Rigidbody2D rigidB0 = bullet0.GetComponent<Rigidbody2D>();
+                        rigidB0.AddForce(Vector2.up * 10, ForceMode2D.Impulse);
+                        break;
+                    case 1:
+                        maxShotDelay = 0.6f;
+                        GameObject bullet1 = Instantiate(bullet_1, transform.position, transform.rotation);
+                        Rigidbody2D rigidB1 = bullet1.GetComponent<Rigidbody2D>();
+                        rigidB1.AddForce(Vector2.up * 9, ForceMode2D.Impulse);
+                        break;
+                    case 2:
+                        maxShotDelay = 0.65f;
+                        GameObject bullet2 = Instantiate(bullet_2, transform.position, transform.rotation);
+                        Rigidbody2D rigidB2 = bullet2.GetComponent<Rigidbody2D>();
+                        rigidB2.AddForce(Vector2.up * 8, ForceMode2D.Impulse);
+                        break;
+                    case 3:
+                        maxShotDelay = 0.7f;
+                        GameObject bullet3 = Instantiate(bullet_3, transform.position, transform.rotation);
+                        Rigidbody2D rigidB3 = bullet3.GetComponent<Rigidbody2D>();
+                        rigidB3.AddForce(Vector2.up * 7, ForceMode2D.Impulse);
+                        break;
+                    case 4:
+                        maxShotDelay = 0.8f;
+                        GameObject bullet4 = Instantiate(bullet_4, transform.position, transform.rotation);
+                        Rigidbody2D rigidB4 = bullet4.GetComponent<Rigidbody2D>();
+                        rigidB4.AddForce(Vector2.up * 6, ForceMode2D.Impulse);
+                        break;
+                }
                 break;
             case 2:
-                maxShotDelay = 0.65f;
-                GameObject bullet2 = Instantiate(bullet_2, transform.position, transform.rotation);
-                Rigidbody2D rigidB2 = bullet2.GetComponent<Rigidbody2D>();
-                rigidB2.AddForce(Vector2.up * 8, ForceMode2D.Impulse);
+                switch (iceLv)
+                {
+                    case 0:
+                        maxShotDelay = 0.5f;
+                        GameObject bullet0 = Instantiate(bullet_0, transform.position, transform.rotation);
+                        Rigidbody2D rigidB0 = bullet0.GetComponent<Rigidbody2D>();
+                        rigidB0.AddForce(Vector2.up * 10, ForceMode2D.Impulse);
+                        break;
+                    case 1:
+                        maxShotDelay = 0.6f;
+                        GameObject bullet1 = Instantiate(bullet_1, transform.position, transform.rotation);
+                        Rigidbody2D rigidB1 = bullet1.GetComponent<Rigidbody2D>();
+                        rigidB1.AddForce(Vector2.up * 9, ForceMode2D.Impulse);
+                        break;
+                    case 2:
+                        maxShotDelay = 0.65f;
+                        GameObject bullet2 = Instantiate(bullet_2, transform.position, transform.rotation);
+                        Rigidbody2D rigidB2 = bullet2.GetComponent<Rigidbody2D>();
+                        rigidB2.AddForce(Vector2.up * 8, ForceMode2D.Impulse);
+                        break;
+                    case 3:
+                        maxShotDelay = 0.7f;
+                        GameObject bullet3 = Instantiate(bullet_3, transform.position, transform.rotation);
+                        Rigidbody2D rigidB3 = bullet3.GetComponent<Rigidbody2D>();
+                        rigidB3.AddForce(Vector2.up * 7, ForceMode2D.Impulse);
+                        break;
+                    case 4:
+                        maxShotDelay = 0.8f;
+                        GameObject bullet4 = Instantiate(bullet_4, transform.position, transform.rotation);
+                        Rigidbody2D rigidB4 = bullet4.GetComponent<Rigidbody2D>();
+                        rigidB4.AddForce(Vector2.up * 6, ForceMode2D.Impulse);
+                        break;
+                }
                 break;
             case 3:
-                maxShotDelay = 0.7f;
-                GameObject bullet3 = Instantiate(bullet_3, transform.position, transform.rotation);
-                Rigidbody2D rigidB3 = bullet3.GetComponent<Rigidbody2D>();
-                rigidB3.AddForce(Vector2.up * 7, ForceMode2D.Impulse);
+                switch (iceLv)
+                {
+                    case 0:
+                        maxShotDelay = 0.5f;
+                        GameObject bullet0 = Instantiate(bullet_0, transform.position, transform.rotation);
+                        Rigidbody2D rigidB0 = bullet0.GetComponent<Rigidbody2D>();
+                        rigidB0.AddForce(Vector2.up * 10, ForceMode2D.Impulse);
+                        break;
+                    case 1:
+                        maxShotDelay = 0.6f;
+                        GameObject bullet1 = Instantiate(bullet_1, transform.position, transform.rotation);
+                        Rigidbody2D rigidB1 = bullet1.GetComponent<Rigidbody2D>();
+                        rigidB1.AddForce(Vector2.up * 9, ForceMode2D.Impulse);
+                        break;
+                    case 2:
+                        maxShotDelay = 0.65f;
+                        GameObject bullet2 = Instantiate(bullet_2, transform.position, transform.rotation);
+                        Rigidbody2D rigidB2 = bullet2.GetComponent<Rigidbody2D>();
+                        rigidB2.AddForce(Vector2.up * 8, ForceMode2D.Impulse);
+                        break;
+                    case 3:
+                        maxShotDelay = 0.7f;
+                        GameObject bullet3 = Instantiate(bullet_3, transform.position, transform.rotation);
+                        Rigidbody2D rigidB3 = bullet3.GetComponent<Rigidbody2D>();
+                        rigidB3.AddForce(Vector2.up * 7, ForceMode2D.Impulse);
+                        break;
+                    case 4:
+                        maxShotDelay = 0.8f;
+                        GameObject bullet4 = Instantiate(bullet_4, transform.position, transform.rotation);
+                        Rigidbody2D rigidB4 = bullet4.GetComponent<Rigidbody2D>();
+                        rigidB4.AddForce(Vector2.up * 6, ForceMode2D.Impulse);
+                        break;
+                }
                 break;
             case 4:
-                maxShotDelay = 0.8f;
-                GameObject bullet4 = Instantiate(bullet_4, transform.position, transform.rotation);
-                Rigidbody2D rigidB4 = bullet4.GetComponent<Rigidbody2D>();
-                rigidB4.AddForce(Vector2.up * 6, ForceMode2D.Impulse);
+                switch (iceLv)
+                {
+                    case 0:
+                        maxShotDelay = 0.5f;
+                        GameObject bullet0 = Instantiate(bullet_0, transform.position, transform.rotation);
+                        Rigidbody2D rigidB0 = bullet0.GetComponent<Rigidbody2D>();
+                        rigidB0.AddForce(Vector2.up * 10, ForceMode2D.Impulse);
+                        break;
+                    case 1:
+                        maxShotDelay = 0.6f;
+                        GameObject bullet1 = Instantiate(bullet_1, transform.position, transform.rotation);
+                        Rigidbody2D rigidB1 = bullet1.GetComponent<Rigidbody2D>();
+                        rigidB1.AddForce(Vector2.up * 9, ForceMode2D.Impulse);
+                        break;
+                    case 2:
+                        maxShotDelay = 0.65f;
+                        GameObject bullet2 = Instantiate(bullet_2, transform.position, transform.rotation);
+                        Rigidbody2D rigidB2 = bullet2.GetComponent<Rigidbody2D>();
+                        rigidB2.AddForce(Vector2.up * 8, ForceMode2D.Impulse);
+                        break;
+                    case 3:
+                        maxShotDelay = 0.7f;
+                        GameObject bullet3 = Instantiate(bullet_3, transform.position, transform.rotation);
+                        Rigidbody2D rigidB3 = bullet3.GetComponent<Rigidbody2D>();
+                        rigidB3.AddForce(Vector2.up * 7, ForceMode2D.Impulse);
+                        break;
+                    case 4:
+                        maxShotDelay = 0.8f;
+                        GameObject bullet4 = Instantiate(bullet_4, transform.position, transform.rotation);
+                        Rigidbody2D rigidB4 = bullet4.GetComponent<Rigidbody2D>();
+                        rigidB4.AddForce(Vector2.up * 6, ForceMode2D.Impulse);
+                        break;
+                }
+                break;
+            case 5:
+                switch (iceLv)
+                {
+                    case 0:
+                        maxShotDelay = 0.5f;
+                        GameObject bullet0 = Instantiate(bullet_0, transform.position, transform.rotation);
+                        Rigidbody2D rigidB0 = bullet0.GetComponent<Rigidbody2D>();
+                        rigidB0.AddForce(Vector2.up * 10, ForceMode2D.Impulse);
+                        break;
+                    case 1:
+                        maxShotDelay = 0.6f;
+                        GameObject bullet1 = Instantiate(bullet_1, transform.position, transform.rotation);
+                        Rigidbody2D rigidB1 = bullet1.GetComponent<Rigidbody2D>();
+                        rigidB1.AddForce(Vector2.up * 9, ForceMode2D.Impulse);
+                        break;
+                    case 2:
+                        maxShotDelay = 0.65f;
+                        GameObject bullet2 = Instantiate(bullet_2, transform.position, transform.rotation);
+                        Rigidbody2D rigidB2 = bullet2.GetComponent<Rigidbody2D>();
+                        rigidB2.AddForce(Vector2.up * 8, ForceMode2D.Impulse);
+                        break;
+                    case 3:
+                        maxShotDelay = 0.7f;
+                        GameObject bullet3 = Instantiate(bullet_3, transform.position, transform.rotation);
+                        Rigidbody2D rigidB3 = bullet3.GetComponent<Rigidbody2D>();
+                        rigidB3.AddForce(Vector2.up * 7, ForceMode2D.Impulse);
+                        break;
+                    case 4:
+                        maxShotDelay = 0.8f;
+                        GameObject bullet4 = Instantiate(bullet_4, transform.position, transform.rotation);
+                        Rigidbody2D rigidB4 = bullet4.GetComponent<Rigidbody2D>();
+                        rigidB4.AddForce(Vector2.up * 6, ForceMode2D.Impulse);
+                        break;
+                }
                 break;
         }
-        
-
         curShotDelay = 0;
     }
 
@@ -133,9 +314,65 @@ public class Player : MonoBehaviour
             }
         }else if(collision.gameObject.tag == "Enemy" || collision.gameObject.tag == "EnemyBullets")
         {
+            if (isHit)
+            {
+                return;
+            }
+                
+            isHit = true;
             life--;
-            manager.PlayerCheck();
+            manager.UpdateLifeIcon(life);
+            if(life == 0)
+            {
+                manager.GameOver();
+            }
+            else
+            {
+                manager.PlayerCheck();
+            }
             gameObject.SetActive(false);
+            Destroy(collision.gameObject);
+        }else if(collision.gameObject.tag == "Item")
+        {
+            Item item = collision.gameObject.GetComponent<Item>();
+            switch (item.type)
+            {
+                case "Sugar":
+                    score += 100;
+                    break;
+                case "Ice":
+                    if(iceLv < maxIce)
+                    {
+                        iceLv++;
+                    }
+                    else
+                    {
+                        score += 10;
+                    }
+                    break;
+                case "Green":
+                    flavor = 1;
+                    anim.SetInteger("Flavor", flavor);
+                    break;
+                case "Tea":
+                    flavor = 2;
+                    anim.SetInteger("Flavor", flavor);
+                    break;
+                case "Mango":
+                    flavor = 3;
+                    anim.SetInteger("Flavor", flavor);
+                    break;
+                case "Taro":
+                    flavor = 4;
+                    anim.SetInteger("Flavor", flavor);
+                    break;
+                case "Milk":
+                    flavor = 5;
+                    anim.SetInteger("Flavor", flavor);
+                    break;
+
+            }
+            Destroy(collision.gameObject);
         }
     }
 

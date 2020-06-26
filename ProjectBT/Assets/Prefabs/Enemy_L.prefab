@@ -147,7 +147,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyName: L
   health: 30
-  score: 0
+  enemyScore: 100
   speed: 1.5
   maxShotDelay: 3
   curShotDelay: 0
