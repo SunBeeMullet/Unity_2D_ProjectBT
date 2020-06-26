@@ -156,6 +156,14 @@ MonoBehaviour:
   bullet_1: {fileID: 1407224028034335254, guid: a0df66dfcc65d7f45a00aa3f1aad9143,
     type: 3}
   player: {fileID: 0}
+  dropItem:
+  - {fileID: 183761674971952020, guid: 7ca63bba1e2d6d14a9791cee4761d7d2, type: 3}
+  - {fileID: 4174286435459233772, guid: e3fd6f2289f2e014c8f438b44c10026e, type: 3}
+  - {fileID: 2588193226960450931, guid: 30d2ffca165fc09408d163d07804d4ec, type: 3}
+  - {fileID: 4578665667297990468, guid: 6bd5a6ee002ab13439ae8e47b3400d85, type: 3}
+  - {fileID: 395785600079598381, guid: bb72b7c2cb4d64c4faae8fd2ecf4bf19, type: 3}
+  - {fileID: 4053975526620442318, guid: 489aaf995e4fdbc4886083af341be1a8, type: 3}
+  - {fileID: 6370246444245121995, guid: 0465e1faf79307149880c1c0fa025394, type: 3}
 --- !u!95 &9113203454823265092
 Animator:
   serializedVersion: 3

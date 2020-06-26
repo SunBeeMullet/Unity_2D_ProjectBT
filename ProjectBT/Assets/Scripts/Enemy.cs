@@ -17,6 +17,8 @@ public class Enemy : MonoBehaviour
     public GameObject bullet_1;
     public GameObject player;
 
+    public GameObject[] dropItem;
+
     SpriteRenderer spriteRenderer;
 
     Animator anim;
@@ -68,6 +70,11 @@ public class Enemy : MonoBehaviour
 
     void OnHit(int dmg)
     {
+        if(health <= 0)
+        {
+            return;
+        }
+
         health -= dmg;
         anim.SetInteger("Hit", 1);
         Invoke("ReturnSprite",0.3f);
@@ -76,6 +83,23 @@ public class Enemy : MonoBehaviour
         {
             Player playerLogic = player.GetComponent<Player>();
             playerLogic.score += enemyScore;
+
+            int ran = Random.Range(0, 10);
+            int ranf = Random.Range(0, 5);
+            if(ran < 5)
+            {
+                Debug.Log("50% : No Item Drop");
+            }else if(5 <= ran && ran < 8)
+            {
+                Instantiate(dropItem[6], transform.position, dropItem[6].transform.rotation);
+            }else if(8 == ran)
+            {
+                Instantiate(dropItem[5], transform.position, dropItem[5].transform.rotation);
+            }
+            else if(9 == ran)
+            {
+                Instantiate(dropItem[ranf], transform.position, dropItem[ranf].transform.rotation);
+            }
             Destroy(gameObject);
         }
     }
