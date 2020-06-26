@@ -1,31 +1,34 @@
 fileFormatVersion: 2
-guid: 8352c74b8c10bb842abbaef75ee03471
+guid: 6f98b495fae523b429b48d41f0a81d9a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8510449722530637306
-    second: EnemyBT-Sheet_0
+      213: 3913288218681777421
+    second: EnemyBT-Sheet 1_0
   - first:
-      213: 6641983052888565653
-    second: EnemyBT-Sheet_1
+      213: 6567071998837278355
+    second: EnemyBT-Sheet 1_1
   - first:
-      213: -7480657575616263117
-    second: EnemyBT-Sheet_2
+      213: 175823951630717599
+    second: EnemyBT-Sheet 1_2
   - first:
-      213: 7718046022183615225
-    second: EnemyBT-Sheet_3
+      213: 4218233008495332461
+    second: EnemyBT-Sheet 1_3
   - first:
-      213: -7828287553131318420
-    second: EnemyBT-Sheet_4
+      213: 1519792317430305028
+    second: EnemyBT-Sheet 1_4
   - first:
-      213: 2373906268065874505
-    second: EnemyBT-Sheet_5
+      213: -1909572523469480405
+    second: EnemyBT-Sheet 1_5
   - first:
-      213: -8617141102020255961
-    second: EnemyBT-Sheet_6
+      213: 9104902412747217019
+    second: EnemyBT-Sheet 1_6
   - first:
-      213: -6536343492924849367
-    second: EnemyBT-Sheet_7
+      213: 6658713860838944324
+    second: EnemyBT-Sheet 1_7
+  - first:
+      213: 6818071220018041438
+    second: EnemyBT-Sheet 1_8
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -135,7 +138,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: EnemyBT-Sheet_0
+      name: EnemyBT-Sheet 1_0
       rect:
         serializedVersion: 2
         x: 2
@@ -143,20 +146,20 @@ TextureImporter:
         width: 30
         height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: af5a24eaee03b1670800000000000000
-      internalID: 8510449722530637306
+      spriteID: d0d9f32c6eace4630800000000000000
+      internalID: 3913288218681777421
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EnemyBT-Sheet_1
+      name: EnemyBT-Sheet 1_1
       rect:
         serializedVersion: 2
         x: 35
@@ -164,20 +167,20 @@ TextureImporter:
         width: 30
         height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 597669755601d2c50800000000000000
-      internalID: 6641983052888565653
+      spriteID: 3964c19603de22b50800000000000000
+      internalID: 6567071998837278355
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EnemyBT-Sheet_2
+      name: EnemyBT-Sheet 1_2
       rect:
         serializedVersion: 2
         x: 68
@@ -185,20 +188,20 @@ TextureImporter:
         width: 30
         height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 33cce07b19d5f2890800000000000000
-      internalID: -7480657575616263117
+      spriteID: f9254f3d3f6a07200800000000000000
+      internalID: 175823951630717599
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EnemyBT-Sheet_3
+      name: EnemyBT-Sheet 1_3
       rect:
         serializedVersion: 2
         x: 106
@@ -206,20 +209,26 @@ TextureImporter:
         width: 20
         height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -10, y: 10.5}
+        - {x: -10, y: -0.5}
+        - {x: -2, y: -10.5}
+        - {x: 2, y: -10.5}
+        - {x: 10, y: -0.5}
+        - {x: 10, y: 10.5}
       tessellationDetail: 0
       bones: []
-      spriteID: 9fafe5817f10c1b60800000000000000
-      internalID: 7718046022183615225
+      spriteID: d6c0133729c2a8a30800000000000000
+      internalID: 4218233008495332461
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EnemyBT-Sheet_4
+      name: EnemyBT-Sheet 1_4
       rect:
         serializedVersion: 2
         x: 139
@@ -227,20 +236,20 @@ TextureImporter:
         width: 20
         height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c63fefb42f55c5390800000000000000
-      internalID: -7828287553131318420
+      spriteID: 4011dcc7f03671510800000000000000
+      internalID: 1519792317430305028
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EnemyBT-Sheet_5
+      name: EnemyBT-Sheet 1_5
       rect:
         serializedVersion: 2
         x: 172
@@ -248,20 +257,20 @@ TextureImporter:
         width: 20
         height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 942c32e5c2fc1f020800000000000000
-      internalID: 2373906268065874505
+      spriteID: b2e51c148e5df75e0800000000000000
+      internalID: -1909572523469480405
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EnemyBT-Sheet_6
+      name: EnemyBT-Sheet 1_6
       rect:
         serializedVersion: 2
         x: 208
@@ -269,35 +278,64 @@ TextureImporter:
         width: 14
         height: 14
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -5, y: 7}
+        - {x: -7, y: 5}
+        - {x: -7, y: -5}
+        - {x: -5, y: -7}
+        - {x: 5, y: -7}
+        - {x: 7, y: -5}
+        - {x: 7, y: 5}
+        - {x: 5, y: 7}
       tessellationDetail: 0
       bones: []
-      spriteID: 72f1aa2c2d3c96880800000000000000
-      internalID: -8617141102020255961
+      spriteID: b78156a218c1b5e70800000000000000
+      internalID: 9104902412747217019
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EnemyBT-Sheet_7
+      name: EnemyBT-Sheet 1_7
       rect:
         serializedVersion: 2
         x: 241
-        y: 10
+        y: 11
         width: 14
-        height: 14
+        height: 13
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9234746693e3a45a0800000000000000
-      internalID: -6536343492924849367
+      spriteID: 44e66402af0886c50800000000000000
+      internalID: 6658713860838944324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyBT-Sheet 1_8
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 10
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e525d72a6a7ae9e50800000000000000
+      internalID: 6818071220018041438
       vertices: []
       indices: 
       edges: []
