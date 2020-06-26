@@ -1,0 +1,292 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -530159753, guid: 68c7e4565cde54155bb78d8e935f1ddb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cacheType: 3
+  lastUpdatedAtString: 2020-06-25T19:45:49.637-07:00
+  initializedAtString: 2020-06-25T18:18:14.767-07:00
+  log:
+  - commitID: cb5cd032b84733822dec23ea2ee37f25138eb9c4
+    mergeA: 
+    mergeB: 
+    authorName: sunbeemullet
+    authorEmail: choiseoungho0427@gmail.com
+    commitEmail: choiseoungho0427@gmail.com
+    commitName: sunbeemullet
+    summary: Unity Project (v 0.01)
+    description: Basic Unity Project
+    timeString: 2020-06-25T18:35:44.000-07:00
+    commitTimeString: 2020-06-25T18:35:44.000-07:00
+    changes:
+    - path: ProjectBT\Library\gfu\cache\gittrackingstatus.yaml
+      fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\gfu\cache\gittrackingstatus.yaml
+      projectPath: Library\gfu\cache\gittrackingstatus.yaml
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+  - commitID: 25d8c2a760ebb50d7e0c1d938defd065f20d3f5e
+    mergeA: 
+    mergeB: 
+    authorName: sunbeemullet
+    authorEmail: choiseoungho0427@gmail.com
+    commitEmail: choiseoungho0427@gmail.com
+    commitName: sunbeemullet
+    summary: Resources (v 0.01)
+    description: '-Character sprites
+
+      -UI sprites
+
+      -Game Design'
+    timeString: 2020-06-25T18:10:20.000-07:00
+    commitTimeString: 2020-06-25T18:10:20.000-07:00
+    changes:
+    - path: Resources\BubbleT project.xmind
+      fullPath: E:\Unity_2D_ProjectBT\Resources\BubbleT project.xmind
+      projectPath: ..\Resources\BubbleT project.xmind
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Resources\Bullets_N-Sheet.aseprite
+      fullPath: E:\Unity_2D_ProjectBT\Resources\Bullets_N-Sheet.aseprite
+      projectPath: ..\Resources\Bullets_N-Sheet.aseprite
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Resources\Bullets_N-Sheet.png
+      fullPath: E:\Unity_2D_ProjectBT\Resources\Bullets_N-Sheet.png
+      projectPath: ..\Resources\Bullets_N-Sheet.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Resources\Bullets_N.aseprite
+      fullPath: E:\Unity_2D_ProjectBT\Resources\Bullets_N.aseprite
+      projectPath: ..\Resources\Bullets_N.aseprite
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Resources\Design Concept.pdf
+      fullPath: E:\Unity_2D_ProjectBT\Resources\Design Concept.pdf
+      projectPath: ..\Resources\Design Concept.pdf
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Resources\EnemyBT-Sheet.aseprite
+      fullPath: E:\Unity_2D_ProjectBT\Resources\EnemyBT-Sheet.aseprite
+      projectPath: ..\Resources\EnemyBT-Sheet.aseprite
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Resources\EnemyBT-Sheet.png
+      fullPath: E:\Unity_2D_ProjectBT\Resources\EnemyBT-Sheet.png
+      projectPath: ..\Resources\EnemyBT-Sheet.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Resources\EnemyBT.aseprite
+      fullPath: E:\Unity_2D_ProjectBT\Resources\EnemyBT.aseprite
+      projectPath: ..\Resources\EnemyBT.aseprite
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Resources\Flav.aseprite
+      fullPath: E:\Unity_2D_ProjectBT\Resources\Flav.aseprite
+      projectPath: ..\Resources\Flav.aseprite
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Resources\Ice-Sheet.aseprite
+      fullPath: E:\Unity_2D_ProjectBT\Resources\Ice-Sheet.aseprite
+      projectPath: ..\Resources\Ice-Sheet.aseprite
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Resources\Ice-Sheet.png
+      fullPath: E:\Unity_2D_ProjectBT\Resources\Ice-Sheet.png
+      projectPath: ..\Resources\Ice-Sheet.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Resources\Ice.aseprite
+      fullPath: E:\Unity_2D_ProjectBT\Resources\Ice.aseprite
+      projectPath: ..\Resources\Ice.aseprite
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Resources\Item_GreenTea-Sheet.aseprite
+      fullPath: E:\Unity_2D_ProjectBT\Resources\Item_GreenTea-Sheet.aseprite
+      projectPath: ..\Resources\Item_GreenTea-Sheet.aseprite
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Resources\Item_GreenTea-Sheet.png
+      fullPath: E:\Unity_2D_ProjectBT\Resources\Item_GreenTea-Sheet.png
+      projectPath: ..\Resources\Item_GreenTea-Sheet.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Resources\Item_GreenTea.aseprite
+      fullPath: E:\Unity_2D_ProjectBT\Resources\Item_GreenTea.aseprite
+      projectPath: ..\Resources\Item_GreenTea.aseprite
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Resources\Item_Mango-Sheet.aseprite
+      fullPath: E:\Unity_2D_ProjectBT\Resources\Item_Mango-Sheet.aseprite
+      projectPath: ..\Resources\Item_Mango-Sheet.aseprite
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Resources\Item_Mango-Sheet.png
+      fullPath: E:\Unity_2D_ProjectBT\Resources\Item_Mango-Sheet.png
+      projectPath: ..\Resources\Item_Mango-Sheet.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Resources\Item_Mango.aseprite
+      fullPath: E:\Unity_2D_ProjectBT\Resources\Item_Mango.aseprite
+      projectPath: ..\Resources\Item_Mango.aseprite
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Resources\Item_Milk-Sheet.aseprite
+      fullPath: E:\Unity_2D_ProjectBT\Resources\Item_Milk-Sheet.aseprite
+      projectPath: ..\Resources\Item_Milk-Sheet.aseprite
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Resources\Item_Milk-Sheet.png
+      fullPath: E:\Unity_2D_ProjectBT\Resources\Item_Milk-Sheet.png
+      projectPath: ..\Resources\Item_Milk-Sheet.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Resources\Item_Milk.aseprite
+      fullPath: E:\Unity_2D_ProjectBT\Resources\Item_Milk.aseprite
+      projectPath: ..\Resources\Item_Milk.aseprite
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Resources\Item_Taro-Sheet.aseprite
+      fullPath: E:\Unity_2D_ProjectBT\Resources\Item_Taro-Sheet.aseprite
+      projectPath: ..\Resources\Item_Taro-Sheet.aseprite
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Resources\Item_Taro-Sheet.png
+      fullPath: E:\Unity_2D_ProjectBT\Resources\Item_Taro-Sheet.png
+      projectPath: ..\Resources\Item_Taro-Sheet.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Resources\Item_Taro.aseprite
+      fullPath: E:\Unity_2D_ProjectBT\Resources\Item_Taro.aseprite
+      projectPath: ..\Resources\Item_Taro.aseprite
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Resources\Item_Teabag-Sheet.aseprite
+      fullPath: E:\Unity_2D_ProjectBT\Resources\Item_Teabag-Sheet.aseprite
+      projectPath: ..\Resources\Item_Teabag-Sheet.aseprite
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Resources\Item_Teabag-Sheet.png
+      fullPath: E:\Unity_2D_ProjectBT\Resources\Item_Teabag-Sheet.png
+      projectPath: ..\Resources\Item_Teabag-Sheet.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Resources\Item_Teabag.aseprite
+      fullPath: E:\Unity_2D_ProjectBT\Resources\Item_Teabag.aseprite
+      projectPath: ..\Resources\Item_Teabag.aseprite
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Resources\PlayerBT-Sheet.aseprite
+      fullPath: E:\Unity_2D_ProjectBT\Resources\PlayerBT-Sheet.aseprite
+      projectPath: ..\Resources\PlayerBT-Sheet.aseprite
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Resources\PlayerBT-Sheet.png
+      fullPath: E:\Unity_2D_ProjectBT\Resources\PlayerBT-Sheet.png
+      projectPath: ..\Resources\PlayerBT-Sheet.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Resources\PlayerBT.aseprite
+      fullPath: E:\Unity_2D_ProjectBT\Resources\PlayerBT.aseprite
+      projectPath: ..\Resources\PlayerBT.aseprite
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Resources\Salt-Sheet.aseprite
+      fullPath: E:\Unity_2D_ProjectBT\Resources\Salt-Sheet.aseprite
+      projectPath: ..\Resources\Salt-Sheet.aseprite
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Resources\Salt-Sheet.png
+      fullPath: E:\Unity_2D_ProjectBT\Resources\Salt-Sheet.png
+      projectPath: ..\Resources\Salt-Sheet.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Resources\Salt.aseprite
+      fullPath: E:\Unity_2D_ProjectBT\Resources\Salt.aseprite
+      projectPath: ..\Resources\Salt.aseprite
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Resources\UI_Button.png
+      fullPath: E:\Unity_2D_ProjectBT\Resources\UI_Button.png
+      projectPath: ..\Resources\UI_Button.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Resources\UI_LifeBT.aseprite
+      fullPath: E:\Unity_2D_ProjectBT\Resources\UI_LifeBT.aseprite
+      projectPath: ..\Resources\UI_LifeBT.aseprite
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Resources\UI_LifeBT.png
+      fullPath: E:\Unity_2D_ProjectBT\Resources\UI_LifeBT.png
+      projectPath: ..\Resources\UI_LifeBT.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: "Resources\\\uAD6C\uC0C1.png"
+      fullPath: "E:\\Unity_2D_ProjectBT\\Resources\\\uAD6C\uC0C1.png"
+      projectPath: "..\\Resources\\\uAD6C\uC0C1.png"
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+  - commitID: 3bc3696bf958872171181ecf1a504b0034413fc1
+    mergeA: 
+    mergeB: 
+    authorName: SeoungHo Choi
+    authorEmail: choiseoungho0427@gmail.com
+    commitEmail: noreply@github.com
+    commitName: GitHub
+    summary: Initial commit
+    description: 
+    timeString: 2020-06-25T18:05:39.000-07:00
+    commitTimeString: 2020-06-25T18:05:39.000-07:00
+    changes:
+    - path: .gitignore
+      fullPath: E:\Unity_2D_ProjectBT\.gitignore
+      projectPath: ..\.gitignore
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
