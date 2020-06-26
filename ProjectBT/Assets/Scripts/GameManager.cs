@@ -19,6 +19,7 @@ public class GameManager : MonoBehaviour
     public Text scoreText;
     public Image[] lifeImage;
     public GameObject gameOverSet;
+    public ObjectManager objManager;
 
     void Update()
     {

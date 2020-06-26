@@ -1892,6 +1892,7 @@ MonoBehaviour:
   - {fileID: 581907635}
   - {fileID: 1373410665}
   gameOverSet: {fileID: 1499488328}
+  objManager: {fileID: 1409386099}
 --- !u!4 &1064276939
 Transform:
   m_ObjectHideFlags: 0
@@ -2283,6 +2284,83 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1373410663}
   m_CullTransparentMesh: 0
+--- !u!1 &1409386097
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1409386098}
+  - component: {fileID: 1409386099}
+  m_Layer: 0
+  m_Name: ObjectManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1409386098
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1409386097}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1409386099
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1409386097}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48305a182f5357d40a98e348aced9c75, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyLPrefab: {fileID: 9113203454823265118, guid: f0bc7bbc602455145abb661187930a8d,
+    type: 3}
+  enemyMPrefab: {fileID: 8344194154112419123, guid: aae5361a315fa35469e9fa60d90775bb,
+    type: 3}
+  enemySPrefab: {fileID: 774224220101375060, guid: 51a106047ede6e747813080f30816a8d,
+    type: 3}
+  itemIcePrefab: {fileID: 4053975526620442318, guid: 489aaf995e4fdbc4886083af341be1a8,
+    type: 3}
+  itemSugarPrefab: {fileID: 6370246444245121995, guid: 0465e1faf79307149880c1c0fa025394,
+    type: 3}
+  itemGreenTeaPrefab: {fileID: 183761674971952020, guid: 7ca63bba1e2d6d14a9791cee4761d7d2,
+    type: 3}
+  itemMangoPrefab: {fileID: 4174286435459233772, guid: e3fd6f2289f2e014c8f438b44c10026e,
+    type: 3}
+  itemTaroPrefab: {fileID: 4578665667297990468, guid: 6bd5a6ee002ab13439ae8e47b3400d85,
+    type: 3}
+  itemTeaBagPrefab: {fileID: 395785600079598381, guid: bb72b7c2cb4d64c4faae8fd2ecf4bf19,
+    type: 3}
+  itemMilkPrefab: {fileID: 2588193226960450931, guid: 30d2ffca165fc09408d163d07804d4ec,
+    type: 3}
+  bulletEnemy0Prefab: {fileID: 1407224028034335254, guid: f14e8bc1b1a8aaf4c94f29d1e0604a12,
+    type: 3}
+  bulletEnemy1Prefab: {fileID: 1407224028034335254, guid: a0df66dfcc65d7f45a00aa3f1aad9143,
+    type: 3}
+  bulletPlayerN0Prefab: {fileID: 1407224028034335254, guid: 639473ff8565f434197b9112960cd551,
+    type: 3}
+  bulletPlayerN1Prefab: {fileID: 5811966357466725647, guid: 6c6c7a8cb6a205e43922238970fe1a9b,
+    type: 3}
+  bulletPlayerN2Prefab: {fileID: 1363477890084590148, guid: 2e98500b05388bb47b16033c7375f86f,
+    type: 3}
+  bulletPlayerN3Prefab: {fileID: 5434893988492959533, guid: 14f727f1c0b9fc64c8b10c95b985f64a,
+    type: 3}
+  bulletPlayerN4Prefab: {fileID: 6679657419656347815, guid: 9c248edd047208c47a7a3b100aec2fc6,
+    type: 3}
 --- !u!1 &1458634657
 GameObject:
   m_ObjectHideFlags: 0
