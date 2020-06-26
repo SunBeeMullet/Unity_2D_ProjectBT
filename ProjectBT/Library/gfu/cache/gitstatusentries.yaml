@@ -13,114 +13,30 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2020-06-26T00:38:41.866-07:00
-  initializedAtString: 2020-06-25T21:34:00.072-07:00
+  lastUpdatedAtString: 2020-06-26T02:38:40.477-07:00
+  initializedAtString: 2020-06-26T01:01:21.839-07:00
   entries:
-  - path: ProjectBT\Assets\Animation\Enemy_L.anim
-    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Assets\Animation\Enemy_L.anim
-    projectPath: Assets\Animation\Enemy_L.anim
+  - path: ProjectBT\Assets\Prefabs\Enemy_Bullet_0.prefab
+    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Assets\Prefabs\Enemy_Bullet_0.prefab
+    projectPath: Assets\Prefabs\Enemy_Bullet_0.prefab
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: ProjectBT\Assets\Animation\Enemy_L.anim.meta
-    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Assets\Animation\Enemy_L.anim.meta
-    projectPath: Assets\Animation\Enemy_L.anim.meta
+  - path: ProjectBT\Assets\Prefabs\Enemy_Bullet_0.prefab.meta
+    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Assets\Prefabs\Enemy_Bullet_0.prefab.meta
+    projectPath: Assets\Prefabs\Enemy_Bullet_0.prefab.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: ProjectBT\Assets\Animation\Enemy_L.controller
-    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Assets\Animation\Enemy_L.controller
-    projectPath: Assets\Animation\Enemy_L.controller
+  - path: ProjectBT\Assets\Prefabs\Enemy_Bullet_1.prefab
+    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Assets\Prefabs\Enemy_Bullet_1.prefab
+    projectPath: Assets\Prefabs\Enemy_Bullet_1.prefab
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: ProjectBT\Assets\Animation\Enemy_L.controller.meta
-    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Assets\Animation\Enemy_L.controller.meta
-    projectPath: Assets\Animation\Enemy_L.controller.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: ProjectBT\Assets\Animation\Enemy_M.anim
-    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Assets\Animation\Enemy_M.anim
-    projectPath: Assets\Animation\Enemy_M.anim
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: ProjectBT\Assets\Animation\Enemy_M.anim.meta
-    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Assets\Animation\Enemy_M.anim.meta
-    projectPath: Assets\Animation\Enemy_M.anim.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: ProjectBT\Assets\Animation\Enemy_M.controller
-    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Assets\Animation\Enemy_M.controller
-    projectPath: Assets\Animation\Enemy_M.controller
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: ProjectBT\Assets\Animation\Enemy_M.controller.meta
-    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Assets\Animation\Enemy_M.controller.meta
-    projectPath: Assets\Animation\Enemy_M.controller.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: ProjectBT\Assets\Animation\Enemy_S.anim
-    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Assets\Animation\Enemy_S.anim
-    projectPath: Assets\Animation\Enemy_S.anim
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: ProjectBT\Assets\Animation\Enemy_S.anim.meta
-    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Assets\Animation\Enemy_S.anim.meta
-    projectPath: Assets\Animation\Enemy_S.anim.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: ProjectBT\Assets\Animation\Enemy_S.controller
-    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Assets\Animation\Enemy_S.controller
-    projectPath: Assets\Animation\Enemy_S.controller
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: ProjectBT\Assets\Animation\Enemy_S.controller.meta
-    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Assets\Animation\Enemy_S.controller.meta
-    projectPath: Assets\Animation\Enemy_S.controller.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: ProjectBT\Assets\Animation\Hit_Anemy_L.anim
-    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Assets\Animation\Hit_Anemy_L.anim
-    projectPath: Assets\Animation\Hit_Anemy_L.anim
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: ProjectBT\Assets\Animation\Hit_Anemy_L.anim.meta
-    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Assets\Animation\Hit_Anemy_L.anim.meta
-    projectPath: Assets\Animation\Hit_Anemy_L.anim.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: ProjectBT\Assets\Animation\Hit_Anemy_M.anim
-    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Assets\Animation\Hit_Anemy_M.anim
-    projectPath: Assets\Animation\Hit_Anemy_M.anim
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: ProjectBT\Assets\Animation\Hit_Anemy_M.anim.meta
-    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Assets\Animation\Hit_Anemy_M.anim.meta
-    projectPath: Assets\Animation\Hit_Anemy_M.anim.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: ProjectBT\Assets\Animation\Hit_Anemy_S.anim
-    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Assets\Animation\Hit_Anemy_S.anim
-    projectPath: Assets\Animation\Hit_Anemy_S.anim
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: ProjectBT\Assets\Animation\Hit_Anemy_S.anim.meta
-    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Assets\Animation\Hit_Anemy_S.anim.meta
-    projectPath: Assets\Animation\Hit_Anemy_S.anim.meta
+  - path: ProjectBT\Assets\Prefabs\Enemy_Bullet_1.prefab.meta
+    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Assets\Prefabs\Enemy_Bullet_1.prefab.meta
+    projectPath: Assets\Prefabs\Enemy_Bullet_1.prefab.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -128,38 +44,20 @@ MonoBehaviour:
     fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Assets\Prefabs\Enemy_L.prefab
     projectPath: Assets\Prefabs\Enemy_L.prefab
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: ProjectBT\Assets\Prefabs\Enemy_L.prefab.meta
-    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Assets\Prefabs\Enemy_L.prefab.meta
-    projectPath: Assets\Prefabs\Enemy_L.prefab.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
   - path: ProjectBT\Assets\Prefabs\Enemy_M.prefab
     fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Assets\Prefabs\Enemy_M.prefab
     projectPath: Assets\Prefabs\Enemy_M.prefab
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: ProjectBT\Assets\Prefabs\Enemy_M.prefab.meta
-    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Assets\Prefabs\Enemy_M.prefab.meta
-    projectPath: Assets\Prefabs\Enemy_M.prefab.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
   - path: ProjectBT\Assets\Prefabs\Enemy_S.prefab
     fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Assets\Prefabs\Enemy_S.prefab
     projectPath: Assets\Prefabs\Enemy_S.prefab
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: ProjectBT\Assets\Prefabs\Enemy_S.prefab.meta
-    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Assets\Prefabs\Enemy_S.prefab.meta
-    projectPath: Assets\Prefabs\Enemy_S.prefab.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
   - path: ProjectBT\Assets\Prefabs\Player_Bullet_0.prefab
     fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Assets\Prefabs\Player_Bullet_0.prefab
     projectPath: Assets\Prefabs\Player_Bullet_0.prefab
@@ -190,27 +88,21 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: ProjectBT\Assets\Resources\EnemyBT-Sheet.png
-    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Assets\Resources\EnemyBT-Sheet.png
-    projectPath: Assets\Resources\EnemyBT-Sheet.png
+  - path: ProjectBT\Assets\Resources\Bullets_E-Sheet.png
+    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Assets\Resources\Bullets_E-Sheet.png
+    projectPath: Assets\Resources\Bullets_E-Sheet.png
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: ProjectBT\Assets\Resources\EnemyBT-Sheet.png.meta
-    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Assets\Resources\EnemyBT-Sheet.png.meta
-    projectPath: Assets\Resources\EnemyBT-Sheet.png.meta
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: ProjectBT\Assets\Resources\Bullets_E-Sheet.png.meta
+    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Assets\Resources\Bullets_E-Sheet.png.meta
+    projectPath: Assets\Resources\Bullets_E-Sheet.png.meta
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
+    indexStatus: 1
+    workTreeStatus: 1
   - path: ProjectBT\Assets\Scenes\SampleScene.unity
     fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Assets\Scenes\SampleScene.unity
     projectPath: Assets\Scenes\SampleScene.unity
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: ProjectBT\Assets\Scripts\Bullet.cs
-    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Assets\Scripts\Bullet.cs
-    projectPath: Assets\Scripts\Bullet.cs
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -218,29 +110,17 @@ MonoBehaviour:
     fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Assets\Scripts\Enemy.cs
     projectPath: Assets\Scripts\Enemy.cs
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: ProjectBT\Assets\Scripts\Enemy.cs.meta
-    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Assets\Scripts\Enemy.cs.meta
-    projectPath: Assets\Scripts\Enemy.cs.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
   - path: ProjectBT\Assets\Scripts\GameManager.cs
     fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Assets\Scripts\GameManager.cs
     projectPath: Assets\Scripts\GameManager.cs
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: ProjectBT\Assets\Scripts\GameManager.cs.meta
-    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Assets\Scripts\GameManager.cs.meta
-    projectPath: Assets\Scripts\GameManager.cs.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: ProjectBT\Library\AnnotationManager
-    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\AnnotationManager
-    projectPath: Library\AnnotationManager
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: ProjectBT\Assets\Scripts\Player.cs
+    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Assets\Scripts\Player.cs
+    projectPath: Assets\Scripts\Player.cs
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -250,9 +130,9 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: ProjectBT\Library\Artifacts\00\0028d933092d80c2f1713c6e30afa071
-    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\00\0028d933092d80c2f1713c6e30afa071
-    projectPath: Library\Artifacts\00\0028d933092d80c2f1713c6e30afa071
+  - path: ProjectBT\Library\Artifacts\00\00c203b30e3fe221e5dbb49acb13e568
+    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\00\00c203b30e3fe221e5dbb49acb13e568
+    projectPath: Library\Artifacts\00\00c203b30e3fe221e5dbb49acb13e568
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -260,35 +140,71 @@ MonoBehaviour:
     fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\01\01159ceb4167359815a00425281b7cce
     projectPath: Library\Artifacts\01\01159ceb4167359815a00425281b7cce
     originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: ProjectBT\Library\Artifacts\02\027041b7570a1b70bf84c25791fdf284
+    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\02\027041b7570a1b70bf84c25791fdf284
+    projectPath: Library\Artifacts\02\027041b7570a1b70bf84c25791fdf284
+    originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: ProjectBT\Library\Artifacts\01\017fb581dddd67768ece89e2f8b6e229
-    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\01\017fb581dddd67768ece89e2f8b6e229
-    projectPath: Library\Artifacts\01\017fb581dddd67768ece89e2f8b6e229
+  - path: ProjectBT\Library\Artifacts\02\02732a38ba27be9e7bae73fd0c6f7334
+    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\02\02732a38ba27be9e7bae73fd0c6f7334
+    projectPath: Library\Artifacts\02\02732a38ba27be9e7bae73fd0c6f7334
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: ProjectBT\Library\Artifacts\03\03f0a2674bf23c11a6294d2ca0eacd25
-    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\03\03f0a2674bf23c11a6294d2ca0eacd25
-    projectPath: Library\Artifacts\03\03f0a2674bf23c11a6294d2ca0eacd25
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: ProjectBT\Library\Artifacts\05\054a5d91c505be2ed0fbe9f2fd1feb2c
+    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\05\054a5d91c505be2ed0fbe9f2fd1feb2c
+    projectPath: Library\Artifacts\05\054a5d91c505be2ed0fbe9f2fd1feb2c
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: ProjectBT\Library\Artifacts\06\0612cd59c34eebdb0e062d86d270d042
-    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\06\0612cd59c34eebdb0e062d86d270d042
-    projectPath: Library\Artifacts\06\0612cd59c34eebdb0e062d86d270d042
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: ProjectBT\Library\Artifacts\05\05f16b8d1d35a4603de47866fd0176d5
+    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\05\05f16b8d1d35a4603de47866fd0176d5
+    projectPath: Library\Artifacts\05\05f16b8d1d35a4603de47866fd0176d5
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
+    indexStatus: 1
+    workTreeStatus: 1
   - path: ProjectBT\Library\Artifacts\06\061f8892ce95cd5f7e856bfdba3edb89
     fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\06\061f8892ce95cd5f7e856bfdba3edb89
     projectPath: Library\Artifacts\06\061f8892ce95cd5f7e856bfdba3edb89
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: ProjectBT\Library\Artifacts\07\07d7bd8314dd54ca4979a870fb235787
     fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\07\07d7bd8314dd54ca4979a870fb235787
     projectPath: Library\Artifacts\07\07d7bd8314dd54ca4979a870fb235787
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: ProjectBT\Library\Artifacts\08\086f1937bfa862c3e561d364679fc883
+    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\08\086f1937bfa862c3e561d364679fc883
+    projectPath: Library\Artifacts\08\086f1937bfa862c3e561d364679fc883
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: ProjectBT\Library\Artifacts\08\08798c58ba3087617c170cf0bb8af98f
+    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\08\08798c58ba3087617c170cf0bb8af98f
+    projectPath: Library\Artifacts\08\08798c58ba3087617c170cf0bb8af98f
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: ProjectBT\Library\Artifacts\0a\0a5227a1c8b48df06c87a41f6380862c
+    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\0a\0a5227a1c8b48df06c87a41f6380862c
+    projectPath: Library\Artifacts\0a\0a5227a1c8b48df06c87a41f6380862c
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: ProjectBT\Library\Artifacts\0c\0c2dbff5a109d03674bc76c8bfbf23ab
+    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\0c\0c2dbff5a109d03674bc76c8bfbf23ab
+    projectPath: Library\Artifacts\0c\0c2dbff5a109d03674bc76c8bfbf23ab
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: ProjectBT\Library\Artifacts\0e\0ea23897986b5eb000b568f21c55ff1c
+    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\0e\0ea23897986b5eb000b568f21c55ff1c
+    projectPath: Library\Artifacts\0e\0ea23897986b5eb000b568f21c55ff1c
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -296,41 +212,113 @@ MonoBehaviour:
     fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\0e\0ea580a983dd13c387f9d42b49eeb8ca
     projectPath: Library\Artifacts\0e\0ea580a983dd13c387f9d42b49eeb8ca
     originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: ProjectBT\Library\Artifacts\0f\0ff17a3c0d19caefcbdd8d63647b55d6
+    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\0f\0ff17a3c0d19caefcbdd8d63647b55d6
+    projectPath: Library\Artifacts\0f\0ff17a3c0d19caefcbdd8d63647b55d6
+    originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: ProjectBT\Library\Artifacts\17\179cfd01ca776a8b1e10e886fb701eb1
-    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\17\179cfd01ca776a8b1e10e886fb701eb1
-    projectPath: Library\Artifacts\17\179cfd01ca776a8b1e10e886fb701eb1
+  - path: ProjectBT\Library\Artifacts\0f\0ff453186f8e50d401c8dca08b32f9c0
+    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\0f\0ff453186f8e50d401c8dca08b32f9c0
+    projectPath: Library\Artifacts\0f\0ff453186f8e50d401c8dca08b32f9c0
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: ProjectBT\Library\Artifacts\1d\1d6c5f1d5b2298465f6dbf5755a50f70
-    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\1d\1d6c5f1d5b2298465f6dbf5755a50f70
-    projectPath: Library\Artifacts\1d\1d6c5f1d5b2298465f6dbf5755a50f70
+  - path: ProjectBT\Library\Artifacts\10\10f62dd3fb0eab8d7d51aa059a8e50ce
+    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\10\10f62dd3fb0eab8d7d51aa059a8e50ce
+    projectPath: Library\Artifacts\10\10f62dd3fb0eab8d7d51aa059a8e50ce
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: ProjectBT\Library\Artifacts\14\14ec23c847cfece3e4fd0cdfa9eb8f1d
+    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\14\14ec23c847cfece3e4fd0cdfa9eb8f1d
+    projectPath: Library\Artifacts\14\14ec23c847cfece3e4fd0cdfa9eb8f1d
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: ProjectBT\Library\Artifacts\15\15217eee549eb3bd0c1e2dfcac087c72
+    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\15\15217eee549eb3bd0c1e2dfcac087c72
+    projectPath: Library\Artifacts\15\15217eee549eb3bd0c1e2dfcac087c72
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: ProjectBT\Library\Artifacts\15\15cb50f3c6c12ffac0369a51fcfb743c
+    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\15\15cb50f3c6c12ffac0369a51fcfb743c
+    projectPath: Library\Artifacts\15\15cb50f3c6c12ffac0369a51fcfb743c
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: ProjectBT\Library\Artifacts\1f\1ff3edd71e651824f19ae7107fbfadcb
-    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\1f\1ff3edd71e651824f19ae7107fbfadcb
-    projectPath: Library\Artifacts\1f\1ff3edd71e651824f19ae7107fbfadcb
+  - path: ProjectBT\Library\Artifacts\18\18cc89dd96164d7ec5a77aa0a349aaa1
+    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\18\18cc89dd96164d7ec5a77aa0a349aaa1
+    projectPath: Library\Artifacts\18\18cc89dd96164d7ec5a77aa0a349aaa1
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: ProjectBT\Library\Artifacts\20\20f789fd33056a4c0cb0045fd78f6ccf
-    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\20\20f789fd33056a4c0cb0045fd78f6ccf
-    projectPath: Library\Artifacts\20\20f789fd33056a4c0cb0045fd78f6ccf
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: ProjectBT\Library\Artifacts\1b\1b2d463cd20ef0241030d3068d85d0a5
+    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\1b\1b2d463cd20ef0241030d3068d85d0a5
+    projectPath: Library\Artifacts\1b\1b2d463cd20ef0241030d3068d85d0a5
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: ProjectBT\Library\Artifacts\1d\1ddecba884d5222f1305bc82ab597ca7
+    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\1d\1ddecba884d5222f1305bc82ab597ca7
+    projectPath: Library\Artifacts\1d\1ddecba884d5222f1305bc82ab597ca7
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: ProjectBT\Library\Artifacts\1e\1ed3bd841ea3c0f937dc921316c9110a
+    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\1e\1ed3bd841ea3c0f937dc921316c9110a
+    projectPath: Library\Artifacts\1e\1ed3bd841ea3c0f937dc921316c9110a
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: ProjectBT\Library\Artifacts\20\20fc0484e95d6b3d763cf04729bfaf8e
+    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\20\20fc0484e95d6b3d763cf04729bfaf8e
+    projectPath: Library\Artifacts\20\20fc0484e95d6b3d763cf04729bfaf8e
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: ProjectBT\Library\Artifacts\21\216e0dd2b8b4437816c9fbcda2a5ce4a
+    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\21\216e0dd2b8b4437816c9fbcda2a5ce4a
+    projectPath: Library\Artifacts\21\216e0dd2b8b4437816c9fbcda2a5ce4a
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: ProjectBT\Library\Artifacts\22\22f60f2d5dc701fbec6e89d4bdfec39e
     fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\22\22f60f2d5dc701fbec6e89d4bdfec39e
     projectPath: Library\Artifacts\22\22f60f2d5dc701fbec6e89d4bdfec39e
     originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: ProjectBT\Library\Artifacts\24\246fd6e9005734343026dca3355c6a99
+    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\24\246fd6e9005734343026dca3355c6a99
+    projectPath: Library\Artifacts\24\246fd6e9005734343026dca3355c6a99
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: ProjectBT\Library\Artifacts\24\24c2df28074c94fb84793515c20a4c61
+    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\24\24c2df28074c94fb84793515c20a4c61
+    projectPath: Library\Artifacts\24\24c2df28074c94fb84793515c20a4c61
+    originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: ProjectBT\Library\Artifacts\24\2477863e6cb92f3d2c106818c9eb3ef8
-    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\24\2477863e6cb92f3d2c106818c9eb3ef8
-    projectPath: Library\Artifacts\24\2477863e6cb92f3d2c106818c9eb3ef8
+  - path: ProjectBT\Library\Artifacts\26\267a7a02fc9099d0642477b9e453dd97
+    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\26\267a7a02fc9099d0642477b9e453dd97
+    projectPath: Library\Artifacts\26\267a7a02fc9099d0642477b9e453dd97
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: ProjectBT\Library\Artifacts\26\26bd1a1df948c0dd319fb00df666340f
+    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\26\26bd1a1df948c0dd319fb00df666340f
+    projectPath: Library\Artifacts\26\26bd1a1df948c0dd319fb00df666340f
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: ProjectBT\Library\Artifacts\27\27eea5d67abafea811f5576c48713a4e
+    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\27\27eea5d67abafea811f5576c48713a4e
+    projectPath: Library\Artifacts\27\27eea5d67abafea811f5576c48713a4e
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -338,71 +326,95 @@ MonoBehaviour:
     fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\28\28b4fb13b6ec54f20e3cd5482d132c06
     projectPath: Library\Artifacts\28\28b4fb13b6ec54f20e3cd5482d132c06
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: ProjectBT\Library\Artifacts\2b\2b06b1ed2131b2f0664fb6b17991567b
     fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\2b\2b06b1ed2131b2f0664fb6b17991567b
     projectPath: Library\Artifacts\2b\2b06b1ed2131b2f0664fb6b17991567b
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: ProjectBT\Library\Artifacts\2b\2bff1d36ac2a05f8df547bc89514a126
     fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\2b\2bff1d36ac2a05f8df547bc89514a126
     projectPath: Library\Artifacts\2b\2bff1d36ac2a05f8df547bc89514a126
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: ProjectBT\Library\Artifacts\2c\2cbb7f1ad02353cf448cff709f6a0c8d
-    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\2c\2cbb7f1ad02353cf448cff709f6a0c8d
-    projectPath: Library\Artifacts\2c\2cbb7f1ad02353cf448cff709f6a0c8d
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: ProjectBT\Library\Artifacts\2e\2e49daaff67fe724be16968911786b38
-    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\2e\2e49daaff67fe724be16968911786b38
-    projectPath: Library\Artifacts\2e\2e49daaff67fe724be16968911786b38
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: ProjectBT\Library\Artifacts\2e\2e5b52cc4b003b1933f38340dfabaa86
-    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\2e\2e5b52cc4b003b1933f38340dfabaa86
-    projectPath: Library\Artifacts\2e\2e5b52cc4b003b1933f38340dfabaa86
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: ProjectBT\Library\Artifacts\2e\2e7a604eae039573eb896a6a7e9fa4b4
-    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\2e\2e7a604eae039573eb896a6a7e9fa4b4
-    projectPath: Library\Artifacts\2e\2e7a604eae039573eb896a6a7e9fa4b4
+  - path: ProjectBT\Library\Artifacts\2d\2d0f6d14ea2eac04bf5e9d55ef630671
+    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\2d\2d0f6d14ea2eac04bf5e9d55ef630671
+    projectPath: Library\Artifacts\2d\2d0f6d14ea2eac04bf5e9d55ef630671
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: ProjectBT\Library\Artifacts\30\30f1e526d5e05b9a3be87d0e68ae6fa0
-    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\30\30f1e526d5e05b9a3be87d0e68ae6fa0
-    projectPath: Library\Artifacts\30\30f1e526d5e05b9a3be87d0e68ae6fa0
+  - path: ProjectBT\Library\Artifacts\2e\2efeee0dbfb97805c60d79e0f6ffb6bd
+    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\2e\2efeee0dbfb97805c60d79e0f6ffb6bd
+    projectPath: Library\Artifacts\2e\2efeee0dbfb97805c60d79e0f6ffb6bd
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: ProjectBT\Library\Artifacts\2f\2f5a86110a0116571e37da3bf4a7cce8
+    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\2f\2f5a86110a0116571e37da3bf4a7cce8
+    projectPath: Library\Artifacts\2f\2f5a86110a0116571e37da3bf4a7cce8
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: ProjectBT\Library\Artifacts\30\30540d9257b93c65f89420ba03264792
+    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\30\30540d9257b93c65f89420ba03264792
+    projectPath: Library\Artifacts\30\30540d9257b93c65f89420ba03264792
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: ProjectBT\Library\Artifacts\31\3178de3985d744269c1bcf73ee82b704
+    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\31\3178de3985d744269c1bcf73ee82b704
+    projectPath: Library\Artifacts\31\3178de3985d744269c1bcf73ee82b704
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: ProjectBT\Library\Artifacts\34\3476cd7532d4659a5ed032f8fe02e7e1
     fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\34\3476cd7532d4659a5ed032f8fe02e7e1
     projectPath: Library\Artifacts\34\3476cd7532d4659a5ed032f8fe02e7e1
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: ProjectBT\Library\Artifacts\36\3699e57f8c1152838dd08aa99286c861
-    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\36\3699e57f8c1152838dd08aa99286c861
-    projectPath: Library\Artifacts\36\3699e57f8c1152838dd08aa99286c861
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
+  - path: ProjectBT\Library\Artifacts\36\361a62db8b93fd01ed69b25334e483b2
+    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\36\361a62db8b93fd01ed69b25334e483b2
+    projectPath: Library\Artifacts\36\361a62db8b93fd01ed69b25334e483b2
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: ProjectBT\Library\Artifacts\37\3746ddceebef80fd83cfc6af191820a0
+    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\37\3746ddceebef80fd83cfc6af191820a0
+    projectPath: Library\Artifacts\37\3746ddceebef80fd83cfc6af191820a0
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: ProjectBT\Library\Artifacts\3a\3a498e7ab5cc76bcb39249e2e8fe838f
     fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\3a\3a498e7ab5cc76bcb39249e2e8fe838f
     projectPath: Library\Artifacts\3a\3a498e7ab5cc76bcb39249e2e8fe838f
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: ProjectBT\Library\Artifacts\3a\3a6fe14d14c7397ac834168a4011da5b
     fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\3a\3a6fe14d14c7397ac834168a4011da5b
     projectPath: Library\Artifacts\3a\3a6fe14d14c7397ac834168a4011da5b
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: ProjectBT\Library\Artifacts\40\401ec6d1302baeb54cf735e820c522ab
+    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\40\401ec6d1302baeb54cf735e820c522ab
+    projectPath: Library\Artifacts\40\401ec6d1302baeb54cf735e820c522ab
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: ProjectBT\Library\Artifacts\42\4264d0785a8cde17ec334ca1be78daef
+    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\42\4264d0785a8cde17ec334ca1be78daef
+    projectPath: Library\Artifacts\42\4264d0785a8cde17ec334ca1be78daef
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: ProjectBT\Library\Artifacts\42\42c3d641bceef269fbefdd3a91f09e8c
+    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\42\42c3d641bceef269fbefdd3a91f09e8c
+    projectPath: Library\Artifacts\42\42c3d641bceef269fbefdd3a91f09e8c
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -410,29 +422,47 @@ MonoBehaviour:
     fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\43\4371912a7b467a256e4c289c5c4db8a2
     projectPath: Library\Artifacts\43\4371912a7b467a256e4c289c5c4db8a2
     originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: ProjectBT\Library\Artifacts\47\4773f3a5ec2861015e8b09918bd81b40
+    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\47\4773f3a5ec2861015e8b09918bd81b40
+    projectPath: Library\Artifacts\47\4773f3a5ec2861015e8b09918bd81b40
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: ProjectBT\Library\Artifacts\48\48c899ab1f036d26874c8904ff3b2794
+    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\48\48c899ab1f036d26874c8904ff3b2794
+    projectPath: Library\Artifacts\48\48c899ab1f036d26874c8904ff3b2794
+    originalPath: 
     indexStatus: 1
     workTreeStatus: 1
   - path: ProjectBT\Library\Artifacts\49\49bdc890583a635dca0aa7e2849694a7
     fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\49\49bdc890583a635dca0aa7e2849694a7
     projectPath: Library\Artifacts\49\49bdc890583a635dca0aa7e2849694a7
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: ProjectBT\Library\Artifacts\4c\4c391debd52396753f9dab304a76adef
-    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\4c\4c391debd52396753f9dab304a76adef
-    projectPath: Library\Artifacts\4c\4c391debd52396753f9dab304a76adef
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: ProjectBT\Library\Artifacts\50\501631cf6d14de7102860140f80c4687
-    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\50\501631cf6d14de7102860140f80c4687
-    projectPath: Library\Artifacts\50\501631cf6d14de7102860140f80c4687
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: ProjectBT\Library\Artifacts\54\540c957b3ef05a319d3e69ae181821bf
-    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\54\540c957b3ef05a319d3e69ae181821bf
-    projectPath: Library\Artifacts\54\540c957b3ef05a319d3e69ae181821bf
+  - path: ProjectBT\Library\Artifacts\4a\4ab0f7942420fb576e32e37d524fe1fe
+    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\4a\4ab0f7942420fb576e32e37d524fe1fe
+    projectPath: Library\Artifacts\4a\4ab0f7942420fb576e32e37d524fe1fe
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: ProjectBT\Library\Artifacts\4a\4acc68edf1d914f8a3491ee1f18a67a4
+    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\4a\4acc68edf1d914f8a3491ee1f18a67a4
+    projectPath: Library\Artifacts\4a\4acc68edf1d914f8a3491ee1f18a67a4
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: ProjectBT\Library\Artifacts\4b\4b2c23f0e2f04666660ac04976cfb80b
+    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\4b\4b2c23f0e2f04666660ac04976cfb80b
+    projectPath: Library\Artifacts\4b\4b2c23f0e2f04666660ac04976cfb80b
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: ProjectBT\Library\Artifacts\4b\4bdc519e4e704d2d336c5b9d9fa364ac
+    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\4b\4bdc519e4e704d2d336c5b9d9fa364ac
+    projectPath: Library\Artifacts\4b\4bdc519e4e704d2d336c5b9d9fa364ac
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -440,29 +470,65 @@ MonoBehaviour:
     fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\54\54948966a718e7c1c96a33777c8f5731
     projectPath: Library\Artifacts\54\54948966a718e7c1c96a33777c8f5731
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: ProjectBT\Library\Artifacts\57\571ccaf99876f706e00c571f3fe657df
-    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\57\571ccaf99876f706e00c571f3fe657df
-    projectPath: Library\Artifacts\57\571ccaf99876f706e00c571f3fe657df
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
+  - path: ProjectBT\Library\Artifacts\56\5652a2151dd0977f8679e5c0a0abbddf
+    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\56\5652a2151dd0977f8679e5c0a0abbddf
+    projectPath: Library\Artifacts\56\5652a2151dd0977f8679e5c0a0abbddf
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: ProjectBT\Library\Artifacts\5a\5ae6d67c6245b899d037dab38bd8972e
+    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\5a\5ae6d67c6245b899d037dab38bd8972e
+    projectPath: Library\Artifacts\5a\5ae6d67c6245b899d037dab38bd8972e
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: ProjectBT\Library\Artifacts\5c\5c0ef26745b3dc90f4b816dc42cfd123
+    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\5c\5c0ef26745b3dc90f4b816dc42cfd123
+    projectPath: Library\Artifacts\5c\5c0ef26745b3dc90f4b816dc42cfd123
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: ProjectBT\Library\Artifacts\5e\5e160bf62eb611567041a6c2c0427361
     fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\5e\5e160bf62eb611567041a6c2c0427361
     projectPath: Library\Artifacts\5e\5e160bf62eb611567041a6c2c0427361
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: ProjectBT\Library\Artifacts\60\60301384e3876ead6c990d5119874364
-    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\60\60301384e3876ead6c990d5119874364
-    projectPath: Library\Artifacts\60\60301384e3876ead6c990d5119874364
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: ProjectBT\Library\Artifacts\5e\5e9a1939f000c99af58aaea1e32736c2
+    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\5e\5e9a1939f000c99af58aaea1e32736c2
+    projectPath: Library\Artifacts\5e\5e9a1939f000c99af58aaea1e32736c2
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: ProjectBT\Library\Artifacts\63\6347a2b08269c241c5e1ff8de36d981f
-    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\63\6347a2b08269c241c5e1ff8de36d981f
-    projectPath: Library\Artifacts\63\6347a2b08269c241c5e1ff8de36d981f
+  - path: ProjectBT\Library\Artifacts\5f\5f19cdc7021f98235b82c460f605445e
+    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\5f\5f19cdc7021f98235b82c460f605445e
+    projectPath: Library\Artifacts\5f\5f19cdc7021f98235b82c460f605445e
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: ProjectBT\Library\Artifacts\5f\5f959c083377c86071c577b68bf17d08
+    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\5f\5f959c083377c86071c577b68bf17d08
+    projectPath: Library\Artifacts\5f\5f959c083377c86071c577b68bf17d08
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: ProjectBT\Library\Artifacts\61\617044238572c726995b5d3359e9865d
+    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\61\617044238572c726995b5d3359e9865d
+    projectPath: Library\Artifacts\61\617044238572c726995b5d3359e9865d
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: ProjectBT\Library\Artifacts\62\620dbae08bcb40a1c1b1d544a4d63a53
+    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\62\620dbae08bcb40a1c1b1d544a4d63a53
+    projectPath: Library\Artifacts\62\620dbae08bcb40a1c1b1d544a4d63a53
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: ProjectBT\Library\Artifacts\65\6533d986316f1afdb13ddb56cac5de0f
+    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\65\6533d986316f1afdb13ddb56cac5de0f
+    projectPath: Library\Artifacts\65\6533d986316f1afdb13ddb56cac5de0f
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -470,23 +536,77 @@ MonoBehaviour:
     fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\67\675c8f6a254b2238c81583a066352e26
     projectPath: Library\Artifacts\67\675c8f6a254b2238c81583a066352e26
     originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: ProjectBT\Library\Artifacts\67\67c8d1e7b5bd5539b324c39e21b35eac
+    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\67\67c8d1e7b5bd5539b324c39e21b35eac
+    projectPath: Library\Artifacts\67\67c8d1e7b5bd5539b324c39e21b35eac
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: ProjectBT\Library\Artifacts\6a\6aa145c47327b060f4351e7ee782fd5a
+    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\6a\6aa145c47327b060f4351e7ee782fd5a
+    projectPath: Library\Artifacts\6a\6aa145c47327b060f4351e7ee782fd5a
+    originalPath: 
     indexStatus: 1
     workTreeStatus: 1
   - path: ProjectBT\Library\Artifacts\6c\6c1359604fe3d51bd9aa0780a0c5e258
     fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\6c\6c1359604fe3d51bd9aa0780a0c5e258
     projectPath: Library\Artifacts\6c\6c1359604fe3d51bd9aa0780a0c5e258
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: ProjectBT\Library\Artifacts\6d\6d511d1e14fbb1df02a3ca68f1642f67
-    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\6d\6d511d1e14fbb1df02a3ca68f1642f67
-    projectPath: Library\Artifacts\6d\6d511d1e14fbb1df02a3ca68f1642f67
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
+  - path: ProjectBT\Library\Artifacts\6c\6c3a3c59d5ca4fba5eea63a8f1b95465
+    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\6c\6c3a3c59d5ca4fba5eea63a8f1b95465
+    projectPath: Library\Artifacts\6c\6c3a3c59d5ca4fba5eea63a8f1b95465
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: ProjectBT\Library\Artifacts\6e\6e3a23a8e999de432bbf266b10e05296
+    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\6e\6e3a23a8e999de432bbf266b10e05296
+    projectPath: Library\Artifacts\6e\6e3a23a8e999de432bbf266b10e05296
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: ProjectBT\Library\Artifacts\70\705e171a7245f825ec341e76a02cd2a0
     fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\70\705e171a7245f825ec341e76a02cd2a0
     projectPath: Library\Artifacts\70\705e171a7245f825ec341e76a02cd2a0
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: ProjectBT\Library\Artifacts\70\70a9aca2dba244365f652c4c53b2b440
+    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\70\70a9aca2dba244365f652c4c53b2b440
+    projectPath: Library\Artifacts\70\70a9aca2dba244365f652c4c53b2b440
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: ProjectBT\Library\Artifacts\70\70db76bee28ad863af557d0397937e38
+    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\70\70db76bee28ad863af557d0397937e38
+    projectPath: Library\Artifacts\70\70db76bee28ad863af557d0397937e38
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: ProjectBT\Library\Artifacts\72\72c974ff1481285beb7c3aedf4664ac9
+    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\72\72c974ff1481285beb7c3aedf4664ac9
+    projectPath: Library\Artifacts\72\72c974ff1481285beb7c3aedf4664ac9
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: ProjectBT\Library\Artifacts\75\751c30eb4d58750e839f17f299960f11
+    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\75\751c30eb4d58750e839f17f299960f11
+    projectPath: Library\Artifacts\75\751c30eb4d58750e839f17f299960f11
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: ProjectBT\Library\Artifacts\76\76cfb08f0d5020d2ba9a321a29cbd5a5
+    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\76\76cfb08f0d5020d2ba9a321a29cbd5a5
+    projectPath: Library\Artifacts\76\76cfb08f0d5020d2ba9a321a29cbd5a5
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: ProjectBT\Library\Artifacts\77\776cdb654eb359dae142ad1fadce6e45
+    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\77\776cdb654eb359dae142ad1fadce6e45
+    projectPath: Library\Artifacts\77\776cdb654eb359dae142ad1fadce6e45
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -494,41 +614,59 @@ MonoBehaviour:
     fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\7d\7d13b3ea94447e5b39155631853829a6
     projectPath: Library\Artifacts\7d\7d13b3ea94447e5b39155631853829a6
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: ProjectBT\Library\Artifacts\7d\7d5e4da43e885951cc957c488640fa02
-    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\7d\7d5e4da43e885951cc957c488640fa02
-    projectPath: Library\Artifacts\7d\7d5e4da43e885951cc957c488640fa02
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: ProjectBT\Library\Artifacts\7e\7e5c0d48469e7027af74dee3b9fd574a
+    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\7e\7e5c0d48469e7027af74dee3b9fd574a
+    projectPath: Library\Artifacts\7e\7e5c0d48469e7027af74dee3b9fd574a
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: ProjectBT\Library\Artifacts\7d\7dfed7c6a98c6a86195dee98c4f320cb
-    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\7d\7dfed7c6a98c6a86195dee98c4f320cb
-    projectPath: Library\Artifacts\7d\7dfed7c6a98c6a86195dee98c4f320cb
+  - path: ProjectBT\Library\Artifacts\84\848d859648c92d893606b07ebab126db
+    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\84\848d859648c92d893606b07ebab126db
+    projectPath: Library\Artifacts\84\848d859648c92d893606b07ebab126db
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: ProjectBT\Library\Artifacts\87\87730328a163af3ba81d845bc824abb2
-    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\87\87730328a163af3ba81d845bc824abb2
-    projectPath: Library\Artifacts\87\87730328a163af3ba81d845bc824abb2
+  - path: ProjectBT\Library\Artifacts\85\852089b7eba7bad3ab944b8a559ace5b
+    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\85\852089b7eba7bad3ab944b8a559ace5b
+    projectPath: Library\Artifacts\85\852089b7eba7bad3ab944b8a559ace5b
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: ProjectBT\Library\Artifacts\87\87eeb763dda4a00af3a4bfaff26d0365
+    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\87\87eeb763dda4a00af3a4bfaff26d0365
+    projectPath: Library\Artifacts\87\87eeb763dda4a00af3a4bfaff26d0365
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: ProjectBT\Library\Artifacts\89\8999536200b16731fb49fe76b810eae8
     fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\89\8999536200b16731fb49fe76b810eae8
     projectPath: Library\Artifacts\89\8999536200b16731fb49fe76b810eae8
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: ProjectBT\Library\Artifacts\8c\8c2d62e22b8097e4e2fff25d104b5011
-    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\8c\8c2d62e22b8097e4e2fff25d104b5011
-    projectPath: Library\Artifacts\8c\8c2d62e22b8097e4e2fff25d104b5011
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: ProjectBT\Library\Artifacts\8c\8cde2bbe2d1ebfbf6257ce8e99020841
+    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\8c\8cde2bbe2d1ebfbf6257ce8e99020841
+    projectPath: Library\Artifacts\8c\8cde2bbe2d1ebfbf6257ce8e99020841
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: ProjectBT\Library\Artifacts\8e\8e682e4ff7a22a384b37eb978e30e2e5
-    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\8e\8e682e4ff7a22a384b37eb978e30e2e5
-    projectPath: Library\Artifacts\8e\8e682e4ff7a22a384b37eb978e30e2e5
+  - path: ProjectBT\Library\Artifacts\8d\8d69a8b11951899ffc9a018c9b095e1c
+    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\8d\8d69a8b11951899ffc9a018c9b095e1c
+    projectPath: Library\Artifacts\8d\8d69a8b11951899ffc9a018c9b095e1c
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: ProjectBT\Library\Artifacts\8e\8e5ce3888c2317870a71a0d6561db110
+    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\8e\8e5ce3888c2317870a71a0d6561db110
+    projectPath: Library\Artifacts\8e\8e5ce3888c2317870a71a0d6561db110
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: ProjectBT\Library\Artifacts\90\909c1fd78d90a5b71f2eb2701eda3c07
+    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\90\909c1fd78d90a5b71f2eb2701eda3c07
+    projectPath: Library\Artifacts\90\909c1fd78d90a5b71f2eb2701eda3c07
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -536,17 +674,35 @@ MonoBehaviour:
     fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\91\91b5d5d13dcb4840d8714814dfcd6577
     projectPath: Library\Artifacts\91\91b5d5d13dcb4840d8714814dfcd6577
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: ProjectBT\Library\Artifacts\98\989ebc954a32d94b664600e550cc5dc4
-    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\98\989ebc954a32d94b664600e550cc5dc4
-    projectPath: Library\Artifacts\98\989ebc954a32d94b664600e550cc5dc4
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
+  - path: ProjectBT\Library\Artifacts\93\9348b527553f0b155e28cd5e72c1957a
+    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\93\9348b527553f0b155e28cd5e72c1957a
+    projectPath: Library\Artifacts\93\9348b527553f0b155e28cd5e72c1957a
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: ProjectBT\Library\Artifacts\9c\9c64709c1532ad72f75fb2258189c2e9
+    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\9c\9c64709c1532ad72f75fb2258189c2e9
+    projectPath: Library\Artifacts\9c\9c64709c1532ad72f75fb2258189c2e9
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: ProjectBT\Library\Artifacts\9d\9d807a3be9604aad51cb44b39438f35c
     fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\9d\9d807a3be9604aad51cb44b39438f35c
     projectPath: Library\Artifacts\9d\9d807a3be9604aad51cb44b39438f35c
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: ProjectBT\Library\Artifacts\9f\9f944762160e571899b6f0df602f848f
+    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\9f\9f944762160e571899b6f0df602f848f
+    projectPath: Library\Artifacts\9f\9f944762160e571899b6f0df602f848f
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: ProjectBT\Library\Artifacts\9f\9fd601d2758d682f3d6187d01e7c1108
+    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\9f\9fd601d2758d682f3d6187d01e7c1108
+    projectPath: Library\Artifacts\9f\9fd601d2758d682f3d6187d01e7c1108
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -554,29 +710,35 @@ MonoBehaviour:
     fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\a0\a06d6c1e858dc77c967577a7461c20a3
     projectPath: Library\Artifacts\a0\a06d6c1e858dc77c967577a7461c20a3
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: ProjectBT\Library\Artifacts\a0\a0920fecca0f10facc3d67b7d056f94f
-    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\a0\a0920fecca0f10facc3d67b7d056f94f
-    projectPath: Library\Artifacts\a0\a0920fecca0f10facc3d67b7d056f94f
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: ProjectBT\Library\Artifacts\a0\a0c2b5b2d834b09c8b342ade7756593f
     fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\a0\a0c2b5b2d834b09c8b342ade7756593f
     projectPath: Library\Artifacts\a0\a0c2b5b2d834b09c8b342ade7756593f
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: ProjectBT\Library\Artifacts\a1\a1562e8b8aa1d225b68967042f5ae2b0
     fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\a1\a1562e8b8aa1d225b68967042f5ae2b0
     projectPath: Library\Artifacts\a1\a1562e8b8aa1d225b68967042f5ae2b0
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: ProjectBT\Library\Artifacts\a1\a1f8d43ef6053b203613142b9cac31fe
     fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\a1\a1f8d43ef6053b203613142b9cac31fe
     projectPath: Library\Artifacts\a1\a1f8d43ef6053b203613142b9cac31fe
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: ProjectBT\Library\Artifacts\a2\a23e5f6a09e92dd4ebced34853afd7e3
+    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\a2\a23e5f6a09e92dd4ebced34853afd7e3
+    projectPath: Library\Artifacts\a2\a23e5f6a09e92dd4ebced34853afd7e3
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: ProjectBT\Library\Artifacts\a2\a2bf6af649aeaac4d909449a4a6981f8
+    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\a2\a2bf6af649aeaac4d909449a4a6981f8
+    projectPath: Library\Artifacts\a2\a2bf6af649aeaac4d909449a4a6981f8
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -584,41 +746,35 @@ MonoBehaviour:
     fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\a3\a322bae2d83bf8687f5e149c16132e73
     projectPath: Library\Artifacts\a3\a322bae2d83bf8687f5e149c16132e73
     originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: ProjectBT\Library\Artifacts\aa\aab5d864c8a499f97d41d8a389865b7d
+    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\aa\aab5d864c8a499f97d41d8a389865b7d
+    projectPath: Library\Artifacts\aa\aab5d864c8a499f97d41d8a389865b7d
+    originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: ProjectBT\Library\Artifacts\a3\a359e5badd8ecf476c8438ce121e9858
-    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\a3\a359e5badd8ecf476c8438ce121e9858
-    projectPath: Library\Artifacts\a3\a359e5badd8ecf476c8438ce121e9858
+  - path: ProjectBT\Library\Artifacts\af\af2791f07d4d218fada0de3b0184d258
+    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\af\af2791f07d4d218fada0de3b0184d258
+    projectPath: Library\Artifacts\af\af2791f07d4d218fada0de3b0184d258
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: ProjectBT\Library\Artifacts\a5\a5c0a903724157503413a0576fecd4e5
-    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\a5\a5c0a903724157503413a0576fecd4e5
-    projectPath: Library\Artifacts\a5\a5c0a903724157503413a0576fecd4e5
+  - path: ProjectBT\Library\Artifacts\af\afc4404336a9a390887392e695095b38
+    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\af\afc4404336a9a390887392e695095b38
+    projectPath: Library\Artifacts\af\afc4404336a9a390887392e695095b38
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: ProjectBT\Library\Artifacts\ab\abfa6039fe5456bb072c9a08d27d1ed4
-    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\ab\abfa6039fe5456bb072c9a08d27d1ed4
-    projectPath: Library\Artifacts\ab\abfa6039fe5456bb072c9a08d27d1ed4
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: ProjectBT\Library\Artifacts\b4\b4fbca1671197db485bf3a9af0e0fc53
+    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\b4\b4fbca1671197db485bf3a9af0e0fc53
+    projectPath: Library\Artifacts\b4\b4fbca1671197db485bf3a9af0e0fc53
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: ProjectBT\Library\Artifacts\b0\b0aa82abf3c8d561a48f535a572bff4a
-    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\b0\b0aa82abf3c8d561a48f535a572bff4a
-    projectPath: Library\Artifacts\b0\b0aa82abf3c8d561a48f535a572bff4a
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: ProjectBT\Library\Artifacts\b4\b49e39b609c49d70e1f0f4e65cd37fe5
-    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\b4\b49e39b609c49d70e1f0f4e65cd37fe5
-    projectPath: Library\Artifacts\b4\b49e39b609c49d70e1f0f4e65cd37fe5
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: ProjectBT\Library\Artifacts\b6\b608d83d65687d9ed555068da0c25301
-    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\b6\b608d83d65687d9ed555068da0c25301
-    projectPath: Library\Artifacts\b6\b608d83d65687d9ed555068da0c25301
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: ProjectBT\Library\Artifacts\b5\b51f95fceb36c6a884c3929edd2c255c
+    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\b5\b51f95fceb36c6a884c3929edd2c255c
+    projectPath: Library\Artifacts\b5\b51f95fceb36c6a884c3929edd2c255c
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -626,95 +782,107 @@ MonoBehaviour:
     fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\b8\b871d68645820ce3834483dd0b3a152c
     projectPath: Library\Artifacts\b8\b871d68645820ce3834483dd0b3a152c
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: ProjectBT\Library\Artifacts\bc\bc27071116fd180165ee55f2d6bdcf94
     fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\bc\bc27071116fd180165ee55f2d6bdcf94
     projectPath: Library\Artifacts\bc\bc27071116fd180165ee55f2d6bdcf94
     originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: ProjectBT\Library\Artifacts\c0\c038eb850b723f71c69f41b6e76eacd8
+    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\c0\c038eb850b723f71c69f41b6e76eacd8
+    projectPath: Library\Artifacts\c0\c038eb850b723f71c69f41b6e76eacd8
+    originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: ProjectBT\Library\Artifacts\be\be0968ac425bbe468d8f3da7c1a5f628
-    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\be\be0968ac425bbe468d8f3da7c1a5f628
-    projectPath: Library\Artifacts\be\be0968ac425bbe468d8f3da7c1a5f628
+  - path: ProjectBT\Library\Artifacts\c5\c5b05166bcb893756378c3e660cd3e0d
+    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\c5\c5b05166bcb893756378c3e660cd3e0d
+    projectPath: Library\Artifacts\c5\c5b05166bcb893756378c3e660cd3e0d
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: ProjectBT\Library\Artifacts\be\bebe2a20861f99d8781466467652d848
-    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\be\bebe2a20861f99d8781466467652d848
-    projectPath: Library\Artifacts\be\bebe2a20861f99d8781466467652d848
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
+    indexStatus: 1
+    workTreeStatus: 1
   - path: ProjectBT\Library\Artifacts\c8\c83483219fa21deec38dd5d04d026022
     fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\c8\c83483219fa21deec38dd5d04d026022
     projectPath: Library\Artifacts\c8\c83483219fa21deec38dd5d04d026022
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: ProjectBT\Library\Artifacts\c9\c97fba57caaa4264bc83a3028f11dbda
-    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\c9\c97fba57caaa4264bc83a3028f11dbda
-    projectPath: Library\Artifacts\c9\c97fba57caaa4264bc83a3028f11dbda
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: ProjectBT\Library\Artifacts\cc\cc3afff53d1438ff6dec16dfcb114282
+    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\cc\cc3afff53d1438ff6dec16dfcb114282
+    projectPath: Library\Artifacts\cc\cc3afff53d1438ff6dec16dfcb114282
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
+  - path: ProjectBT\Library\Artifacts\cd\cda003995435577843e3f42d98b5964e
+    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\cd\cda003995435577843e3f42d98b5964e
+    projectPath: Library\Artifacts\cd\cda003995435577843e3f42d98b5964e
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: ProjectBT\Library\Artifacts\d0\d07b27a039d7b0f6235bc3d1397e8c7c
+    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\d0\d07b27a039d7b0f6235bc3d1397e8c7c
+    projectPath: Library\Artifacts\d0\d07b27a039d7b0f6235bc3d1397e8c7c
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
   - path: ProjectBT\Library\Artifacts\d2\d269179097ea71e6d24e9cd6d4f9606a
     fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\d2\d269179097ea71e6d24e9cd6d4f9606a
     projectPath: Library\Artifacts\d2\d269179097ea71e6d24e9cd6d4f9606a
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: ProjectBT\Library\Artifacts\d5\d52cc46cff609fce334ee7400449f51a
     fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\d5\d52cc46cff609fce334ee7400449f51a
     projectPath: Library\Artifacts\d5\d52cc46cff609fce334ee7400449f51a
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: ProjectBT\Library\Artifacts\db\db12fcda68d035f91bae3c0efc85b529
-    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\db\db12fcda68d035f91bae3c0efc85b529
-    projectPath: Library\Artifacts\db\db12fcda68d035f91bae3c0efc85b529
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
+  - path: ProjectBT\Library\Artifacts\d6\d62a0fa0af3879e99b5528ba6e6da5b3
+    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\d6\d62a0fa0af3879e99b5528ba6e6da5b3
+    projectPath: Library\Artifacts\d6\d62a0fa0af3879e99b5528ba6e6da5b3
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: ProjectBT\Library\Artifacts\d8\d817b6f17e772445681df95844e1e01d
+    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\d8\d817b6f17e772445681df95844e1e01d
+    projectPath: Library\Artifacts\d8\d817b6f17e772445681df95844e1e01d
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: ProjectBT\Library\Artifacts\dc\dc0e987f433dfe9e2094532f76be4006
     fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\dc\dc0e987f433dfe9e2094532f76be4006
     projectPath: Library\Artifacts\dc\dc0e987f433dfe9e2094532f76be4006
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: ProjectBT\Library\Artifacts\de\deba14b112cb74c0a99e9685a6a612df
-    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\de\deba14b112cb74c0a99e9685a6a612df
-    projectPath: Library\Artifacts\de\deba14b112cb74c0a99e9685a6a612df
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
+  - path: ProjectBT\Library\Artifacts\dd\dd4dede716d95ab851ea05712f19d13f
+    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\dd\dd4dede716d95ab851ea05712f19d13f
+    projectPath: Library\Artifacts\dd\dd4dede716d95ab851ea05712f19d13f
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: ProjectBT\Library\Artifacts\de\de85ee1d79851de6afefbb4fdf905935
+    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\de\de85ee1d79851de6afefbb4fdf905935
+    projectPath: Library\Artifacts\de\de85ee1d79851de6afefbb4fdf905935
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: ProjectBT\Library\Artifacts\df\dfa71117c0b799659486632b58dd31f0
     fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\df\dfa71117c0b799659486632b58dd31f0
     projectPath: Library\Artifacts\df\dfa71117c0b799659486632b58dd31f0
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: ProjectBT\Library\Artifacts\e0\e0e87034b123d048ec1523ab3e7b549a
-    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\e0\e0e87034b123d048ec1523ab3e7b549a
-    projectPath: Library\Artifacts\e0\e0e87034b123d048ec1523ab3e7b549a
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: ProjectBT\Library\Artifacts\e1\e1ada39115961f7a4534da4cf6888603
-    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\e1\e1ada39115961f7a4534da4cf6888603
-    projectPath: Library\Artifacts\e1\e1ada39115961f7a4534da4cf6888603
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: ProjectBT\Library\Artifacts\e2\e24972f0077998459d584ced65690d7f
-    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\e2\e24972f0077998459d584ced65690d7f
-    projectPath: Library\Artifacts\e2\e24972f0077998459d584ced65690d7f
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: ProjectBT\Library\Artifacts\e5\e525b665d7dbc95e302957cdd0abedaf
-    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\e5\e525b665d7dbc95e302957cdd0abedaf
-    projectPath: Library\Artifacts\e5\e525b665d7dbc95e302957cdd0abedaf
+  - path: ProjectBT\Library\Artifacts\e2\e25ef0c4f84d7269442b07b54bb46f54
+    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\e2\e25ef0c4f84d7269442b07b54bb46f54
+    projectPath: Library\Artifacts\e2\e25ef0c4f84d7269442b07b54bb46f54
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: ProjectBT\Library\Artifacts\e5\e52a1ef1b3256a8c3bd8812a69ac1848
+    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\e5\e52a1ef1b3256a8c3bd8812a69ac1848
+    projectPath: Library\Artifacts\e5\e52a1ef1b3256a8c3bd8812a69ac1848
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -722,29 +890,53 @@ MonoBehaviour:
     fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\e6\e660f09b818cadda56a769d7e300e9fd
     projectPath: Library\Artifacts\e6\e660f09b818cadda56a769d7e300e9fd
     originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: ProjectBT\Library\Artifacts\e6\e6645f22a786da5b6dee970cf9387c2a
+    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\e6\e6645f22a786da5b6dee970cf9387c2a
+    projectPath: Library\Artifacts\e6\e6645f22a786da5b6dee970cf9387c2a
+    originalPath: 
     indexStatus: 1
     workTreeStatus: 1
   - path: ProjectBT\Library\Artifacts\e6\e6ec8ca60feb2f391b4f4c20a9671579
     fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\e6\e6ec8ca60feb2f391b4f4c20a9671579
     projectPath: Library\Artifacts\e6\e6ec8ca60feb2f391b4f4c20a9671579
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: ProjectBT\Library\Artifacts\e7\e705b4c1c0494c4d304486fd8820854d
-    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\e7\e705b4c1c0494c4d304486fd8820854d
-    projectPath: Library\Artifacts\e7\e705b4c1c0494c4d304486fd8820854d
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
+  - path: ProjectBT\Library\Artifacts\e9\e94ef5e4377be529f824a25e61be2146
+    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\e9\e94ef5e4377be529f824a25e61be2146
+    projectPath: Library\Artifacts\e9\e94ef5e4377be529f824a25e61be2146
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: ProjectBT\Library\Artifacts\e9\e9fa7d0910da39b78b1433f21829253e
+    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\e9\e9fa7d0910da39b78b1433f21829253e
+    projectPath: Library\Artifacts\e9\e9fa7d0910da39b78b1433f21829253e
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: ProjectBT\Library\Artifacts\ea\ea0a929423b3003bf3f9c259adc0d831
+    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\ea\ea0a929423b3003bf3f9c259adc0d831
+    projectPath: Library\Artifacts\ea\ea0a929423b3003bf3f9c259adc0d831
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: ProjectBT\Library\Artifacts\ed\ed111ecab322a31bb761b9394f29aa0a
     fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\ed\ed111ecab322a31bb761b9394f29aa0a
     projectPath: Library\Artifacts\ed\ed111ecab322a31bb761b9394f29aa0a
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: ProjectBT\Library\Artifacts\ee\ee72810ffd58d0a896da5a36f81fd991
     fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\ee\ee72810ffd58d0a896da5a36f81fd991
     projectPath: Library\Artifacts\ee\ee72810ffd58d0a896da5a36f81fd991
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: ProjectBT\Library\Artifacts\ee\ee807ba813a6c642942dfd877d44c6b3
+    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\ee\ee807ba813a6c642942dfd877d44c6b3
+    projectPath: Library\Artifacts\ee\ee807ba813a6c642942dfd877d44c6b3
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -752,35 +944,29 @@ MonoBehaviour:
     fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\f5\f58598047d6a7de883c5b8b518d34765
     projectPath: Library\Artifacts\f5\f58598047d6a7de883c5b8b518d34765
     originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: ProjectBT\Library\Artifacts\f7\f7332520859f98d13e830e67c6569f70
+    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\f7\f7332520859f98d13e830e67c6569f70
+    projectPath: Library\Artifacts\f7\f7332520859f98d13e830e67c6569f70
+    originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: ProjectBT\Library\Artifacts\f9\f99d84fdb34385c3613b09c70c6bb059
-    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\f9\f99d84fdb34385c3613b09c70c6bb059
-    projectPath: Library\Artifacts\f9\f99d84fdb34385c3613b09c70c6bb059
+  - path: ProjectBT\Library\Artifacts\fd\fd35289d376abe7f2c2dae755a842aca
+    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\fd\fd35289d376abe7f2c2dae755a842aca
+    projectPath: Library\Artifacts\fd\fd35289d376abe7f2c2dae755a842aca
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: ProjectBT\Library\Artifacts\fa\fa9546b7f36f2360986864583855a3a1
-    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\fa\fa9546b7f36f2360986864583855a3a1
-    projectPath: Library\Artifacts\fa\fa9546b7f36f2360986864583855a3a1
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
+    indexStatus: 1
+    workTreeStatus: 1
   - path: ProjectBT\Library\Artifacts\fe\fe32edf69eafcd86850cd10b848b6bcc
     fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\fe\fe32edf69eafcd86850cd10b848b6bcc
     projectPath: Library\Artifacts\fe\fe32edf69eafcd86850cd10b848b6bcc
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: ProjectBT\Library\Artifacts\fe\febab36f61b9a5804f83fda9cc79d13f
-    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\fe\febab36f61b9a5804f83fda9cc79d13f
-    projectPath: Library\Artifacts\fe\febab36f61b9a5804f83fda9cc79d13f
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: ProjectBT\Library\CurrentMaximizeLayout.dwlt
-    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\CurrentMaximizeLayout.dwlt
-    projectPath: Library\CurrentMaximizeLayout.dwlt
+  - path: ProjectBT\Library\Artifacts\fe\feb951b11b1e6877b65190c984eb9687
+    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\Artifacts\fe\feb951b11b1e6877b65190c984eb9687
+    projectPath: Library\Artifacts\fe\feb951b11b1e6877b65190c984eb9687
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -826,27 +1012,105 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: ProjectBT\Library\ShaderCache\0\064843374a865ad8714751f83fa20379.bin
+    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\ShaderCache\0\064843374a865ad8714751f83fa20379.bin
+    projectPath: Library\ShaderCache\0\064843374a865ad8714751f83fa20379.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: ProjectBT\Library\ShaderCache\3\36ed6cfaed0e41f27667d11318e8a44e.bin
+    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\ShaderCache\3\36ed6cfaed0e41f27667d11318e8a44e.bin
+    projectPath: Library\ShaderCache\3\36ed6cfaed0e41f27667d11318e8a44e.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: ProjectBT\Library\ShaderCache\9\99023b0aaeb2a657dce9828df0554bb3.bin
+    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\ShaderCache\9\99023b0aaeb2a657dce9828df0554bb3.bin
+    projectPath: Library\ShaderCache\9\99023b0aaeb2a657dce9828df0554bb3.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: ProjectBT\Library\ShaderCache\d\d37861b6d54884d6a53e27f060d730fd.bin
+    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\ShaderCache\d\d37861b6d54884d6a53e27f060d730fd.bin
+    projectPath: Library\ShaderCache\d\d37861b6d54884d6a53e27f060d730fd.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: ProjectBT\Library\ShaderCache\EditorEncounteredVariants
+    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\ShaderCache\EditorEncounteredVariants
+    projectPath: Library\ShaderCache\EditorEncounteredVariants
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: ProjectBT\Library\shadercompiler-UnityShaderCompiler.exe0.log
+    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\shadercompiler-UnityShaderCompiler.exe0.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: ProjectBT\Library\SourceAssetDB
     fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\SourceAssetDB
     projectPath: Library\SourceAssetDB
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: ProjectBT\Library\StateCache\Hierarchy\41433e-639473ff8565f43419.json
+    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\StateCache\Hierarchy\41433e-639473ff8565f43419.json
+    projectPath: Library\StateCache\Hierarchy\41433e-639473ff8565f43419.json
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: ProjectBT\Library\StateCache\Hierarchy\41433e-6c6c7a8cb6a205e439.json
+    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\StateCache\Hierarchy\41433e-6c6c7a8cb6a205e439.json
+    projectPath: Library\StateCache\Hierarchy\41433e-6c6c7a8cb6a205e439.json
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: ProjectBT\Library\StateCache\Hierarchy\41433e-a0df66dfcc65d7f45a.json
+    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\StateCache\Hierarchy\41433e-a0df66dfcc65d7f45a.json
+    projectPath: Library\StateCache\Hierarchy\41433e-a0df66dfcc65d7f45a.json
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: ProjectBT\Library\StateCache\Hierarchy\41433e-f14e8bc1b1a8aaf4c9.json
+    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\StateCache\Hierarchy\41433e-f14e8bc1b1a8aaf4c9.json
+    projectPath: Library\StateCache\Hierarchy\41433e-f14e8bc1b1a8aaf4c9.json
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: ProjectBT\Library\StateCache\Hierarchy\41433e-mainStage.json
     fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\StateCache\Hierarchy\41433e-mainStage.json
     projectPath: Library\StateCache\Hierarchy\41433e-mainStage.json
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: ProjectBT\Library\StateCache\SceneView\cf2f93-639473ff8565f43419.json
+    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\StateCache\SceneView\cf2f93-639473ff8565f43419.json
+    projectPath: Library\StateCache\SceneView\cf2f93-639473ff8565f43419.json
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: ProjectBT\Library\StateCache\SceneView\cf2f93-6c6c7a8cb6a205e439.json
+    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\StateCache\SceneView\cf2f93-6c6c7a8cb6a205e439.json
+    projectPath: Library\StateCache\SceneView\cf2f93-6c6c7a8cb6a205e439.json
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: ProjectBT\Library\StateCache\SceneView\cf2f93-a0df66dfcc65d7f45a.json
+    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\StateCache\SceneView\cf2f93-a0df66dfcc65d7f45a.json
+    projectPath: Library\StateCache\SceneView\cf2f93-a0df66dfcc65d7f45a.json
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: ProjectBT\Library\StateCache\SceneView\cf2f93-f14e8bc1b1a8aaf4c9.json
+    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\StateCache\SceneView\cf2f93-f14e8bc1b1a8aaf4c9.json
+    projectPath: Library\StateCache\SceneView\cf2f93-f14e8bc1b1a8aaf4c9.json
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: ProjectBT\Library\StateCache\SceneView\cf2f93-mainStage.json
     fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Library\StateCache\SceneView\cf2f93-mainStage.json
     projectPath: Library\StateCache\SceneView\cf2f93-mainStage.json
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: ProjectBT\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
-    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
-    projectPath: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -868,135 +1132,153 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: ProjectBT\Temp\UnityTempFile-119373d59ef3e124688d2ff53c0b0884
-    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Temp\UnityTempFile-119373d59ef3e124688d2ff53c0b0884
-    projectPath: Temp\UnityTempFile-119373d59ef3e124688d2ff53c0b0884
+  - path: ProjectBT\Temp\UnityTempFile-12c778720ed08714a989031e5e80f5f2
+    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Temp\UnityTempFile-12c778720ed08714a989031e5e80f5f2
+    projectPath: Temp\UnityTempFile-12c778720ed08714a989031e5e80f5f2
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: ProjectBT\Temp\UnityTempFile-2936ea1b0aee6604fa8ee1ab9bc07c58
-    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Temp\UnityTempFile-2936ea1b0aee6604fa8ee1ab9bc07c58
-    projectPath: Temp\UnityTempFile-2936ea1b0aee6604fa8ee1ab9bc07c58
+  - path: ProjectBT\Temp\UnityTempFile-16d2cdf96a9b2e147bee5a38a1c645a4
+    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Temp\UnityTempFile-16d2cdf96a9b2e147bee5a38a1c645a4
+    projectPath: Temp\UnityTempFile-16d2cdf96a9b2e147bee5a38a1c645a4
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: ProjectBT\Temp\UnityTempFile-2c063ed69eb57fb4c903d5b3a3f1e2ef
-    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Temp\UnityTempFile-2c063ed69eb57fb4c903d5b3a3f1e2ef
-    projectPath: Temp\UnityTempFile-2c063ed69eb57fb4c903d5b3a3f1e2ef
+  - path: ProjectBT\Temp\UnityTempFile-1e1f5830e6b6c634285a1985734fa7e1
+    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Temp\UnityTempFile-1e1f5830e6b6c634285a1985734fa7e1
+    projectPath: Temp\UnityTempFile-1e1f5830e6b6c634285a1985734fa7e1
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: ProjectBT\Temp\UnityTempFile-2ee57f97d241c0248bc5ba1d584f3781
-    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Temp\UnityTempFile-2ee57f97d241c0248bc5ba1d584f3781
-    projectPath: Temp\UnityTempFile-2ee57f97d241c0248bc5ba1d584f3781
+  - path: ProjectBT\Temp\UnityTempFile-36a5e533a4151144aa86658a1b0ad99b
+    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Temp\UnityTempFile-36a5e533a4151144aa86658a1b0ad99b
+    projectPath: Temp\UnityTempFile-36a5e533a4151144aa86658a1b0ad99b
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: ProjectBT\Temp\UnityTempFile-30cab5b704813f841b39d664da27600f
-    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Temp\UnityTempFile-30cab5b704813f841b39d664da27600f
-    projectPath: Temp\UnityTempFile-30cab5b704813f841b39d664da27600f
+  - path: ProjectBT\Temp\UnityTempFile-51a5648042f76894c8c4b05356ebddd7
+    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Temp\UnityTempFile-51a5648042f76894c8c4b05356ebddd7
+    projectPath: Temp\UnityTempFile-51a5648042f76894c8c4b05356ebddd7
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: ProjectBT\Temp\UnityTempFile-3a0d73359eab8c74992459f26f8f71b1
-    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Temp\UnityTempFile-3a0d73359eab8c74992459f26f8f71b1
-    projectPath: Temp\UnityTempFile-3a0d73359eab8c74992459f26f8f71b1
+  - path: ProjectBT\Temp\UnityTempFile-70f90ed09ceb45245b67c7a94d646419
+    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Temp\UnityTempFile-70f90ed09ceb45245b67c7a94d646419
+    projectPath: Temp\UnityTempFile-70f90ed09ceb45245b67c7a94d646419
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: ProjectBT\Temp\UnityTempFile-6e007d0871da84b4c88aba3bf3416dd2
-    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Temp\UnityTempFile-6e007d0871da84b4c88aba3bf3416dd2
-    projectPath: Temp\UnityTempFile-6e007d0871da84b4c88aba3bf3416dd2
+  - path: ProjectBT\Temp\UnityTempFile-81ced3662ca1bf045b493ec56fed73c4
+    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Temp\UnityTempFile-81ced3662ca1bf045b493ec56fed73c4
+    projectPath: Temp\UnityTempFile-81ced3662ca1bf045b493ec56fed73c4
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: ProjectBT\Temp\UnityTempFile-70b0f89d1f62e3943b1e7012616e74dd
-    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Temp\UnityTempFile-70b0f89d1f62e3943b1e7012616e74dd
-    projectPath: Temp\UnityTempFile-70b0f89d1f62e3943b1e7012616e74dd
+  - path: ProjectBT\Temp\UnityTempFile-82542b5c5e96d2b4192da327f93dc9e1
+    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Temp\UnityTempFile-82542b5c5e96d2b4192da327f93dc9e1
+    projectPath: Temp\UnityTempFile-82542b5c5e96d2b4192da327f93dc9e1
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: ProjectBT\Temp\UnityTempFile-72a84d3d276d4784c84db37cb3feb20c
-    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Temp\UnityTempFile-72a84d3d276d4784c84db37cb3feb20c
-    projectPath: Temp\UnityTempFile-72a84d3d276d4784c84db37cb3feb20c
+  - path: ProjectBT\Temp\UnityTempFile-8c138e29358e4054982bf178052e20ce
+    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Temp\UnityTempFile-8c138e29358e4054982bf178052e20ce
+    projectPath: Temp\UnityTempFile-8c138e29358e4054982bf178052e20ce
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: ProjectBT\Temp\UnityTempFile-75576406a2b1af84aafa64787799e679
-    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Temp\UnityTempFile-75576406a2b1af84aafa64787799e679
-    projectPath: Temp\UnityTempFile-75576406a2b1af84aafa64787799e679
+  - path: ProjectBT\Temp\UnityTempFile-913c43c474f6e534386091ee7ad50b8e
+    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Temp\UnityTempFile-913c43c474f6e534386091ee7ad50b8e
+    projectPath: Temp\UnityTempFile-913c43c474f6e534386091ee7ad50b8e
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: ProjectBT\Temp\UnityTempFile-8265e0c30c79a5a409878ba2381ff317
-    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Temp\UnityTempFile-8265e0c30c79a5a409878ba2381ff317
-    projectPath: Temp\UnityTempFile-8265e0c30c79a5a409878ba2381ff317
+  - path: ProjectBT\Temp\UnityTempFile-91e5a4c819a01324eba2c927436e4b56
+    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Temp\UnityTempFile-91e5a4c819a01324eba2c927436e4b56
+    projectPath: Temp\UnityTempFile-91e5a4c819a01324eba2c927436e4b56
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: ProjectBT\Temp\UnityTempFile-8a6a8a040f3375e418469ce12d3bc521
-    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Temp\UnityTempFile-8a6a8a040f3375e418469ce12d3bc521
-    projectPath: Temp\UnityTempFile-8a6a8a040f3375e418469ce12d3bc521
+  - path: ProjectBT\Temp\UnityTempFile-92e96324ad122214090bad23a5cb9512
+    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Temp\UnityTempFile-92e96324ad122214090bad23a5cb9512
+    projectPath: Temp\UnityTempFile-92e96324ad122214090bad23a5cb9512
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: ProjectBT\Temp\UnityTempFile-94ca3939a1fc5c74ab1fadff6bc6d9ec
-    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Temp\UnityTempFile-94ca3939a1fc5c74ab1fadff6bc6d9ec
-    projectPath: Temp\UnityTempFile-94ca3939a1fc5c74ab1fadff6bc6d9ec
+  - path: ProjectBT\Temp\UnityTempFile-967c934c651bf94439f519fd7161bb04
+    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Temp\UnityTempFile-967c934c651bf94439f519fd7161bb04
+    projectPath: Temp\UnityTempFile-967c934c651bf94439f519fd7161bb04
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: ProjectBT\Temp\UnityTempFile-a82ed28f751f9ee4684b8974392aa937
-    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Temp\UnityTempFile-a82ed28f751f9ee4684b8974392aa937
-    projectPath: Temp\UnityTempFile-a82ed28f751f9ee4684b8974392aa937
+  - path: ProjectBT\Temp\UnityTempFile-abb74025bdb43fa45b9d1e2754f77902
+    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Temp\UnityTempFile-abb74025bdb43fa45b9d1e2754f77902
+    projectPath: Temp\UnityTempFile-abb74025bdb43fa45b9d1e2754f77902
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: ProjectBT\Temp\UnityTempFile-b0e88e3ceaf3be6428c36b2f773f42fc
-    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Temp\UnityTempFile-b0e88e3ceaf3be6428c36b2f773f42fc
-    projectPath: Temp\UnityTempFile-b0e88e3ceaf3be6428c36b2f773f42fc
+  - path: ProjectBT\Temp\UnityTempFile-b54034edeab57614fa2ae3fd9f4ea774
+    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Temp\UnityTempFile-b54034edeab57614fa2ae3fd9f4ea774
+    projectPath: Temp\UnityTempFile-b54034edeab57614fa2ae3fd9f4ea774
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: ProjectBT\Temp\UnityTempFile-b74b6bc48311e9d47b59e5be43e688a7
-    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Temp\UnityTempFile-b74b6bc48311e9d47b59e5be43e688a7
-    projectPath: Temp\UnityTempFile-b74b6bc48311e9d47b59e5be43e688a7
+  - path: ProjectBT\Temp\UnityTempFile-b993390c9a2a91842aebb1b82dbc5d44
+    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Temp\UnityTempFile-b993390c9a2a91842aebb1b82dbc5d44
+    projectPath: Temp\UnityTempFile-b993390c9a2a91842aebb1b82dbc5d44
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: ProjectBT\Temp\UnityTempFile-be64ba59724e8e542a3ad505aa181cf5
-    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Temp\UnityTempFile-be64ba59724e8e542a3ad505aa181cf5
-    projectPath: Temp\UnityTempFile-be64ba59724e8e542a3ad505aa181cf5
+  - path: ProjectBT\Temp\UnityTempFile-b993bb1642f12fd45ac82cb3acdfa2ca
+    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Temp\UnityTempFile-b993bb1642f12fd45ac82cb3acdfa2ca
+    projectPath: Temp\UnityTempFile-b993bb1642f12fd45ac82cb3acdfa2ca
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: ProjectBT\Temp\UnityTempFile-f058c42e1496d3c4cae652b413e5ae9f
-    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Temp\UnityTempFile-f058c42e1496d3c4cae652b413e5ae9f
-    projectPath: Temp\UnityTempFile-f058c42e1496d3c4cae652b413e5ae9f
+  - path: ProjectBT\Temp\UnityTempFile-bdaf0d4e327295d47b7a2731e5cac7ba
+    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Temp\UnityTempFile-bdaf0d4e327295d47b7a2731e5cac7ba
+    projectPath: Temp\UnityTempFile-bdaf0d4e327295d47b7a2731e5cac7ba
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: ProjectBT\Temp\UnityTempFile-fe2af817882c2f64ea2c84a34c298f63
-    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Temp\UnityTempFile-fe2af817882c2f64ea2c84a34c298f63
-    projectPath: Temp\UnityTempFile-fe2af817882c2f64ea2c84a34c298f63
+  - path: ProjectBT\Temp\UnityTempFile-cebd0b0a1c7214d42a82a0962fee61cf
+    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Temp\UnityTempFile-cebd0b0a1c7214d42a82a0962fee61cf
+    projectPath: Temp\UnityTempFile-cebd0b0a1c7214d42a82a0962fee61cf
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Resources\EnemyBT.aseprite
-    fullPath: E:\Unity_2D_ProjectBT\Resources\EnemyBT.aseprite
-    projectPath: ..\Resources\EnemyBT.aseprite
+  - path: ProjectBT\Temp\UnityTempFile-d98d9e0a1ed7ebb428e71958cb5f96fc
+    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Temp\UnityTempFile-d98d9e0a1ed7ebb428e71958cb5f96fc
+    projectPath: Temp\UnityTempFile-d98d9e0a1ed7ebb428e71958cb5f96fc
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Resources\EnemyBT-Sheet.aseprite
-    fullPath: E:\Unity_2D_ProjectBT\Resources\EnemyBT-Sheet.aseprite
-    projectPath: ..\Resources\EnemyBT-Sheet.aseprite
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: ProjectBT\Temp\UnityTempFile-d9d7ecf9ceaee3843afe8051b16ec1db
+    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Temp\UnityTempFile-d9d7ecf9ceaee3843afe8051b16ec1db
+    projectPath: Temp\UnityTempFile-d9d7ecf9ceaee3843afe8051b16ec1db
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Resources\EnemyBT-Sheet.png
-    fullPath: E:\Unity_2D_ProjectBT\Resources\EnemyBT-Sheet.png
-    projectPath: ..\Resources\EnemyBT-Sheet.png
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: ProjectBT\Temp\UnityTempFile-dc92c2e840d99cb4ea353edffd30b649
+    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Temp\UnityTempFile-dc92c2e840d99cb4ea353edffd30b649
+    projectPath: Temp\UnityTempFile-dc92c2e840d99cb4ea353edffd30b649
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: ProjectBT\Temp\UnityTempFile-dee6401494a2b1f418ec3c7121464057
+    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Temp\UnityTempFile-dee6401494a2b1f418ec3c7121464057
+    projectPath: Temp\UnityTempFile-dee6401494a2b1f418ec3c7121464057
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: ProjectBT\Temp\UnityTempFile-e0f70838bfd81c343b05b4a15b87b1f6
+    fullPath: E:\Unity_2D_ProjectBT\ProjectBT\Temp\UnityTempFile-e0f70838bfd81c343b05b4a15b87b1f6
+    projectPath: Temp\UnityTempFile-e0f70838bfd81c343b05b4a15b87b1f6
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Resources\Bullets_E-Sheet.png
+    fullPath: E:\Unity_2D_ProjectBT\Resources\Bullets_E-Sheet.png
+    projectPath: ..\Resources\Bullets_E-Sheet.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1

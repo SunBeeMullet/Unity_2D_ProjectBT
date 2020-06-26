@@ -5,6 +5,7 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     public int iceLv;
+    public int life;
 
     public float speed;
     public float maxShotDelay;
@@ -20,6 +21,8 @@ public class Player : MonoBehaviour
     public GameObject bullet_2;
     public GameObject bullet_3;
     public GameObject bullet_4;
+
+    public GameManager manager;
 
     Animator anim;
 
@@ -128,6 +131,11 @@ public class Player : MonoBehaviour
                     isTouchLeft = true;
                     break;
             }
+        }else if(collision.gameObject.tag == "Enemy" || collision.gameObject.tag == "EnemyBullets")
+        {
+            life--;
+            manager.PlayerCheck();
+            gameObject.SetActive(false);
         }
     }
 

@@ -150,9 +150,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce7c42a6ce605924aa80bfc06745dbdc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enemyName: M
   health: 15
   score: 0
   speed: 3
+  maxShotDelay: 3
+  curShotDelay: 0
+  bullet_0: {fileID: 1407224028034335254, guid: f14e8bc1b1a8aaf4c94f29d1e0604a12,
+    type: 3}
+  bullet_1: {fileID: 1407224028034335254, guid: a0df66dfcc65d7f45a00aa3f1aad9143,
+    type: 3}
+  player: {fileID: 0}
 --- !u!95 &8344194154112419113
 Animator:
   serializedVersion: 3
