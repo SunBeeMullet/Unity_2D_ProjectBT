@@ -26,7 +26,8 @@ public class Player : MonoBehaviour
     public GameObject bullet_3;
     public GameObject bullet_4;
 
-    public GameManager manager;
+    public GameManager gameManager;
+    public ObjectManager objManager;
     
     Animator anim;
 
@@ -321,14 +322,14 @@ public class Player : MonoBehaviour
                 
             isHit = true;
             life--;
-            manager.UpdateLifeIcon(life);
+            gameManager.UpdateLifeIcon(life);
             if(life == 0)
             {
-                manager.GameOver();
+                gameManager.GameOver();
             }
             else
             {
-                manager.PlayerCheck();
+                gameManager.PlayerCheck();
             }
             gameObject.SetActive(false);
             Destroy(collision.gameObject);
@@ -344,7 +345,7 @@ public class Player : MonoBehaviour
                     if(iceLv < maxIce)
                     {
                         iceLv++;
-                        manager.IceChk(iceLv);
+                        gameManager.IceChk(iceLv);
                     }
                     else
                     {

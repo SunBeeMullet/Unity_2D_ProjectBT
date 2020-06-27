@@ -1866,9 +1866,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyObjs:
-  - {fileID: 774224220101375060, guid: 51a106047ede6e747813080f30816a8d, type: 3}
-  - {fileID: 8344194154112419123, guid: aae5361a315fa35469e9fa60d90775bb, type: 3}
-  - {fileID: 9113203454823265118, guid: f0bc7bbc602455145abb661187930a8d, type: 3}
+  - 
+  - 
+  - 
   spawnPoints:
   - {fileID: 1590512045}
   - {fileID: 1346761484}
@@ -2028,7 +2028,8 @@ MonoBehaviour:
     type: 3}
   bullet_4: {fileID: 6679657419656347815, guid: 9c248edd047208c47a7a3b100aec2fc6,
     type: 3}
-  manager: {fileID: 1064276938}
+  gameManager: {fileID: 1064276938}
+  objManager: {fileID: 1409386099}
 --- !u!58 &1130701928
 CircleCollider2D:
   m_ObjectHideFlags: 0

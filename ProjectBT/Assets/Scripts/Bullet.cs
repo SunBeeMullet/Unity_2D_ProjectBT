@@ -10,7 +10,7 @@ public class Bullet : MonoBehaviour
     {
         if(collision.gameObject.tag == "OuterBorder")
         {
-            Destroy(gameObject);
+            gameObject.SetActive(false);
         }
     }
 }

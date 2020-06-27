@@ -100,7 +100,8 @@ public class Enemy : MonoBehaviour
             {
                 Instantiate(dropItem[ranf], transform.position, dropItem[ranf].transform.rotation);
             }
-            Destroy(gameObject);
+
+            gameObject.SetActive(false);
         }
     }
 
@@ -113,8 +114,9 @@ public class Enemy : MonoBehaviour
     {
         if(collision.gameObject.tag == "OuterBorder")
         {
-            Destroy(gameObject);
-        }else if(collision.gameObject.tag == "Bullets")
+            gameObject.SetActive(false);
+        }
+        else if(collision.gameObject.tag == "Bullets")
         {
             Bullet bullet = collision.gameObject.GetComponent<Bullet>();
             OnHit(bullet.dmg);
