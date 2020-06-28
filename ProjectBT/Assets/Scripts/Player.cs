@@ -80,7 +80,8 @@ public class Player : MonoBehaviour
                 {
                     case 0:
                         maxShotDelay = 0.5f;
-                        GameObject bullet0 = Instantiate(bullet_0, transform.position, transform.rotation);
+                        GameObject bullet0 = objManager.MakeObj("BulletPlayer0");
+                        bullet_0.transform.position = transform.position;
                         Rigidbody2D rigidB0 = bullet0.GetComponent<Rigidbody2D>();
                         rigidB0.AddForce(Vector2.up * 10, ForceMode2D.Impulse);
                         break;

@@ -120,7 +120,7 @@ public class Enemy : MonoBehaviour
         {
             Bullet bullet = collision.gameObject.GetComponent<Bullet>();
             OnHit(bullet.dmg);
-            Destroy(collision.gameObject);
+            gameObject.SetActive(false);
         }
     }
 }
