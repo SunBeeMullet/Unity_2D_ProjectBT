@@ -80,32 +80,36 @@ public class Player : MonoBehaviour
                 {
                     case 0:
                         maxShotDelay = 0.5f;
-                        GameObject bullet0 = objManager.MakeObj("BulletPlayer0");
-                        bullet_0.transform.position = transform.position;
+                        GameObject bullet0 = objManager.MakeObj("PlayerBulletN0");
+                        bullet0.transform.position = transform.position;
                         Rigidbody2D rigidB0 = bullet0.GetComponent<Rigidbody2D>();
                         rigidB0.AddForce(Vector2.up * 10, ForceMode2D.Impulse);
                         break;
                     case 1:
                         maxShotDelay = 0.6f;
-                        GameObject bullet1 = Instantiate(bullet_1, transform.position, transform.rotation);
+                        GameObject bullet1 = objManager.MakeObj("PlayerBulletN1");
+                        bullet1.transform.position = transform.position;
                         Rigidbody2D rigidB1 = bullet1.GetComponent<Rigidbody2D>();
                         rigidB1.AddForce(Vector2.up * 9, ForceMode2D.Impulse);
                         break;
                     case 2:
                         maxShotDelay = 0.65f;
-                        GameObject bullet2 = Instantiate(bullet_2, transform.position, transform.rotation);
+                        GameObject bullet2 = objManager.MakeObj("PlayerBulletN2");
+                        bullet2.transform.position = transform.position;
                         Rigidbody2D rigidB2 = bullet2.GetComponent<Rigidbody2D>();
                         rigidB2.AddForce(Vector2.up * 8, ForceMode2D.Impulse);
                         break;
                     case 3:
                         maxShotDelay = 0.7f;
-                        GameObject bullet3 = Instantiate(bullet_3, transform.position, transform.rotation);
+                        GameObject bullet3 = objManager.MakeObj("PlayerBulletN3");
+                        bullet3.transform.position = transform.position;
                         Rigidbody2D rigidB3 = bullet3.GetComponent<Rigidbody2D>();
                         rigidB3.AddForce(Vector2.up * 7, ForceMode2D.Impulse);
                         break;
                     case 4:
                         maxShotDelay = 0.8f;
-                        GameObject bullet4 = Instantiate(bullet_4, transform.position, transform.rotation);
+                        GameObject bullet4 = objManager.MakeObj("PlayerBulletN4");
+                        bullet4.transform.position = transform.position;
                         Rigidbody2D rigidB4 = bullet4.GetComponent<Rigidbody2D>();
                         rigidB4.AddForce(Vector2.up * 6, ForceMode2D.Impulse);
                         break;
@@ -116,31 +120,36 @@ public class Player : MonoBehaviour
                 {
                     case 0:
                         maxShotDelay = 0.5f;
-                        GameObject bullet0 = Instantiate(bullet_0, transform.position, transform.rotation);
+                        GameObject bullet0 = objManager.MakeObj("PlayerBulletN0");
+                        bullet0.transform.position = transform.position;
                         Rigidbody2D rigidB0 = bullet0.GetComponent<Rigidbody2D>();
                         rigidB0.AddForce(Vector2.up * 10, ForceMode2D.Impulse);
                         break;
                     case 1:
                         maxShotDelay = 0.6f;
-                        GameObject bullet1 = Instantiate(bullet_1, transform.position, transform.rotation);
+                        GameObject bullet1 = objManager.MakeObj("PlayerBulletN1");
+                        bullet1.transform.position = transform.position;
                         Rigidbody2D rigidB1 = bullet1.GetComponent<Rigidbody2D>();
                         rigidB1.AddForce(Vector2.up * 9, ForceMode2D.Impulse);
                         break;
                     case 2:
                         maxShotDelay = 0.65f;
-                        GameObject bullet2 = Instantiate(bullet_2, transform.position, transform.rotation);
+                        GameObject bullet2 = objManager.MakeObj("PlayerBulletN2");
+                        bullet2.transform.position = transform.position;
                         Rigidbody2D rigidB2 = bullet2.GetComponent<Rigidbody2D>();
                         rigidB2.AddForce(Vector2.up * 8, ForceMode2D.Impulse);
                         break;
                     case 3:
                         maxShotDelay = 0.7f;
-                        GameObject bullet3 = Instantiate(bullet_3, transform.position, transform.rotation);
+                        GameObject bullet3 = objManager.MakeObj("PlayerBulletN3");
+                        bullet3.transform.position = transform.position;
                         Rigidbody2D rigidB3 = bullet3.GetComponent<Rigidbody2D>();
                         rigidB3.AddForce(Vector2.up * 7, ForceMode2D.Impulse);
                         break;
                     case 4:
                         maxShotDelay = 0.8f;
-                        GameObject bullet4 = Instantiate(bullet_4, transform.position, transform.rotation);
+                        GameObject bullet4 = objManager.MakeObj("PlayerBulletN4");
+                        bullet4.transform.position = transform.position;
                         Rigidbody2D rigidB4 = bullet4.GetComponent<Rigidbody2D>();
                         rigidB4.AddForce(Vector2.up * 6, ForceMode2D.Impulse);
                         break;
@@ -151,31 +160,36 @@ public class Player : MonoBehaviour
                 {
                     case 0:
                         maxShotDelay = 0.5f;
-                        GameObject bullet0 = Instantiate(bullet_0, transform.position, transform.rotation);
+                        GameObject bullet0 = objManager.MakeObj("PlayerBulletN0");
+                        bullet0.transform.position = transform.position;
                         Rigidbody2D rigidB0 = bullet0.GetComponent<Rigidbody2D>();
                         rigidB0.AddForce(Vector2.up * 10, ForceMode2D.Impulse);
                         break;
                     case 1:
                         maxShotDelay = 0.6f;
-                        GameObject bullet1 = Instantiate(bullet_1, transform.position, transform.rotation);
+                        GameObject bullet1 = objManager.MakeObj("PlayerBulletN1");
+                        bullet1.transform.position = transform.position;
                         Rigidbody2D rigidB1 = bullet1.GetComponent<Rigidbody2D>();
                         rigidB1.AddForce(Vector2.up * 9, ForceMode2D.Impulse);
                         break;
                     case 2:
                         maxShotDelay = 0.65f;
-                        GameObject bullet2 = Instantiate(bullet_2, transform.position, transform.rotation);
+                        GameObject bullet2 = objManager.MakeObj("PlayerBulletN2");
+                        bullet2.transform.position = transform.position;
                         Rigidbody2D rigidB2 = bullet2.GetComponent<Rigidbody2D>();
                         rigidB2.AddForce(Vector2.up * 8, ForceMode2D.Impulse);
                         break;
                     case 3:
                         maxShotDelay = 0.7f;
-                        GameObject bullet3 = Instantiate(bullet_3, transform.position, transform.rotation);
+                        GameObject bullet3 = objManager.MakeObj("PlayerBulletN3");
+                        bullet3.transform.position = transform.position;
                         Rigidbody2D rigidB3 = bullet3.GetComponent<Rigidbody2D>();
                         rigidB3.AddForce(Vector2.up * 7, ForceMode2D.Impulse);
                         break;
                     case 4:
                         maxShotDelay = 0.8f;
-                        GameObject bullet4 = Instantiate(bullet_4, transform.position, transform.rotation);
+                        GameObject bullet4 = objManager.MakeObj("PlayerBulletN4");
+                        bullet4.transform.position = transform.position;
                         Rigidbody2D rigidB4 = bullet4.GetComponent<Rigidbody2D>();
                         rigidB4.AddForce(Vector2.up * 6, ForceMode2D.Impulse);
                         break;
@@ -186,31 +200,36 @@ public class Player : MonoBehaviour
                 {
                     case 0:
                         maxShotDelay = 0.5f;
-                        GameObject bullet0 = Instantiate(bullet_0, transform.position, transform.rotation);
+                        GameObject bullet0 = objManager.MakeObj("PlayerBulletN0");
+                        bullet0.transform.position = transform.position;
                         Rigidbody2D rigidB0 = bullet0.GetComponent<Rigidbody2D>();
                         rigidB0.AddForce(Vector2.up * 10, ForceMode2D.Impulse);
                         break;
                     case 1:
                         maxShotDelay = 0.6f;
-                        GameObject bullet1 = Instantiate(bullet_1, transform.position, transform.rotation);
+                        GameObject bullet1 = objManager.MakeObj("PlayerBulletN1");
+                        bullet1.transform.position = transform.position;
                         Rigidbody2D rigidB1 = bullet1.GetComponent<Rigidbody2D>();
                         rigidB1.AddForce(Vector2.up * 9, ForceMode2D.Impulse);
                         break;
                     case 2:
                         maxShotDelay = 0.65f;
-                        GameObject bullet2 = Instantiate(bullet_2, transform.position, transform.rotation);
+                        GameObject bullet2 = objManager.MakeObj("PlayerBulletN2");
+                        bullet2.transform.position = transform.position;
                         Rigidbody2D rigidB2 = bullet2.GetComponent<Rigidbody2D>();
                         rigidB2.AddForce(Vector2.up * 8, ForceMode2D.Impulse);
                         break;
                     case 3:
                         maxShotDelay = 0.7f;
-                        GameObject bullet3 = Instantiate(bullet_3, transform.position, transform.rotation);
+                        GameObject bullet3 = objManager.MakeObj("PlayerBulletN3");
+                        bullet3.transform.position = transform.position;
                         Rigidbody2D rigidB3 = bullet3.GetComponent<Rigidbody2D>();
                         rigidB3.AddForce(Vector2.up * 7, ForceMode2D.Impulse);
                         break;
                     case 4:
                         maxShotDelay = 0.8f;
-                        GameObject bullet4 = Instantiate(bullet_4, transform.position, transform.rotation);
+                        GameObject bullet4 = objManager.MakeObj("PlayerBulletN4");
+                        bullet4.transform.position = transform.position;
                         Rigidbody2D rigidB4 = bullet4.GetComponent<Rigidbody2D>();
                         rigidB4.AddForce(Vector2.up * 6, ForceMode2D.Impulse);
                         break;
@@ -221,31 +240,36 @@ public class Player : MonoBehaviour
                 {
                     case 0:
                         maxShotDelay = 0.5f;
-                        GameObject bullet0 = Instantiate(bullet_0, transform.position, transform.rotation);
+                        GameObject bullet0 = objManager.MakeObj("PlayerBulletN0");
+                        bullet0.transform.position = transform.position;
                         Rigidbody2D rigidB0 = bullet0.GetComponent<Rigidbody2D>();
                         rigidB0.AddForce(Vector2.up * 10, ForceMode2D.Impulse);
                         break;
                     case 1:
                         maxShotDelay = 0.6f;
-                        GameObject bullet1 = Instantiate(bullet_1, transform.position, transform.rotation);
+                        GameObject bullet1 = objManager.MakeObj("PlayerBulletN1");
+                        bullet1.transform.position = transform.position;
                         Rigidbody2D rigidB1 = bullet1.GetComponent<Rigidbody2D>();
                         rigidB1.AddForce(Vector2.up * 9, ForceMode2D.Impulse);
                         break;
                     case 2:
                         maxShotDelay = 0.65f;
-                        GameObject bullet2 = Instantiate(bullet_2, transform.position, transform.rotation);
+                        GameObject bullet2 = objManager.MakeObj("PlayerBulletN2");
+                        bullet2.transform.position = transform.position;
                         Rigidbody2D rigidB2 = bullet2.GetComponent<Rigidbody2D>();
                         rigidB2.AddForce(Vector2.up * 8, ForceMode2D.Impulse);
                         break;
                     case 3:
                         maxShotDelay = 0.7f;
-                        GameObject bullet3 = Instantiate(bullet_3, transform.position, transform.rotation);
+                        GameObject bullet3 = objManager.MakeObj("PlayerBulletN3");
+                        bullet3.transform.position = transform.position;
                         Rigidbody2D rigidB3 = bullet3.GetComponent<Rigidbody2D>();
                         rigidB3.AddForce(Vector2.up * 7, ForceMode2D.Impulse);
                         break;
                     case 4:
                         maxShotDelay = 0.8f;
-                        GameObject bullet4 = Instantiate(bullet_4, transform.position, transform.rotation);
+                        GameObject bullet4 = objManager.MakeObj("PlayerBulletN4");
+                        bullet4.transform.position = transform.position;
                         Rigidbody2D rigidB4 = bullet4.GetComponent<Rigidbody2D>();
                         rigidB4.AddForce(Vector2.up * 6, ForceMode2D.Impulse);
                         break;
@@ -256,31 +280,36 @@ public class Player : MonoBehaviour
                 {
                     case 0:
                         maxShotDelay = 0.5f;
-                        GameObject bullet0 = Instantiate(bullet_0, transform.position, transform.rotation);
+                        GameObject bullet0 = objManager.MakeObj("PlayerBulletN0");
+                        bullet0.transform.position = transform.position;
                         Rigidbody2D rigidB0 = bullet0.GetComponent<Rigidbody2D>();
                         rigidB0.AddForce(Vector2.up * 10, ForceMode2D.Impulse);
                         break;
                     case 1:
                         maxShotDelay = 0.6f;
-                        GameObject bullet1 = Instantiate(bullet_1, transform.position, transform.rotation);
+                        GameObject bullet1 = objManager.MakeObj("PlayerBulletN1");
+                        bullet1.transform.position = transform.position;
                         Rigidbody2D rigidB1 = bullet1.GetComponent<Rigidbody2D>();
                         rigidB1.AddForce(Vector2.up * 9, ForceMode2D.Impulse);
                         break;
                     case 2:
                         maxShotDelay = 0.65f;
-                        GameObject bullet2 = Instantiate(bullet_2, transform.position, transform.rotation);
+                        GameObject bullet2 = objManager.MakeObj("PlayerBulletN2");
+                        bullet2.transform.position = transform.position;
                         Rigidbody2D rigidB2 = bullet2.GetComponent<Rigidbody2D>();
                         rigidB2.AddForce(Vector2.up * 8, ForceMode2D.Impulse);
                         break;
                     case 3:
                         maxShotDelay = 0.7f;
-                        GameObject bullet3 = Instantiate(bullet_3, transform.position, transform.rotation);
+                        GameObject bullet3 = objManager.MakeObj("PlayerBulletN3");
+                        bullet3.transform.position = transform.position;
                         Rigidbody2D rigidB3 = bullet3.GetComponent<Rigidbody2D>();
                         rigidB3.AddForce(Vector2.up * 7, ForceMode2D.Impulse);
                         break;
                     case 4:
                         maxShotDelay = 0.8f;
-                        GameObject bullet4 = Instantiate(bullet_4, transform.position, transform.rotation);
+                        GameObject bullet4 = objManager.MakeObj("PlayerBulletN4");
+                        bullet4.transform.position = transform.position;
                         Rigidbody2D rigidB4 = bullet4.GetComponent<Rigidbody2D>();
                         rigidB4.AddForce(Vector2.up * 6, ForceMode2D.Impulse);
                         break;
@@ -333,7 +362,7 @@ public class Player : MonoBehaviour
                 gameManager.PlayerCheck();
             }
             gameObject.SetActive(false);
-            Destroy(collision.gameObject);
+            collision.gameObject.SetActive(false);
         }else if(collision.gameObject.tag == "Item")
         {
             Item item = collision.gameObject.GetComponent<Item>();

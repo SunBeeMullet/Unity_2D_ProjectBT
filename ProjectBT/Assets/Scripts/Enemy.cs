@@ -17,9 +17,10 @@ public class Enemy : MonoBehaviour
     public GameObject bullet_1;
     public GameObject player;
 
-    public GameObject[] dropItem;
+    //public GameObject[] dropItem;
 
     SpriteRenderer spriteRenderer;
+    ObjectManager objManager;
 
     Animator anim;
 
@@ -45,15 +46,18 @@ public class Enemy : MonoBehaviour
 
         if(enemyName == "M")
         {
-            GameObject bullet = Instantiate(bullet_0, transform.position, transform.rotation);
+            GameObject bullet = objManager.MakeObj("EnemyBullet0");
+            bullet.transform.position = transform.position;
             Rigidbody2D rigid = bullet.GetComponent<Rigidbody2D>();
             Vector3 dirVec = player.transform.position - transform.position;
             rigid.AddForce(dirVec.normalized * 10, ForceMode2D.Impulse);
         }
         else if(enemyName == "L")
         {
-            GameObject bulletL = Instantiate(bullet_1, transform.position + Vector3.left * 0.3f, transform.rotation);
-            GameObject bulletR = Instantiate(bullet_1, transform.position + Vector3.right * 0.3f, transform.rotation);
+            GameObject bulletL = objManager.MakeObj("EnemyBullet1");
+            bulletL.transform.position = transform.position + Vector3.left * 0.3f;
+            GameObject bulletR = objManager.MakeObj("EnemyBullet1");
+            bulletR.transform.position = transform.position + Vector3.right * 0.3f;
             Rigidbody2D rigidL = bulletL.GetComponent<Rigidbody2D>();
             Rigidbody2D rigidR = bulletR.GetComponent<Rigidbody2D>();
             rigidL.AddForce(Vector2.down * 10, ForceMode2D.Impulse);
@@ -91,14 +95,42 @@ public class Enemy : MonoBehaviour
                 Debug.Log("50% : No Item Drop");
             }else if(5 <= ran && ran < 8)
             {
-                Instantiate(dropItem[6], transform.position, dropItem[6].transform.rotation);
+                GameObject itemSugar = objManager.MakeObj("itemSugar");
+                itemSugar.transform.position = transform.position;
+                //Instantiate(dropItem[6], transform.position, dropItem[6].transform.rotation);
             }else if(8 == ran)
             {
-                Instantiate(dropItem[5], transform.position, dropItem[5].transform.rotation);
+                GameObject itemIce = objManager.MakeObj("itemIce");
+                itemIce.transform.position = transform.position;
+                //Instantiate(dropItem[5], transform.position, dropItem[5].transform.rotation);
             }
             else if(9 == ran)
             {
-                Instantiate(dropItem[ranf], transform.position, dropItem[ranf].transform.rotation);
+                switch (ranf)
+                {
+                    case 0:
+                        GameObject itemGreenTea = objManager.MakeObj("itemGreenTea");
+                        itemGreenTea.transform.position = transform.position;
+                        break;
+                    case 1:
+                        GameObject itemMango = objManager.MakeObj("itemMango");
+                        itemMango.transform.position = transform.position;
+                        break;
+                    case 2:
+                        GameObject itemMilk = objManager.MakeObj("itemMilk");
+                        itemMilk.transform.position = transform.position;
+                        break;
+                    case 3:
+                        GameObject itemTaro = objManager.MakeObj("itemTaro");
+                        itemTaro.transform.position = transform.position;
+                        break;
+                    case 4:
+                        GameObject itemTeaBag = objManager.MakeObj("itemTeaBag");
+                        itemTeaBag.transform.position = transform.position;
+                        break;
+                }
+                
+                //Instantiate(dropItem[ranf], transform.position, dropItem[ranf].transform.rotation);
             }
 
             gameObject.SetActive(false);
@@ -120,7 +152,6 @@ public class Enemy : MonoBehaviour
         {
             Bullet bullet = collision.gameObject.GetComponent<Bullet>();
             OnHit(bullet.dmg);
-            gameObject.SetActive(false);
         }
     }
 }

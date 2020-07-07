@@ -67,22 +67,27 @@ public class GameManager : MonoBehaviour
 
         if (ranPoint ==  0)
         {
+            enemy.transform.Rotate(Vector3.zero);
             enemy.transform.Rotate(Vector3.back * 330);
             rigid.velocity = new Vector2(enemyLogic.speed, -5);
         }else if (ranPoint == 5)
         {
+            enemy.transform.Rotate(Vector3.zero);
             enemy.transform.Rotate(Vector3.forward * 330);
             rigid.velocity = new Vector2(enemyLogic.speed * (-1), -5);
         }else if (ranPoint == 6 || ranPoint == 8)
         {
+            enemy.transform.Rotate(Vector3.zero);
             enemy.transform.Rotate(Vector3.forward * 45);
             rigid.velocity = new Vector2(enemyLogic.speed, -1.5f);
         }else if (ranPoint == 7 || ranPoint == 9)
         {
+            enemy.transform.Rotate(Vector3.zero);
             enemy.transform.Rotate(Vector3.back * 45);
             rigid.velocity = new Vector2(enemyLogic.speed * (-1), -1.5f);
         }else
         {
+            enemy.transform.Rotate(Vector3.zero);
             rigid.velocity = new Vector2(0, enemyLogic.speed * (-1));
         }
     }
