@@ -16,11 +16,12 @@ public class Enemy : MonoBehaviour
     public GameObject bullet_0;
     public GameObject bullet_1;
     public GameObject player;
+    public ObjectManager objManager;
 
     //public GameObject[] dropItem;
 
     SpriteRenderer spriteRenderer;
-    ObjectManager objManager;
+    
 
     Animator anim;
 
@@ -150,6 +151,7 @@ public class Enemy : MonoBehaviour
         }
         else if(collision.gameObject.tag == "Bullets")
         {
+            collision.gameObject.SetActive(false);
             Bullet bullet = collision.gameObject.GetComponent<Bullet>();
             OnHit(bullet.dmg);
         }

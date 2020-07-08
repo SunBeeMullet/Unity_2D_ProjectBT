@@ -6,6 +6,7 @@ ScriptsOnlyBuild:
     - Enemy
     - GameManager
     - Item
+    - ObjectManager
     - Player
     - Thermo
     GitHub.Unity.45.dll:
@@ -28,10 +29,8 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -94,17 +93,19 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12640}
     - Class: 114
-      Script: {instanceID: 12958}
+      Script: {instanceID: 12900}
     - Class: 114
-      Script: {instanceID: 13018}
+      Script: {instanceID: 12936}
     - Class: 114
-      Script: {instanceID: 13258}
+      Script: {instanceID: 12962}
     - Class: 114
-      Script: {instanceID: 13782}
+      Script: {instanceID: 13022}
     - Class: 114
-      Script: {instanceID: 14404}
+      Script: {instanceID: 13262}
     - Class: 114
-      Script: {instanceID: 15730}
+      Script: {instanceID: 13786}
+    - Class: 114
+      Script: {instanceID: 14408}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -264,7 +265,7 @@ ScriptsOnlyBuild:
     className: PhysicsRaycaster
   - hash:
       serializedVersion: 2
-      Hash: 69416b168dbcfb0baee8adfbc9639a66
+      Hash: 0219d5579bb2d586ef9e982aea68aee2
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Player
@@ -378,7 +379,7 @@ ScriptsOnlyBuild:
     className: TMP_Asset
   - hash:
       serializedVersion: 2
-      Hash: 82902f361ca182e47865073991d1bff9
+      Hash: 69dc5d6eafef426670c837e7b8785842
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Enemy
@@ -414,7 +415,19 @@ ScriptsOnlyBuild:
     className: RemoteTestResultSender
   - hash:
       serializedVersion: 2
-      Hash: f2b5ddd44757e06f78a9881958a10788
+      Hash: f319e18d39d77dd34a656ef28d0cfb67
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ObjectManager
+  - hash:
+      serializedVersion: 2
+      Hash: 8c7551518c44018db15640bd1949bc57
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Thermo
+  - hash:
+      serializedVersion: 2
+      Hash: 5d7db3081d55261fea6e0afdd8d4d3dc
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: GameManager
@@ -640,12 +653,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
-  - hash:
-      serializedVersion: 2
-      Hash: 8c7551518c44018db15640bd1949bc57
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Thermo
   platform: 5
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
