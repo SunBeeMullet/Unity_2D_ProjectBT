@@ -13,5 +13,4 @@ Things to be improved:
 - UI arrangement for the PC version
 - Migration to Android platform
 - Game Sprites Improvement
-- Enemy Spawn pattern by text file
 - Assistant flights
