@@ -410,7 +410,7 @@ public class Player : MonoBehaviour
                     break;
 
             }
-            Destroy(collision.gameObject);
+            collision.gameObject.SetActive(false);
         }
     }
 

@@ -3,13 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using System.IO;
 
 public class GameManager : MonoBehaviour
 {
     public string[] enemyObjs;
     public Transform[] spawnPoints;
 
-    public float maxSpawnDelay;
+    public float nextSpawnDelay;
     public float curSpawnDelay;
     public float maxMeltDelay;
     public float curMeltDelay;
@@ -21,12 +22,51 @@ public class GameManager : MonoBehaviour
     public GameObject gameOverSet;
     public ObjectManager objManager;
 
+    public List<Spawn> spawnList;
+    public int spawnIndex;
+    public bool spawnEnd;
+
     void Awake()
     {
+        spawnList = new List<Spawn>();
         enemyObjs = new string[]
         {
             "EnemyS", "EnemyM", "EnemyL"
         };
+        ReadSpawnFile();
+    }
+
+    void ReadSpawnFile()
+    {
+        spawnList.Clear();
+        spawnIndex = 0;
+        spawnEnd = false;
+
+        TextAsset textFile = Resources.Load("Stage_0") as TextAsset;
+        StringReader strReader = new StringReader(textFile.text);
+        Debug.Log("File Read?");
+        
+        while(strReader != null)
+        {
+            string line = strReader.ReadLine();
+            Debug.Log(line);
+
+            if(line == null)
+            {
+                break;
+            }
+
+            Spawn spawnData = new Spawn();
+            spawnData.delay = float.Parse(line.Split(',')[0]);
+            spawnData.type = line.Split(',')[1];
+            spawnData.point = int.Parse(line.Split(',')[2]);
+
+            spawnList.Add(spawnData);
+        }
+
+        strReader.Close();
+
+        nextSpawnDelay = spawnList[0].delay;
     }
 
     void Update()
@@ -34,10 +74,10 @@ public class GameManager : MonoBehaviour
         curSpawnDelay += Time.deltaTime;
         curMeltDelay += Time.deltaTime;
 
-        if(curSpawnDelay > maxSpawnDelay)
+        if(curSpawnDelay > nextSpawnDelay && !spawnEnd)
         {
             SpawnEnemy();
-            maxSpawnDelay = Random.Range(0.5f, 3);
+            //nextSpawnDelay = Random.Range(0.5f, 3);
             curSpawnDelay = 0;
         }
 
@@ -56,29 +96,42 @@ public class GameManager : MonoBehaviour
 
     void SpawnEnemy()
     {
-        int ranEnemy = Random.Range(0, 3);
-        int ranPoint = Random.Range(0, 10);
-        GameObject enemy = objManager.MakeObj(enemyObjs[ranEnemy]);
-        enemy.transform.position = spawnPoints[ranPoint].position;
+        int enemyIndex = 0;
+        switch (spawnList[spawnIndex].type)
+        {
+            case "S":
+                enemyIndex = 0;
+                break;
+            case "M":
+                enemyIndex = 1;
+                break;
+            case "L":
+                enemyIndex = 2;
+                break;
+        }
+        //int ranEnemy = Random.Range(0, 3);
+        int enemyPoint = spawnList[spawnIndex].point;
+        GameObject enemy = objManager.MakeObj(enemyObjs[enemyIndex]);
+        enemy.transform.position = spawnPoints[enemyPoint].position;
 
         Rigidbody2D rigid = enemy.GetComponent<Rigidbody2D>();
         Enemy enemyLogic = enemy.GetComponent<Enemy>();
         enemyLogic.player = player;
         enemyLogic.objManager = objManager;
 
-        if (ranPoint ==  0)
+        if (enemyPoint ==  0)
         {
             enemy.transform.Rotate(Vector3.back * 330);
             rigid.velocity = new Vector2(enemyLogic.speed, -5);
-        }else if (ranPoint == 5)
+        }else if (enemyPoint == 5)
         {
             enemy.transform.Rotate(Vector3.forward * 330);
             rigid.velocity = new Vector2(enemyLogic.speed * (-1), -5);
-        }else if (ranPoint == 6 || ranPoint == 8)
+        }else if (enemyPoint == 6 || enemyPoint == 8)
         {
             enemy.transform.Rotate(Vector3.forward * 45);
             rigid.velocity = new Vector2(enemyLogic.speed, -1.5f);
-        }else if (ranPoint == 7 || ranPoint == 9)
+        }else if (enemyPoint == 7 || enemyPoint == 9)
         {
             enemy.transform.Rotate(Vector3.back * 45);
             rigid.velocity = new Vector2(enemyLogic.speed * (-1), -1.5f);
@@ -86,6 +139,15 @@ public class GameManager : MonoBehaviour
         {
             rigid.velocity = new Vector2(0, enemyLogic.speed * (-1));
         }
+
+        spawnIndex++;
+        if(spawnIndex == spawnList.Count)
+        {
+            spawnEnd = true;
+            return;
+        }
+
+        nextSpawnDelay = spawnList[spawnIndex].delay;
     }
 
     public void UpdateLifeIcon(int life)
