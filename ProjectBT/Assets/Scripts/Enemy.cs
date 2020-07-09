@@ -32,6 +32,22 @@ public class Enemy : MonoBehaviour
         anim = GetComponent<Animator>();
     }
 
+    void OnEnable()
+    {
+        switch (enemyName)
+        {
+            case "L":
+                health = 30;
+                break;
+            case "M":
+                health = 15;
+                break;
+            case "S":
+                health = 5;
+                break;
+        }
+    }
+
     void Update()
     {
         Fire();
@@ -91,18 +107,23 @@ public class Enemy : MonoBehaviour
 
             int ran = Random.Range(0, 10);
             int ranf = Random.Range(0, 5);
-            if(ran < 5)
+            if(ran < 3)
             {
-                Debug.Log("50% : No Item Drop");
-            }else if(5 <= ran && ran < 8)
+                Debug.Log("30% : No Item Drop");
+            }else if(3 <= ran && ran < 8)
             {
-                GameObject itemSugar = objManager.MakeObj("itemSugar");
+                GameObject itemSugar = objManager.MakeObj("ItemSugar");
                 itemSugar.transform.position = transform.position;
+                //Rigidbody2D rigid = itemSugar.GetComponent<Rigidbody2D>();
+                //rigid.velocity = Vector2.down * 2;
                 //Instantiate(dropItem[6], transform.position, dropItem[6].transform.rotation);
-            }else if(8 == ran)
+            }
+            else if(8 == ran)
             {
-                GameObject itemIce = objManager.MakeObj("itemIce");
+                GameObject itemIce = objManager.MakeObj("ItemIce");
                 itemIce.transform.position = transform.position;
+                //Rigidbody2D rigid = itemIce.GetComponent<Rigidbody2D>();
+                //rigid.velocity = Vector2.down * 2;
                 //Instantiate(dropItem[5], transform.position, dropItem[5].transform.rotation);
             }
             else if(9 == ran)
@@ -110,24 +131,34 @@ public class Enemy : MonoBehaviour
                 switch (ranf)
                 {
                     case 0:
-                        GameObject itemGreenTea = objManager.MakeObj("itemGreenTea");
+                        GameObject itemGreenTea = objManager.MakeObj("ItemGreenTea");
                         itemGreenTea.transform.position = transform.position;
+                        //Rigidbody2D rigid0 = itemGreenTea.GetComponent<Rigidbody2D>();
+                        //rigid0.velocity = Vector2.down * 2;
                         break;
                     case 1:
-                        GameObject itemMango = objManager.MakeObj("itemMango");
+                        GameObject itemMango = objManager.MakeObj("ItemMango");
                         itemMango.transform.position = transform.position;
+                        //Rigidbody2D rigid1 = itemMango.GetComponent<Rigidbody2D>();
+                        //rigid1.velocity = Vector2.down * 2;
                         break;
                     case 2:
-                        GameObject itemMilk = objManager.MakeObj("itemMilk");
+                        GameObject itemMilk = objManager.MakeObj("ItemMilk");
                         itemMilk.transform.position = transform.position;
+                        //Rigidbody2D rigid2 = itemMilk.GetComponent<Rigidbody2D>();
+                        //rigid2.velocity = Vector2.down * 2;
                         break;
                     case 3:
-                        GameObject itemTaro = objManager.MakeObj("itemTaro");
+                        GameObject itemTaro = objManager.MakeObj("ItemTaro");
                         itemTaro.transform.position = transform.position;
+                        //Rigidbody2D rigid3 = itemTaro.GetComponent<Rigidbody2D>();
+                        //rigid3.velocity = Vector2.down * 2;
                         break;
                     case 4:
-                        GameObject itemTeaBag = objManager.MakeObj("itemTeaBag");
+                        GameObject itemTeaBag = objManager.MakeObj("ItemTeaBag");
                         itemTeaBag.transform.position = transform.position;
+                        //Rigidbody2D rigid4 = itemTeaBag.GetComponent<Rigidbody2D>();
+                        //rigid4.velocity = Vector2.down * 2;
                         break;
                 }
                 
@@ -135,6 +166,7 @@ public class Enemy : MonoBehaviour
             }
 
             gameObject.SetActive(false);
+            transform.rotation = Quaternion.identity;
         }
     }
 
@@ -148,6 +180,7 @@ public class Enemy : MonoBehaviour
         if(collision.gameObject.tag == "OuterBorder")
         {
             gameObject.SetActive(false);
+            transform.rotation = Quaternion.identity;
         }
         else if(collision.gameObject.tag == "Bullets")
         {

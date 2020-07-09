@@ -36,6 +36,12 @@ public class Player : MonoBehaviour
         anim = GetComponent<Animator>();
     }
 
+    private void OnEnable()
+    {
+        iceLv = 1;
+        flavor = 0;
+    }
+
     void Update()
     {
         Movement();
