@@ -71,9 +71,11 @@ public class GameManager : MonoBehaviour
 
     void Update()
     {
+        Player playerLogic = player.GetComponent<Player>();
+
         curSpawnDelay += Time.deltaTime;
         curMeltDelay += Time.deltaTime;
-
+    
         if(curSpawnDelay > nextSpawnDelay && !spawnEnd)
         {
             SpawnEnemy();
@@ -81,7 +83,6 @@ public class GameManager : MonoBehaviour
             curSpawnDelay = 0;
         }
 
-        Player playerLogic = player.GetComponent<Player>();
         scoreText.text = string.Format("{0:n0}", playerLogic.score);
 
         Thermo thermoLogic = thermo.GetComponent<Thermo>();
@@ -183,7 +184,7 @@ public class GameManager : MonoBehaviour
         Player playerLogic = player.GetComponent<Player>();
         playerLogic.speed += 0.5f;
         playerLogic.isHit = false;
-
+        curMeltDelay = 0;
         IceChk(playerLogic.iceLv);
     }
 

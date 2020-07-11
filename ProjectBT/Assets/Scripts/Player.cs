@@ -9,6 +9,7 @@ public class Player : MonoBehaviour
     public int life;
     public int score;
     public int flavor;
+    public int follower;
 
     public float speed;
     public float maxShotDelay;
@@ -25,6 +26,7 @@ public class Player : MonoBehaviour
     public GameObject bullet_2;
     public GameObject bullet_3;
     public GameObject bullet_4;
+    public GameObject[] followers;
 
     public GameManager gameManager;
     public ObjectManager objManager;
@@ -408,9 +410,27 @@ public class Player : MonoBehaviour
                     flavor = 5;
                     anim.SetInteger("Flavor", flavor);
                     break;
+                case "Pearl":
+                    follower++;
+                    AddFollower();
+                    break;
 
             }
             collision.gameObject.SetActive(false);
+        }
+    }
+
+    void AddFollower()
+    {
+        if(follower == 1)
+        {
+            followers[0].SetActive(true);
+        }else if(follower == 2)
+        {
+            followers[1].SetActive(true);
+        }else if (follower == 3)
+        {
+            followers[2].SetActive(true);
         }
     }
 

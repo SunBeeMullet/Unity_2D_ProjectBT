@@ -107,10 +107,13 @@ public class Enemy : MonoBehaviour
 
             int ran = Random.Range(0, 10);
             int ranf = Random.Range(0, 5);
-            if(ran < 3)
+            if (ran < 3)
             {
                 Debug.Log("30% : No Item Drop");
-            }else if(3 <= ran && ran < 8)
+            } else if (3 <= ran && ran < 5) {
+                GameObject itemSugar = objManager.MakeObj("ItemPearl");
+                itemSugar.transform.position = transform.position;
+            } else if (5 <= ran && ran < 7)
             {
                 GameObject itemSugar = objManager.MakeObj("ItemSugar");
                 itemSugar.transform.position = transform.position;
@@ -118,7 +121,7 @@ public class Enemy : MonoBehaviour
                 //rigid.velocity = Vector2.down * 2;
                 //Instantiate(dropItem[6], transform.position, dropItem[6].transform.rotation);
             }
-            else if(8 == ran)
+            else if (7 <= ran && ran < 9)
             {
                 GameObject itemIce = objManager.MakeObj("ItemIce");
                 itemIce.transform.position = transform.position;
@@ -126,7 +129,7 @@ public class Enemy : MonoBehaviour
                 //rigid.velocity = Vector2.down * 2;
                 //Instantiate(dropItem[5], transform.position, dropItem[5].transform.rotation);
             }
-            else if(9 == ran)
+            else if (9 == ran)
             {
                 switch (ranf)
                 {
@@ -161,7 +164,7 @@ public class Enemy : MonoBehaviour
                         //rigid4.velocity = Vector2.down * 2;
                         break;
                 }
-                
+
                 //Instantiate(dropItem[ranf], transform.position, dropItem[ranf].transform.rotation);
             }
 

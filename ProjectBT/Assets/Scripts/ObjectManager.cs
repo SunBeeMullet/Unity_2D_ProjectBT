@@ -14,6 +14,7 @@ public class ObjectManager : MonoBehaviour
     public GameObject itemTaroPrefab;
     public GameObject itemTeaBagPrefab;
     public GameObject itemMilkPrefab;
+    public GameObject itemPearlPrefab;
     public GameObject bulletEnemy0Prefab;
     public GameObject bulletEnemy1Prefab;
     public GameObject bulletPlayerN0Prefab;
@@ -21,6 +22,7 @@ public class ObjectManager : MonoBehaviour
     public GameObject bulletPlayerN2Prefab;
     public GameObject bulletPlayerN3Prefab;
     public GameObject bulletPlayerN4Prefab;
+    public GameObject bulletFollowerPrefab;
 
 
     GameObject[] enemyL;
@@ -34,6 +36,7 @@ public class ObjectManager : MonoBehaviour
     GameObject[] itemTaro;
     GameObject[] itemTeaBag;
     GameObject[] itemMilk;
+    GameObject[] itemPearl;
 
     GameObject[] bulletEnemy0;
     GameObject[] bulletEnemy1;
@@ -42,6 +45,8 @@ public class ObjectManager : MonoBehaviour
     GameObject[] bulletPlayerN2;
     GameObject[] bulletPlayerN3;
     GameObject[] bulletPlayerN4;
+
+    GameObject[] bulletFollower;
 
     GameObject[] targetPool;
 
@@ -58,14 +63,17 @@ public class ObjectManager : MonoBehaviour
         itemTaro = new GameObject[10];
         itemTeaBag = new GameObject[10];
         itemMilk = new GameObject[10];
+        itemPearl = new GameObject[10];
 
-        bulletEnemy0 = new GameObject[100];
-        bulletEnemy1 = new GameObject[100];
-        bulletPlayerN0 = new GameObject[100];
-        bulletPlayerN1 = new GameObject[100];
-        bulletPlayerN2 = new GameObject[100];
-        bulletPlayerN3 = new GameObject[100];
-        bulletPlayerN4 = new GameObject[100];
+        bulletEnemy0 = new GameObject[50];
+        bulletEnemy1 = new GameObject[50];
+        bulletPlayerN0 = new GameObject[50];
+        bulletPlayerN1 = new GameObject[50];
+        bulletPlayerN2 = new GameObject[50];
+        bulletPlayerN3 = new GameObject[50];
+        bulletPlayerN4 = new GameObject[50];
+
+        bulletFollower = new GameObject[50];
 
         Generate();
     }
@@ -132,6 +140,12 @@ public class ObjectManager : MonoBehaviour
             itemMilk[index].SetActive(false);
         }
 
+        for (int index = 0; index < itemPearl.Length; index++)
+        {
+            itemPearl[index] = Instantiate(itemPearlPrefab);
+            itemPearl[index].SetActive(false);
+        }
+
         for (int index = 0; index < bulletEnemy0.Length; index++)
         {
             bulletEnemy0[index] = Instantiate(bulletEnemy0Prefab);
@@ -172,6 +186,12 @@ public class ObjectManager : MonoBehaviour
         {
             bulletPlayerN4[index] = Instantiate(bulletPlayerN4Prefab);
             bulletPlayerN4[index].SetActive(false);
+        }
+
+        for (int index = 0; index < bulletFollower.Length; index++)
+        {
+            bulletFollower[index] = Instantiate(bulletFollowerPrefab);
+            bulletFollower[index].SetActive(false);
         }
     }
 
@@ -230,6 +250,9 @@ public class ObjectManager : MonoBehaviour
                 break;
             case "PlayerBulletN4":
                 targetPool = bulletPlayerN4;
+                break;
+            case "FollowerBullet":
+                targetPool = bulletFollower;
                 break;
         }
 
