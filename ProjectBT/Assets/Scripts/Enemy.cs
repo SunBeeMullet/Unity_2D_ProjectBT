@@ -109,7 +109,7 @@ public class Enemy : MonoBehaviour
             int ranf = Random.Range(0, 5);
             if (ran < 3)
             {
-                Debug.Log("30% : No Item Drop");
+                Debug.Log("No Item Drop");
             } else if (3 <= ran && ran < 5) {
                 GameObject itemSugar = objManager.MakeObj("ItemPearl");
                 itemSugar.transform.position = transform.position;

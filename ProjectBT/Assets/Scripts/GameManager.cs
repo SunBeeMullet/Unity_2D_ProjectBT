@@ -184,6 +184,7 @@ public class GameManager : MonoBehaviour
         Player playerLogic = player.GetComponent<Player>();
         playerLogic.speed += 0.5f;
         playerLogic.isHit = false;
+        playerLogic.follower = 0;
         curMeltDelay = 0;
         IceChk(playerLogic.iceLv);
     }

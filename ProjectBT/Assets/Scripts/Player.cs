@@ -422,6 +422,11 @@ public class Player : MonoBehaviour
 
     void AddFollower()
     {
+        for(int i = 0; i>3; i++)
+        {
+            followers[i].SetActive(false);
+        }
+        
         if(follower == 1)
         {
             followers[0].SetActive(true);

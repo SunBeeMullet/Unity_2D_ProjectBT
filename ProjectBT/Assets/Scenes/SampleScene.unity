@@ -425,6 +425,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5336067551185163973, guid: a6b51dffa5fe23d468b9f59154735b56,
+        type: 3}
+      propertyPath: parent
+      value: 
+      objectReference: {fileID: 1130701926}
+    - target: {fileID: 5336067551185163973, guid: a6b51dffa5fe23d468b9f59154735b56,
+        type: 3}
+      propertyPath: followDelay
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 5336067551185163973, guid: a6b51dffa5fe23d468b9f59154735b56,
+        type: 3}
+      propertyPath: objManager
+      value: 
+      objectReference: {fileID: 1409386099}
     - target: {fileID: 5336067551185163978, guid: a6b51dffa5fe23d468b9f59154735b56,
         type: 3}
       propertyPath: m_Name
@@ -659,6 +674,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5336067551185163973, guid: a6b51dffa5fe23d468b9f59154735b56,
+        type: 3}
+      propertyPath: parent
+      value: 
+      objectReference: {fileID: 2065284566}
+    - target: {fileID: 5336067551185163973, guid: a6b51dffa5fe23d468b9f59154735b56,
+        type: 3}
+      propertyPath: followDelay
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 5336067551185163973, guid: a6b51dffa5fe23d468b9f59154735b56,
+        type: 3}
+      propertyPath: objManager
+      value: 
+      objectReference: {fileID: 1409386099}
     - target: {fileID: 5336067551185163978, guid: a6b51dffa5fe23d468b9f59154735b56,
         type: 3}
       propertyPath: m_Name
@@ -3607,6 +3637,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5336067551185163973, guid: a6b51dffa5fe23d468b9f59154735b56,
+        type: 3}
+      propertyPath: parent
+      value: 
+      objectReference: {fileID: 152150628}
+    - target: {fileID: 5336067551185163973, guid: a6b51dffa5fe23d468b9f59154735b56,
+        type: 3}
+      propertyPath: followDelay
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 5336067551185163973, guid: a6b51dffa5fe23d468b9f59154735b56,
+        type: 3}
+      propertyPath: objManager
+      value: 
+      objectReference: {fileID: 1409386099}
     - target: {fileID: 5336067551185163978, guid: a6b51dffa5fe23d468b9f59154735b56,
         type: 3}
       propertyPath: m_Name
