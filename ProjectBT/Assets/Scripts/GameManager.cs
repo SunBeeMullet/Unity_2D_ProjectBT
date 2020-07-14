@@ -31,7 +31,7 @@ public class GameManager : MonoBehaviour
         spawnList = new List<Spawn>();
         enemyObjs = new string[]
         {
-            "EnemyS", "EnemyM", "EnemyL"
+            "EnemyS", "EnemyM", "EnemyL", "EnemyB"
         };
         ReadSpawnFile();
     }
@@ -109,7 +109,11 @@ public class GameManager : MonoBehaviour
             case "L":
                 enemyIndex = 2;
                 break;
+            case "B":
+                enemyIndex = 3;
+                break;
         }
+
         //int ranEnemy = Random.Range(0, 3);
         int enemyPoint = spawnList[spawnIndex].point;
         GameObject enemy = objManager.MakeObj(enemyObjs[enemyIndex]);
@@ -136,6 +140,9 @@ public class GameManager : MonoBehaviour
         {
             enemy.transform.Rotate(Vector3.back * 45);
             rigid.velocity = new Vector2(enemyLogic.speed * (-1), -1.5f);
+        }else if (enemyPoint == 10)
+        {
+            rigid.velocity = new Vector2(0, enemyLogic.speed * (-1));
         }else
         {
             rigid.velocity = new Vector2(0, enemyLogic.speed * (-1));

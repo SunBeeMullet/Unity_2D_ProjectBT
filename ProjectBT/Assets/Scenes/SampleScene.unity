@@ -1790,6 +1790,7 @@ Transform:
   - {fileID: 685900368}
   - {fileID: 1591281843}
   - {fileID: 2145134628}
+  - {fileID: 1332339394}
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2071,6 +2072,7 @@ MonoBehaviour:
   - 
   - 
   - 
+  - 
   spawnPoints:
   - {fileID: 1590512045}
   - {fileID: 1346761484}
@@ -2082,6 +2084,7 @@ MonoBehaviour:
   - {fileID: 685900368}
   - {fileID: 1591281843}
   - {fileID: 2145134628}
+  - {fileID: 1332339394}
   nextSpawnDelay: 0
   curSpawnDelay: 0
   maxMeltDelay: 10
@@ -2393,6 +2396,36 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1245306495}
   m_CullTransparentMesh: 0
+--- !u!1 &1332339393
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1332339394}
+  m_Layer: 0
+  m_Name: Point (10)
+  m_TagString: Untagged
+  m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1332339394
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1332339393}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 6, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 700677281}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1346761483
 GameObject:
   m_ObjectHideFlags: 0
@@ -2546,6 +2579,8 @@ MonoBehaviour:
     type: 3}
   enemySPrefab: {fileID: 774224220101375060, guid: 51a106047ede6e747813080f30816a8d,
     type: 3}
+  enemyBPrefab: {fileID: 3506543161864623448, guid: 4792e086da092204b99aae251490629c,
+    type: 3}
   itemIcePrefab: {fileID: 4053975526620442318, guid: 489aaf995e4fdbc4886083af341be1a8,
     type: 3}
   itemSugarPrefab: {fileID: 6370246444245121995, guid: 0465e1faf79307149880c1c0fa025394,
@@ -2565,6 +2600,10 @@ MonoBehaviour:
   bulletEnemy0Prefab: {fileID: 1407224028034335254, guid: f14e8bc1b1a8aaf4c94f29d1e0604a12,
     type: 3}
   bulletEnemy1Prefab: {fileID: 1407224028034335254, guid: a0df66dfcc65d7f45a00aa3f1aad9143,
+    type: 3}
+  bulletEnemy2Prefab: {fileID: 1407224028034335254, guid: 581c9ae77d2ebee4a9eb7d6464a6b245,
+    type: 3}
+  bulletEnemy3Prefab: {fileID: 1407224028034335254, guid: f53194aebc06b9a499ca8d858b19a0b3,
     type: 3}
   bulletPlayerN0Prefab: {fileID: 1407224028034335254, guid: 639473ff8565f434197b9112960cd551,
     type: 3}
