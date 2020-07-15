@@ -22,6 +22,10 @@ public class Enemy : MonoBehaviour
     
     Animator anim;
 
+    public int patternIndex;
+    public int curPatternCnt;
+    public int[] maxPatternCnt;
+
     void Awake()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
@@ -44,7 +48,92 @@ public class Enemy : MonoBehaviour
                 break;
             case "B":
                 health = 100;
+                Invoke("Stop",2);
                 break;
+        }
+    }
+
+    void Stop()
+    {
+        if(!gameObject.activeSelf)
+        {
+            return;
+        }
+        Rigidbody2D rigid = GetComponent<Rigidbody2D>();
+        rigid.velocity = Vector2.zero;
+
+        Invoke("Think", 2);
+    }
+
+    void Think()
+    {
+        patternIndex = patternIndex == 3 ? 0 : patternIndex + 1;
+
+        switch (patternIndex)
+        {
+            case 0:
+                FireForward();
+                break;
+            case 1:
+                FireSpread();
+                break;
+            case 2:
+                FireArc();
+                break;
+            case 3:
+                FireAround();
+                break;
+        }
+    }
+
+    void FireForward()
+    {
+        curPatternCnt++;
+
+        if(curPatternCnt < maxPatternCnt[patternIndex])
+        {
+            Invoke("FireForward", 2);
+        }
+        else
+        {
+            Invoke("Think", 3);
+        }
+
+    }
+
+    void FireSpread()
+    {
+        if (curPatternCnt < maxPatternCnt[patternIndex])
+        {
+            Invoke("FireForward", 3.5f);
+        }
+        else
+        {
+            Invoke("Think", 3);
+        }
+    }
+
+    void FireArc()
+    {
+        if (curPatternCnt < maxPatternCnt[patternIndex])
+        {
+            Invoke("FireForward", 0.15f);
+        }
+        else
+        {
+            Invoke("Think", 3);
+        }
+    }
+
+    void FireAround()
+    {
+        if (curPatternCnt < maxPatternCnt[patternIndex])
+        {
+            Invoke("FireForward", 0.7f);
+        }
+        else
+        {
+            Invoke("Think", 3);
         }
     }
 
