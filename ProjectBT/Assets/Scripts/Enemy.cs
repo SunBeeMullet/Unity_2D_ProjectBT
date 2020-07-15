@@ -13,8 +13,6 @@ public class Enemy : MonoBehaviour
     public float maxShotDelay;
     public float curShotDelay;
 
-    public GameObject bullet_0;
-    public GameObject bullet_1;
     public GameObject player;
     public ObjectManager objManager;
 
@@ -22,7 +20,6 @@ public class Enemy : MonoBehaviour
 
     SpriteRenderer spriteRenderer;
     
-
     Animator anim;
 
     void Awake()
@@ -45,11 +42,18 @@ public class Enemy : MonoBehaviour
             case "S":
                 health = 5;
                 break;
+            case "B":
+                health = 100;
+                break;
         }
     }
 
     void Update()
     {
+        if(enemyName == "B")
+        {
+            return;
+        }
         Fire();
         Reload();
     }
@@ -91,21 +95,23 @@ public class Enemy : MonoBehaviour
 
     void OnHit(int dmg)
     {
-        if(health <= 0)
-        {
-            return;
-        }
+        //왜 만들었는지 잘 모르겠음
+        //if(health <= 0)
+        //{
+        //    return;
+        //}
 
         health -= dmg;
+
         anim.SetInteger("Hit", 1);
-        Invoke("ReturnSprite",0.3f);
+        Invoke("ReturnSprite", 0.3f);
         
         if(health <= 0)
         {
             Player playerLogic = player.GetComponent<Player>();
             playerLogic.score += enemyScore;
 
-            int ran = Random.Range(0, 10);
+            int ran = enemyName == "B" ? 0 : Random.Range(0, 10);
             int ranf = Random.Range(0, 5);
             if (ran < 3)
             {

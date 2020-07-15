@@ -91,7 +91,7 @@ public class ObjectManager : MonoBehaviour
     {
         for (int index = 0; index < enemyB.Length; index++)
         {
-            enemyB[index] = Instantiate(enemyLPrefab);
+            enemyB[index] = Instantiate(enemyBPrefab);
             enemyB[index].SetActive(false);
         }
 
@@ -237,7 +237,7 @@ public class ObjectManager : MonoBehaviour
                 targetPool = enemyS;
                 break;
             case "EnemyB":
-                targetPool = enemyS;
+                targetPool = enemyB;
                 break;
             case "ItemIce":
                 targetPool = itemIce;

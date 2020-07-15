@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 1407224028034335249}
   - component: {fileID: -1167109084971017969}
   - component: {fileID: -7108797808895611512}
+  - component: {fileID: 3796354266068076879}
   m_Layer: 0
   m_Name: Enemy_Bullet_2
   m_TagString: EnemyBullets
@@ -119,6 +120,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dmg: 0
+  isRotate: 0
 --- !u!61 &-7108797808895611512
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -145,3 +147,17 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.25, y: 0.75}
   m_EdgeRadius: 0
+--- !u!114 &3796354266068076879
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1407224028034335254}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 073dea80e7d419147b858936ff998acc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dmg: 0
+  isRotate: 0
