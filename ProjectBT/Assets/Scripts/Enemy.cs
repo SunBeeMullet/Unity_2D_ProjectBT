@@ -105,7 +105,7 @@ public class Enemy : MonoBehaviour
     {
         if (curPatternCnt < maxPatternCnt[patternIndex])
         {
-            Invoke("FireForward", 3.5f);
+            Invoke("FireSpread", 3.5f);
         }
         else
         {
@@ -117,7 +117,7 @@ public class Enemy : MonoBehaviour
     {
         if (curPatternCnt < maxPatternCnt[patternIndex])
         {
-            Invoke("FireForward", 0.15f);
+            Invoke("FireArc", 0.15f);
         }
         else
         {
@@ -129,7 +129,7 @@ public class Enemy : MonoBehaviour
     {
         if (curPatternCnt < maxPatternCnt[patternIndex])
         {
-            Invoke("FireForward", 0.7f);
+            Invoke("FireAround", 0.7f);
         }
         else
         {
