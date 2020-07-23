@@ -143,6 +143,9 @@ MonoBehaviour:
   curShotDelay: 0
   player: {fileID: 0}
   objManager: {fileID: 0}
+  patternIndex: -1
+  curPatternCnt: 0
+  maxPatternCnt: 0200000003000000320000000a000000
 --- !u!95 &6808313161313789352
 Animator:
   serializedVersion: 3

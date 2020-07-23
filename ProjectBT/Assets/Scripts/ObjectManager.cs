@@ -175,13 +175,13 @@ public class ObjectManager : MonoBehaviour
 
         for (int index = 0; index < bulletEnemy2.Length; index++)
         {
-            bulletEnemy2[index] = Instantiate(bulletEnemy1Prefab);
+            bulletEnemy2[index] = Instantiate(bulletEnemy2Prefab);
             bulletEnemy2[index].SetActive(false);
         }
 
         for (int index = 0; index < bulletEnemy3.Length; index++)
         {
-            bulletEnemy3[index] = Instantiate(bulletEnemy1Prefab);
+            bulletEnemy3[index] = Instantiate(bulletEnemy3Prefab);
             bulletEnemy3[index].SetActive(false);
         }
 
@@ -267,10 +267,10 @@ public class ObjectManager : MonoBehaviour
                 targetPool = bulletEnemy1;
                 break;
             case "EnemyBullet2":
-                targetPool = bulletEnemy1;
+                targetPool = bulletEnemy2;
                 break;
             case "EnemyBullet3":
-                targetPool = bulletEnemy1;
+                targetPool = bulletEnemy3;
                 break;
             case "PlayerBulletN0":
                 targetPool = bulletPlayerN0;
