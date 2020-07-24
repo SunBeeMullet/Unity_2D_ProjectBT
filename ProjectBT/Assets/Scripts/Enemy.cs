@@ -35,6 +35,7 @@ public class Enemy : MonoBehaviour
 
     void OnEnable()
     {
+        CancelInvoke("Stop");
         switch (enemyName)
         {
             case "L":
@@ -48,7 +49,7 @@ public class Enemy : MonoBehaviour
                 break;
             case "B":
                 health = 500;
-                Invoke("Stop",4);
+                Invoke("Stop",4f);
                 break;
         }
     }
@@ -62,7 +63,7 @@ public class Enemy : MonoBehaviour
         Rigidbody2D rigid = GetComponent<Rigidbody2D>();
         rigid.velocity = Vector2.zero;
 
-        Invoke("Think", 3);
+        Invoke("Think", 3f);
     }
 
     void Think()
@@ -118,11 +119,11 @@ public class Enemy : MonoBehaviour
 
         if(curPatternCnt < maxPatternCnt[patternIndex])
         {
-            Invoke("FireForward", 2);
+            Invoke("FireForward", 2f);
         }
         else
         {
-            Invoke("Think", 3);
+            Invoke("Think", 3f);
         }
 
     }
@@ -148,7 +149,7 @@ public class Enemy : MonoBehaviour
         }
         else
         {
-            Invoke("Think", 3);
+            Invoke("Think", 3f);
         }
     }
 
@@ -170,14 +171,14 @@ public class Enemy : MonoBehaviour
         }
         else
         {
-            Invoke("Think", 3);
+            Invoke("Think", 3f);
         }
     }
 
     void FireAround()
     {
         int n1 = 50;
-        int n2 = 49;
+        int n2 = 24;
 
         int n = curPatternCnt % 2 == 0 ? n1 : n2;
 
@@ -203,7 +204,7 @@ public class Enemy : MonoBehaviour
         }
         else
         {
-            Invoke("Think", 3);
+            Invoke("Think", 3f);
         }
     }
 

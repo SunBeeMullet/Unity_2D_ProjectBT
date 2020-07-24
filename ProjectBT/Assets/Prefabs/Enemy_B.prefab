@@ -139,13 +139,13 @@ MonoBehaviour:
   health: 100
   enemyScore: 1000
   speed: 1
-  maxShotDelay: 3
+  maxShotDelay: 0
   curShotDelay: 0
   player: {fileID: 0}
   objManager: {fileID: 0}
   patternIndex: -1
   curPatternCnt: 0
-  maxPatternCnt: 0200000003000000320000000a000000
+  maxPatternCnt: 0200000003000000640000000a000000
 --- !u!95 &6808313161313789352
 Animator:
   serializedVersion: 3
