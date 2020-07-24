@@ -67,6 +67,11 @@ public class Enemy : MonoBehaviour
 
     void Think()
     {
+        if (health <= 0)
+        {
+            return;
+        }
+
         patternIndex = patternIndex == 3 ? 0 : patternIndex + 1;
         curPatternCnt = 0;
         //patternIndex = 3;
@@ -328,7 +333,7 @@ public class Enemy : MonoBehaviour
 
                 //Instantiate(dropItem[ranf], transform.position, dropItem[ranf].transform.rotation);
             }
-
+            CancelInvoke();
             gameObject.SetActive(false);
             transform.rotation = Quaternion.identity;
         }
