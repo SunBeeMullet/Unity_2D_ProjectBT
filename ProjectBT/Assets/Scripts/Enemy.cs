@@ -47,7 +47,7 @@ public class Enemy : MonoBehaviour
                 health = 5;
                 break;
             case "B":
-                health = 100;
+                health = 500;
                 Invoke("Stop",4);
                 break;
         }
@@ -62,13 +62,14 @@ public class Enemy : MonoBehaviour
         Rigidbody2D rigid = GetComponent<Rigidbody2D>();
         rigid.velocity = Vector2.zero;
 
-        Invoke("Think", 2);
+        Invoke("Think", 3);
     }
 
     void Think()
     {
         patternIndex = patternIndex == 3 ? 0 : patternIndex + 1;
         curPatternCnt = 0;
+        //patternIndex = 3;
 
         switch (patternIndex)
         {
@@ -125,7 +126,7 @@ public class Enemy : MonoBehaviour
     {
         for(int i = 0; i < 5; i++)
         {
-            GameObject bullet = objManager.MakeObj("EnemyBullet3");
+            GameObject bullet = objManager.MakeObj("EnemyBullet0");
             bullet.transform.position = transform.position;
             Rigidbody2D rigid = bullet.GetComponent<Rigidbody2D>();
             Vector2 dirVec = player.transform.position - transform.position;
@@ -153,8 +154,8 @@ public class Enemy : MonoBehaviour
         bullet.transform.rotation = Quaternion.identity;
 
         Rigidbody2D rigid = bullet.GetComponent<Rigidbody2D>();
-        Vector2 dirVec = new Vector2(Mathf.Sin(curPatternCnt), -1);
-        rigid.AddForce(dirVec.normalized * 8, ForceMode2D.Impulse);
+        Vector2 dirVec = new Vector2(Mathf.Cos(Mathf.PI * 2 * curPatternCnt/ maxPatternCnt[patternIndex]),-1);
+        rigid.AddForce(dirVec.normalized * 7, ForceMode2D.Impulse);
 
         curPatternCnt++;
 
@@ -170,7 +171,24 @@ public class Enemy : MonoBehaviour
 
     void FireAround()
     {
-        Debug.Log("FireAround");
+        int n1 = 50;
+        int n2 = 49;
+
+        int n = curPatternCnt % 2 == 0 ? n1 : n2;
+
+        for(int i = 0; i < n; i++)
+        {
+            GameObject bullet = objManager.MakeObj("EnemyBullet3");
+            bullet.transform.position = transform.position;
+            bullet.transform.rotation = Quaternion.identity;
+
+            Rigidbody2D rigid = bullet.GetComponent<Rigidbody2D>();
+            Vector2 dirVec = new Vector2(Mathf.Cos(Mathf.PI * 2 * i / n), Mathf.Sin(Mathf.PI * 2 * i / n));
+            rigid.AddForce(dirVec.normalized * 4, ForceMode2D.Impulse);
+
+            Vector3 rotVec = Vector3.forward * 360 * i / n + Vector3.forward*90;
+            bullet.transform.Rotate(rotVec);
+        }
 
         curPatternCnt++;
 
@@ -233,8 +251,7 @@ public class Enemy : MonoBehaviour
 
     void OnHit(int dmg)
     {
-        //왜 만들었는지 잘 모르겠음
-        //if(health <= 0)
+        //if (health <= 0)
         //{
         //    return;
         //}
@@ -324,7 +341,7 @@ public class Enemy : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.gameObject.tag == "OuterBorder")
+        if(collision.gameObject.tag == "OuterBorder" && enemyName != "B")
         {
             gameObject.SetActive(false);
             transform.rotation = Quaternion.identity;

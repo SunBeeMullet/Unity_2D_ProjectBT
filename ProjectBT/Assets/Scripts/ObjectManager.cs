@@ -72,10 +72,10 @@ public class ObjectManager : MonoBehaviour
         itemMilk = new GameObject[10];
         itemPearl = new GameObject[10];
 
-        bulletEnemy0 = new GameObject[50];
-        bulletEnemy1 = new GameObject[50];
-        bulletEnemy2 = new GameObject[50];
-        bulletEnemy3 = new GameObject[50];
+        bulletEnemy0 = new GameObject[100];
+        bulletEnemy1 = new GameObject[100];
+        bulletEnemy2 = new GameObject[100];
+        bulletEnemy3 = new GameObject[100];
         bulletPlayerN0 = new GameObject[50];
         bulletPlayerN1 = new GameObject[50];
         bulletPlayerN2 = new GameObject[50];
