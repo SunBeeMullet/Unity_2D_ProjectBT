@@ -20,6 +20,7 @@ public class Player : MonoBehaviour
     public bool isTouchRight;
     public bool isTouchLeft;
     public bool isHit;
+    public bool isRespawnTime;
 
     public GameObject bullet_0;
     public GameObject bullet_1;
@@ -32,16 +33,43 @@ public class Player : MonoBehaviour
     public ObjectManager objManager;
     
     Animator anim;
+    SpriteRenderer sprRnd;
 
     void Awake()
     {
         anim = GetComponent<Animator>();
+        sprRnd = GetComponent<SpriteRenderer>();
     }
 
-    private void OnEnable()
+    void OnEnable()
     {
         iceLv = 1;
         flavor = 0;
+        Invincible();
+        Invoke("Invincible", 1.5f);
+    }
+
+    void Invincible()
+    {
+        isRespawnTime = !isRespawnTime;
+        if (isRespawnTime)
+        {
+            sprRnd.color = new Color(1, 1, 1, 0.5f);
+
+            for(int i = 0; i < followers.Length; i++)
+            {
+                followers[i].GetComponent<SpriteRenderer>().color = new Color(1, 1, 1, 0.5f);
+            }
+        }
+        else
+        {
+            sprRnd.color = new Color(1, 1, 1, 1);
+
+            for (int i = 0; i < followers.Length; i++)
+            {
+                followers[i].GetComponent<SpriteRenderer>().color = new Color(1, 1, 1, 1);
+            }
+        }
     }
 
     void Update()
@@ -353,7 +381,7 @@ public class Player : MonoBehaviour
             }
         }else if(collision.gameObject.tag == "Enemy" || collision.gameObject.tag == "EnemyBullets")
         {
-            if (isHit)
+            if (isHit || isRespawnTime)
             {
                 return;
             }
