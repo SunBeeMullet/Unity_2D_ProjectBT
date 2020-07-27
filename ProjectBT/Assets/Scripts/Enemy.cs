@@ -15,6 +15,7 @@ public class Enemy : MonoBehaviour
 
     public GameObject player;
     public ObjectManager objManager;
+    public GameManager gameManager;
 
     //public GameObject[] dropItem;
 
@@ -337,6 +338,7 @@ public class Enemy : MonoBehaviour
             CancelInvoke();
             gameObject.SetActive(false);
             transform.rotation = Quaternion.identity;
+            gameManager.CallExplosion(transform.position, enemyName);
         }
     }
 
