@@ -4,6 +4,8 @@ ScriptsOnlyBuild:
     - BackGround
     - Bullet
     - Enemy
+    - Explosion
+    - Follower
     - GameManager
     - Item
     - ObjectManager
@@ -29,10 +31,8 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -40,6 +40,7 @@ ScriptsOnlyBuild:
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
+    - UnityEngine.EventSystems.EventTrigger
     - UnityEngine.EventSystems.StandaloneInputModule
     - UnityEngine.UI.Button
     - UnityEngine.UI.CanvasScaler
@@ -60,6 +61,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
+    - Class: 49
+      Script: {instanceID: 0}
     - Class: 50
       Script: {instanceID: 0}
     - Class: 58
@@ -67,6 +70,8 @@ ScriptsOnlyBuild:
     - Class: 60
       Script: {instanceID: 0}
     - Class: 61
+      Script: {instanceID: 0}
+    - Class: 70
       Script: {instanceID: 0}
     - Class: 74
       Script: {instanceID: 0}
@@ -79,35 +84,41 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11204}
-    - Class: 114
-      Script: {instanceID: 11292}
+      Script: {instanceID: 11206}
     - Class: 114
       Script: {instanceID: 11294}
     - Class: 114
-      Script: {instanceID: 11496}
+      Script: {instanceID: 11296}
     - Class: 114
-      Script: {instanceID: 11552}
+      Script: {instanceID: 11498}
     - Class: 114
-      Script: {instanceID: 11808}
+      Script: {instanceID: 11554}
     - Class: 114
-      Script: {instanceID: 12222}
+      Script: {instanceID: 11810}
     - Class: 114
-      Script: {instanceID: 12640}
+      Script: {instanceID: 12224}
     - Class: 114
-      Script: {instanceID: 12900}
+      Script: {instanceID: 12642}
     - Class: 114
-      Script: {instanceID: 12936}
+      Script: {instanceID: 12852}
     - Class: 114
-      Script: {instanceID: 12962}
+      Script: {instanceID: 12884}
     - Class: 114
-      Script: {instanceID: 13022}
+      Script: {instanceID: 12906}
     - Class: 114
-      Script: {instanceID: 13262}
+      Script: {instanceID: 12942}
     - Class: 114
-      Script: {instanceID: 13786}
+      Script: {instanceID: 12968}
     - Class: 114
-      Script: {instanceID: 14408}
+      Script: {instanceID: 13028}
+    - Class: 114
+      Script: {instanceID: 13268}
+    - Class: 114
+      Script: {instanceID: 13792}
+    - Class: 114
+      Script: {instanceID: 14348}
+    - Class: 114
+      Script: {instanceID: 14416}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -153,7 +164,7 @@ ScriptsOnlyBuild:
     className: TMP_Dropdown
   - hash:
       serializedVersion: 2
-      Hash: 71b8b04a9697bff08fb5c69fd54082e2
+      Hash: 72efbd2cbc9cab1ff2a7abf822bfe600
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Bullet
@@ -267,7 +278,7 @@ ScriptsOnlyBuild:
     className: PhysicsRaycaster
   - hash:
       serializedVersion: 2
-      Hash: 0219d5579bb2d586ef9e982aea68aee2
+      Hash: f8723b98afa1a6ca5eedd7705422d9b9
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Player
@@ -381,7 +392,7 @@ ScriptsOnlyBuild:
     className: TMP_Asset
   - hash:
       serializedVersion: 2
-      Hash: 69dc5d6eafef426670c837e7b8785842
+      Hash: 62b37c44de58740ac89bddd2d9e4532f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Enemy
@@ -411,13 +422,25 @@ ScriptsOnlyBuild:
     className: TMP_SpriteAnimator
   - hash:
       serializedVersion: 2
+      Hash: ed8594aaf3896f2e8c838a5608f251b9
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Follower
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Explosion
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
     className: RemoteTestResultSender
   - hash:
       serializedVersion: 2
-      Hash: f319e18d39d77dd34a656ef28d0cfb67
+      Hash: ac0aef53a44d9592d9440fa3b3f1fdde
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ObjectManager
@@ -429,7 +452,7 @@ ScriptsOnlyBuild:
     className: Thermo
   - hash:
       serializedVersion: 2
-      Hash: 5d7db3081d55261fea6e0afdd8d4d3dc
+      Hash: 1db38dccd7e9da89139a72cabc78bf78
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: GameManager
