@@ -22,6 +22,9 @@ public class Player : MonoBehaviour
     public bool isHit;
     public bool isRespawnTime;
 
+    public bool[] joyControl;
+    public bool isControl;
+
     public GameObject bullet_0;
     public GameObject bullet_1;
     public GameObject bullet_2;
@@ -79,18 +82,39 @@ public class Player : MonoBehaviour
         Reload();
     }
 
+    public void JoyPanel(int type)
+    {
+        for(int i = 0; i < 9; i++)
+        {
+            joyControl[i] = i == type;
+        }
+    }
+
+    public void JoyDown()
+    {
+        isControl = true;
+    }
+
+    public void JoyUp()
+    {
+        isControl = false;
+    }
+
     void Movement()
     {
         float h = Input.GetAxisRaw("Horizontal");
+        float v = Input.GetAxisRaw("Vertical");
+
         if ((isTouchRight && h == 1) || (isTouchLeft && h == -1))
         {
             h = 0;
         }
-        float v = Input.GetAxisRaw("Vertical");
+
         if ((isTouchTop && v == 1) || (isTouchBottom && v == -1))
         {
             v = 0;
         }
+
         Vector3 curPos = transform.position;
         Vector3 nextPos = new Vector3(h, v, 0) * speed * Time.deltaTime;
 
