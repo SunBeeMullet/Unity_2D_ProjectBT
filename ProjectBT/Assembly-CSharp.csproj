@@ -73,7 +73,9 @@
     <Compile Include="Assets\Scripts\Player.cs" />
     <Compile Include="Assets\Scripts\Spawn.cs" />
     <Compile Include="Assets\Scripts\Thermo.cs" />
+    <None Include="Assets\Resources\Stage_2.txt" />
     <None Include="Assets\Resources\Stage_0.txt" />
+    <None Include="Assets\Resources\Stage_1.txt" />
     <Reference Include="UnityEngine">
       <HintPath>C:/Program Files/Unity/Editor/2019.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>

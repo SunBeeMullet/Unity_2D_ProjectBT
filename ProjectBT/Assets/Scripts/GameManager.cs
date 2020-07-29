@@ -7,6 +7,8 @@ using System.IO;
 
 public class GameManager : MonoBehaviour
 {
+    public int stage;
+
     public string[] enemyObjs;
     public Transform[] spawnPoints;
 
@@ -33,7 +35,17 @@ public class GameManager : MonoBehaviour
         {
             "EnemyS", "EnemyM", "EnemyL", "EnemyB"
         };
+        StageStart();
+    }
+
+    public void StageStart()
+    {
         ReadSpawnFile();
+    }
+
+    public void StageEnd()
+    {
+        stage++;
     }
 
     void ReadSpawnFile()
@@ -42,7 +54,7 @@ public class GameManager : MonoBehaviour
         spawnIndex = 0;
         spawnEnd = false;
 
-        TextAsset textFile = Resources.Load("Stage_0") as TextAsset;
+        TextAsset textFile = Resources.Load("Stage_" + stage) as TextAsset;
         StringReader strReader = new StringReader(textFile.text);
         
         while(strReader != null)
