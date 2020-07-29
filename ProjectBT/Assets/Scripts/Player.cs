@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class Player : MonoBehaviour
 {
@@ -31,9 +32,17 @@ public class Player : MonoBehaviour
     public GameObject bullet_3;
     public GameObject bullet_4;
     public GameObject[] followers;
+    public GameObject joyPanel;
+    public GameObject stick;
 
     public GameManager gameManager;
     public ObjectManager objManager;
+
+    public Vector2 touchPos;
+    public Vector2 camTPos;
+    public Vector2 joyPos;
+
+    public Camera cam;
     
     Animator anim;
     SpriteRenderer sprRnd;
@@ -42,6 +51,7 @@ public class Player : MonoBehaviour
     {
         anim = GetComponent<Animator>();
         sprRnd = GetComponent<SpriteRenderer>();
+        cam = GameObject.Find("Main Camera").GetComponent<Camera>();
     }
 
     void OnEnable()
@@ -90,14 +100,39 @@ public class Player : MonoBehaviour
         }
     }
 
-    public void JoyDown()
+    public void PanelDown()
     {
-        isControl = true;
+        if(life != 0)
+        {
+            touchPos = Input.mousePosition;
+            touchPos = cam.ScreenToWorldPoint(touchPos);
+            joyPanel.transform.position = touchPos;
+            joyPanel.SetActive(true);
+            isControl = true;
+        }
     }
 
-    public void JoyUp()
+    public void PanelUp()
     {
+        joyPanel.SetActive(false);
         isControl = false;
+        stick.transform.position = touchPos;
+    }
+
+    public void Drag(BaseEventData baseEventData)
+    {
+        PointerEventData pointEventData = baseEventData as PointerEventData;
+        Vector2 dragPos = cam.ScreenToWorldPoint(pointEventData.position);
+        joyPos = (dragPos - touchPos).normalized;
+        float stickDistance = Vector2.Distance(dragPos, touchPos);
+        if (stickDistance < 0.6f)
+        {
+            stick.transform.position = touchPos + joyPos * stickDistance;
+        }
+        else
+        {
+            stick.transform.position = touchPos + joyPos * 0.6f;
+        }
     }
 
     void Movement()
@@ -105,12 +140,22 @@ public class Player : MonoBehaviour
         float h = Input.GetAxisRaw("Horizontal");
         float v = Input.GetAxisRaw("Vertical");
 
-        if ((isTouchRight && h == 1) || (isTouchLeft && h == -1))
+        if (joyControl[0]) { h = -1; v = 1; }
+        if (joyControl[1]) { h = 0; v = 1; }
+        if (joyControl[2]) { h = 1; v = 1; }
+        if (joyControl[3]) { h = -1; v = 0; }
+        if (joyControl[4]) { h = 0; v = 0; }
+        if (joyControl[5]) { h = 1; v = 0; }
+        if (joyControl[6]) { h = -1; v = -1; }
+        if (joyControl[7]) { h = 0; v = -1; }
+        if (joyControl[8]) { h = 1; v = -1; }
+
+        if ((isTouchRight && h == 1) || (isTouchLeft && h == -1) || !isControl)
         {
             h = 0;
         }
 
-        if ((isTouchTop && v == 1) || (isTouchBottom && v == -1))
+        if ((isTouchTop && v == 1) || (isTouchBottom && v == -1) || !isControl)
         {
             v = 0;
         }
@@ -386,7 +431,7 @@ public class Player : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.gameObject.tag == "Border")
+        if (collision.gameObject.tag == "Border")
         {
             switch (collision.gameObject.name)
             {
@@ -403,18 +448,18 @@ public class Player : MonoBehaviour
                     isTouchLeft = true;
                     break;
             }
-        }else if(collision.gameObject.tag == "Enemy" || collision.gameObject.tag == "EnemyBullets")
+        } else if (collision.gameObject.tag == "Enemy" || collision.gameObject.tag == "EnemyBullets")
         {
             if (isHit || isRespawnTime)
             {
                 return;
             }
-                
+
             isHit = true;
             life--;
             gameManager.UpdateLifeIcon(life);
             gameManager.CallExplosion(transform.position, "P");
-            if(life == 0)
+            if (life == 0)
             {
                 gameManager.GameOver();
             }
@@ -424,7 +469,28 @@ public class Player : MonoBehaviour
             }
             gameObject.SetActive(false);
             collision.gameObject.SetActive(false);
-        }else if(collision.gameObject.tag == "Item")
+        } else if (collision.gameObject.tag == "Boss")
+        {
+            if (isHit || isRespawnTime)
+            {
+                return;
+            }
+
+            isHit = true;
+            life--;
+            gameManager.UpdateLifeIcon(life);
+            gameManager.CallExplosion(transform.position, "P");
+            if (life == 0)
+            {
+                gameManager.GameOver();
+            }
+            else
+            {
+                gameManager.PlayerCheck();
+            }
+            gameObject.SetActive(false);
+        }
+        else if(collision.gameObject.tag == "Item")
         {
             Item item = collision.gameObject.GetComponent<Item>();
             switch (item.type)

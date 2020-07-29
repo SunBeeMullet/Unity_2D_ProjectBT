@@ -44,12 +44,10 @@ public class GameManager : MonoBehaviour
 
         TextAsset textFile = Resources.Load("Stage_0") as TextAsset;
         StringReader strReader = new StringReader(textFile.text);
-        Debug.Log("File Read?");
         
         while(strReader != null)
         {
             string line = strReader.ReadLine();
-            Debug.Log(line);
 
             if(line == null)
             {

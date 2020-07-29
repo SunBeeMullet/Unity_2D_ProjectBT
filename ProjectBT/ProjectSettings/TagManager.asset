@@ -10,6 +10,7 @@ TagManager:
   - Bullets
   - EnemyBullets
   - Item
+  - Boss
   layers:
   - Default
   - TransparentFX

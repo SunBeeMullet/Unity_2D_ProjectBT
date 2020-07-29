@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 6808313161313789352}
   m_Layer: 0
   m_Name: Enemy_B
-  m_TagString: Enemy
+  m_TagString: Boss
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -143,6 +143,7 @@ MonoBehaviour:
   curShotDelay: 0
   player: {fileID: 0}
   objManager: {fileID: 0}
+  gameManager: {fileID: 0}
   patternIndex: -1
   curPatternCnt: 0
   maxPatternCnt: 0200000003000000640000000a000000
