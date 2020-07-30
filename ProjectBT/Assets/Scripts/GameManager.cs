@@ -24,6 +24,9 @@ public class GameManager : MonoBehaviour
     public GameObject gameOverSet;
     public ObjectManager objManager;
 
+    public Animator stageAnim;
+    public Animator clearAnim;
+
     public List<Spawn> spawnList;
     public int spawnIndex;
     public bool spawnEnd;
@@ -40,11 +43,17 @@ public class GameManager : MonoBehaviour
 
     public void StageStart()
     {
+        stageAnim.SetTrigger("On");
+        stageAnim.GetComponent<Text>().text = "Stage " + stage + "\nStart";
+        clearAnim.GetComponent<Text>().text = "Stage " + stage + "\nClear";
+
         ReadSpawnFile();
     }
 
     public void StageEnd()
     {
+        clearAnim.SetTrigger("On");
+
         stage++;
     }
 
