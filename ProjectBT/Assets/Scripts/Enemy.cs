@@ -339,6 +339,11 @@ public class Enemy : MonoBehaviour
             gameObject.SetActive(false);
             transform.rotation = Quaternion.identity;
             gameManager.CallExplosion(transform.position, enemyName);
+
+            if(enemyName == "B")
+            {
+                gameManager.StageEnd();
+            }
         }
     }
 

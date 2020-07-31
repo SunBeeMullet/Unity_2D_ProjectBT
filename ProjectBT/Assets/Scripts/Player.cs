@@ -32,6 +32,7 @@ public class Player : MonoBehaviour
     public GameObject bullet_3;
     public GameObject bullet_4;
     public GameObject[] followers;
+    public GameObject panel;
     public GameObject joyPanel;
     public GameObject stick;
 

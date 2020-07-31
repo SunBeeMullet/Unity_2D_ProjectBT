@@ -26,10 +26,13 @@ public class GameManager : MonoBehaviour
 
     public Animator stageAnim;
     public Animator clearAnim;
+    public Animator fadeAnim;
 
     public List<Spawn> spawnList;
     public int spawnIndex;
     public bool spawnEnd;
+
+    public Transform playerPos;
 
     void Awake()
     {
@@ -48,6 +51,8 @@ public class GameManager : MonoBehaviour
         clearAnim.GetComponent<Text>().text = "Stage " + stage + "\nClear";
 
         ReadSpawnFile();
+
+        fadeAnim.SetTrigger("In");
     }
 
     public void StageEnd()
@@ -55,6 +60,19 @@ public class GameManager : MonoBehaviour
         clearAnim.SetTrigger("On");
 
         stage++;
+
+        fadeAnim.SetTrigger("Out");
+
+        player.transform.position = playerPos.position;
+
+        if (stage > 2)
+        {
+            Invoke("GameOver", 4);
+        }
+        else
+        {
+            Invoke("StageStart", 5);
+        }
     }
 
     void ReadSpawnFile()
@@ -227,11 +245,15 @@ public class GameManager : MonoBehaviour
 
     public void GameOver()
     {
+        Player playerLogic = player.GetComponent<Player>();
+        playerLogic.panel.SetActive(false);
         gameOverSet.SetActive(true);
     }
 
     public void Restart()
     {
+        Player playerLogic = player.GetComponent<Player>();
+        playerLogic.panel.SetActive(true);
         SceneManager.LoadScene(0);
     }
 }
