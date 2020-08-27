@@ -13,11 +13,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2020-06-25T19:43:10.673-07:00
-  initializedAtString: 2020-06-25T18:18:14.473-07:00
-  localBranches: []
+  lastUpdatedAtString: 2020-08-25T20:50:09.116-07:00
+  initializedAtString: 2020-08-25T20:42:13.090-07:00
+  localBranches:
+  - name: master
+    tracking: origin/master
   remoteBranches:
   - name: origin/HEAD
+    tracking: '[None]'
+  - name: origin/master
     tracking: '[None]'
   remotes:
   - name: origin
@@ -28,17 +32,29 @@ MonoBehaviour:
     function: 0
     token: 
   localConfigBranches:
-    keys: []
-    values: []
+    keys:
+    - master
+    values:
+    - name: master
+      remote:
+        name: origin
+        url: https://github.com/SunBeeMullet/Unity_2D_ProjectBT.git
+      trackingBranch: master
   remoteConfigBranches:
     keys:
     - origin
     subKeys:
     - Values:
       - HEAD
+      - master
     subKeyValues:
     - Values:
       - name: HEAD
+        remote:
+          name: origin
+          url: https://github.com/SunBeeMullet/Unity_2D_ProjectBT.git
+        trackingBranch: 
+      - name: master
         remote:
           name: origin
           url: https://github.com/SunBeeMullet/Unity_2D_ProjectBT.git
